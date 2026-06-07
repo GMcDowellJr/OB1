@@ -39,23 +39,14 @@ jobs:
       - name: Rebuild knowledge graph
         run: |
           graphify . --no-viz --backend ollama --update 2>&1 | tee /tmp/graphify_run.log
-          python3 - <<'EOF'
-import re, json, pathlib, os
-log = pathlib.Path("/tmp/graphify_run.log").read_text()
-m = re.search(
-    r"tokens:\s+([\d,]+)\s+in\s*/\s*([\d,]+)\s+out,\s+est\.\s+cost\s+\(~\S+\):\s+\$?([\d.]+)",
-    log
-)
-if m:
-    pathlib.Path("graphify-out").mkdir(exist_ok=True)
-    cost = {
-        "tokens_in": int(m.group(1).replace(",", "")),
-        "tokens_out": int(m.group(2).replace(",", "")),
-        "est_cost_usd": float(m.group(3)),
-        "backend": os.environ.get("OLLAMA_MODEL", "unknown")
-    }
-    pathlib.Path("graphify-out/cost.json").write_text(json.dumps(cost, indent=2))
-EOF
+          log_line=$(grep 'tokens:.*in.*out' /tmp/graphify_run.log || true)
+          if [ -n "$log_line" ]; then
+            tokens_in=$(echo "$log_line" | sed 's/.*tokens: \([0-9,]*\) in.*/\1/' | tr -d ',')
+            tokens_out=$(echo "$log_line" | sed 's/.* \([0-9,]*\) out.*/\1/' | tr -d ',')
+            mkdir -p graphify-out
+            printf '{\n  "tokens_in": %s,\n  "tokens_out": %s,\n  "est_cost_usd": 0.0,\n  "backend": "%s"\n}\n' \
+              "$tokens_in" "$tokens_out" "$OLLAMA_MODEL" > graphify-out/cost.json
+          fi
 
       - name: Cluster and generate report
         run: |
