@@ -38,7 +38,24 @@ jobs:
 
       - name: Rebuild knowledge graph
         run: |
-          graphify . --no-viz --backend ollama --update
+          graphify . --no-viz --backend ollama --update 2>&1 | tee /tmp/graphify_run.log
+          python3 - <<'EOF'
+import re, json, pathlib, os
+log = pathlib.Path("/tmp/graphify_run.log").read_text()
+m = re.search(
+    r"tokens:\s+([\d,]+)\s+in\s*/\s*([\d,]+)\s+out,\s+est\.\s+cost\s+\(~\S+\):\s+\$?([\d.]+)",
+    log
+)
+if m:
+    pathlib.Path("graphify-out").mkdir(exist_ok=True)
+    cost = {
+        "tokens_in": int(m.group(1).replace(",", "")),
+        "tokens_out": int(m.group(2).replace(",", "")),
+        "est_cost_usd": float(m.group(3)),
+        "backend": os.environ.get("OLLAMA_MODEL", "unknown")
+    }
+    pathlib.Path("graphify-out/cost.json").write_text(json.dumps(cost, indent=2))
+EOF
 
       - name: Cluster and generate report
         run: |
@@ -56,6 +73,7 @@ jobs:
           git add -f graphify-out/cost.json 2>/dev/null || true
           git add -f graphify-out/manifest.json 2>/dev/null || true
           git add -f graphify-out/GRAPH_REPORT.md 2>/dev/null || true
+          git add -f graphify-out/cache/stat-index.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: update knowledge graph [skip ci]"
           git push origin main
 
