@@ -1,1 +1,1 @@
-{"nodes": [{"id": "agent_spec_md", "label": "Extension Generator Spec", "file_type": "document", "source_file": "extensions/_template/AGENT_SPEC.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
+{"nodes": [{"id": "agent_spec_document", "label": "Extension Generator Spec", "file_type": "document", "source_file": "extensions/_template/AGENT_SPEC.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
