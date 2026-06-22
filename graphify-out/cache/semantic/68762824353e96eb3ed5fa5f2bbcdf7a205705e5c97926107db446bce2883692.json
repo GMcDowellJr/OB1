@@ -1,1 +1,1 @@
-{"nodes": [{"id": "brain_smoke_test", "label": "Brain Smoke Test", "file_type": "document", "source_file": "recipes/brain-smoke-test/README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
+{"nodes": [{"id": "recipes_brain-smoke-test", "label": "Brain Smoke Test", "file_type": "document", "source_file": "recipes/brain-smoke-test/README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
