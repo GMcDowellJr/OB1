@@ -1440,6 +1440,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_name",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_prefetch",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_queue_prefetch",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_save_config",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_shutdown",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_sync_turn",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache",
@@ -1452,7 +1453,11 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache_test_shutdown_joins_threads_and_clears_cache",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache_test_stale_cache_is_discarded",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache_test_warm_prefetch_consumes_cache_without_recall",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_save_config_persists_only_known_keys",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_patched",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_extracts_findings_and_writes_synchronously",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_skips_when_inactive",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_patched",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_skips_short_assistant",
@@ -2988,7 +2993,6 @@
     "94": [
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_initialize",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_on_turn_start",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_save_config",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart_test_caches_kwargs",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart_test_resolve_model_provider_falls_back_to_config",
@@ -3002,7 +3006,6 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_inactive_without_endpoint",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_inactive_without_key",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_name_is_ob1",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_save_config_persists_only_known_keys",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_subagent_context_disables_writes",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_active"
     ],
@@ -4933,9 +4936,6 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_rationale_107",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_rationale_123",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_system_prompt_block",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_extracts_findings_and_writes_synchronously",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_skips_when_inactive",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock_test_empty_when_inactive",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock_test_lists_tools_and_workspace_when_active",
@@ -7147,7 +7147,7 @@
     "27": 0.09848484848484848,
     "28": 0.0625,
     "29": 0.11290322580645161,
-    "30": 0.1396011396011396,
+    "30": 0.11088709677419355,
     "31": 0.09885057471264368,
     "32": 0.11822660098522167,
     "33": 0.06896551724137931,
@@ -7211,7 +7211,7 @@
     "91": 0.125,
     "92": 0.125,
     "93": 0.16911764705882354,
-    "94": 0.14619883040935672,
+    "94": 0.16911764705882354,
     "95": 0.19852941176470587,
     "96": 0.125,
     "97": 0.125,
@@ -7319,7 +7319,7 @@
     "199": 0.15384615384615385,
     "200": 0.1978021978021978,
     "201": 0.31868131868131866,
-    "202": 0.125,
+    "202": 0.15384615384615385,
     "203": 0.16483516483516483,
     "204": 0.15384615384615385,
     "205": 0.14285714285714285,
@@ -7818,41 +7818,8 @@
       "why": "connects across different repos/directories; peripheral node `Functional Source License, Version 1.1, MIT Future License` unexpectedly reaches hub `Contributing to OB1`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `datetime` connect `Readwise Import` to `Sync Log Management`, `Conversation Management`, `Activity Tracking`, `Memory Provider`, `Thought Ingestion`, `ChatGPT Parser`?",
-      "why": "High betweenness centrality (0.023) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `workspace_id` connect `Plugin Configuration` to `Evidence Management`, `Writeback Schema`, `Recall Schema`, `Writeback Data`, `Recall Request`, `Writeback Request`?",
-      "why": "High betweenness centrality (0.012) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `provenance` connect `Recall Response` to `Agent Memory Management`, `Evidence Management`, `Writeback Request`?",
-      "why": "High betweenness centrality (0.010) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 14 inferred relationships involving `OB1MemoryProvider` (e.g. with `_StubProvider` and `TestExtractFindings`) actually correct?",
-      "why": "`OB1MemoryProvider` has 14 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `$schema`, `$id`, `title` to the rest of the system?",
-      "why": "2978 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Schema Properties` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.055964653902798235 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Profile Management` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.05506329113924051 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 518217,
+    "output": 33442
+  }
 }
