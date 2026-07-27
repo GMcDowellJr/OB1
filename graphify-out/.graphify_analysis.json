@@ -630,52 +630,6 @@
       "contracts_recall_schema_type"
     ],
     "9": [
-      "chatgpt_conversation_import_import_chatgpt_rationale_258",
-      "email_history_import_pull_gmail_savesynclog",
-      "perplexity_conversation_import_import_perplexity",
-      "perplexity_conversation_import_import_perplexity_cell_value",
-      "perplexity_conversation_import_import_perplexity_extract_conversations",
-      "perplexity_conversation_import_import_perplexity_extract_memory_rows",
-      "perplexity_conversation_import_import_perplexity_flatten_json_profile",
-      "perplexity_conversation_import_import_perplexity_flatten_json_section",
-      "perplexity_conversation_import_import_perplexity_generate_embedding",
-      "perplexity_conversation_import_import_perplexity_http_post_with_retry",
-      "perplexity_conversation_import_import_perplexity_ingest_thought_supabase",
-      "perplexity_conversation_import_import_perplexity_is_json_profile_row",
-      "perplexity_conversation_import_import_perplexity_main",
-      "perplexity_conversation_import_import_perplexity_make_dedupe_key",
-      "perplexity_conversation_import_import_perplexity_parse_args",
-      "perplexity_conversation_import_import_perplexity_parse_date",
-      "perplexity_conversation_import_import_perplexity_parse_output_str",
-      "perplexity_conversation_import_import_perplexity_parse_timestamp_iso",
-      "perplexity_conversation_import_import_perplexity_process_conversations",
-      "perplexity_conversation_import_import_perplexity_process_memory",
-      "perplexity_conversation_import_import_perplexity_rationale_113",
-      "perplexity_conversation_import_import_perplexity_rationale_119",
-      "perplexity_conversation_import_import_perplexity_rationale_142",
-      "perplexity_conversation_import_import_perplexity_rationale_162",
-      "perplexity_conversation_import_import_perplexity_rationale_178",
-      "perplexity_conversation_import_import_perplexity_rationale_205",
-      "perplexity_conversation_import_import_perplexity_rationale_257",
-      "perplexity_conversation_import_import_perplexity_rationale_276",
-      "perplexity_conversation_import_import_perplexity_rationale_322",
-      "perplexity_conversation_import_import_perplexity_rationale_343",
-      "perplexity_conversation_import_import_perplexity_rationale_376",
-      "perplexity_conversation_import_import_perplexity_rationale_403",
-      "perplexity_conversation_import_import_perplexity_rationale_466",
-      "perplexity_conversation_import_import_perplexity_rationale_509",
-      "perplexity_conversation_import_import_perplexity_rationale_548",
-      "perplexity_conversation_import_import_perplexity_rationale_558",
-      "perplexity_conversation_import_import_perplexity_rationale_631",
-      "perplexity_conversation_import_import_perplexity_rationale_698",
-      "perplexity_conversation_import_import_perplexity_rationale_816",
-      "perplexity_conversation_import_import_perplexity_should_skip_conversation",
-      "perplexity_conversation_import_import_perplexity_should_skip_memory",
-      "perplexity_conversation_import_import_perplexity_summarize",
-      "perplexity_conversation_import_import_perplexity_summarize_ollama",
-      "perplexity_conversation_import_import_perplexity_summarize_openrouter"
-    ],
-    "10": [
       "entity_wiki_generate_wiki",
       "entity_wiki_generate_wiki_buildfrontmatter",
       "entity_wiki_generate_wiki_buildsynthesisinput",
@@ -720,7 +674,7 @@
       "scripts_synthesize_wiki_run",
       "scripts_synthesize_wiki_yamlstring"
     ],
-    "11": [
+    "10": [
       "integrations_chrome_capture_extension_background_service_worker",
       "integrations_chrome_capture_extension_background_service_worker_appendcapturelog",
       "integrations_chrome_capture_extension_background_service_worker_buildpreview",
@@ -764,6 +718,50 @@
       "integrations_chrome_capture_extension_background_service_worker_storagelock",
       "integrations_chrome_capture_extension_background_service_worker_updatebadge",
       "integrations_chrome_capture_extension_background_service_worker_withstoragelock"
+    ],
+    "11": [
+      "chatgpt_conversation_import_import_chatgpt_rationale_534",
+      "perplexity_conversation_import_import_perplexity",
+      "perplexity_conversation_import_import_perplexity_cell_value",
+      "perplexity_conversation_import_import_perplexity_extract_conversations",
+      "perplexity_conversation_import_import_perplexity_extract_memory_rows",
+      "perplexity_conversation_import_import_perplexity_flatten_json_profile",
+      "perplexity_conversation_import_import_perplexity_flatten_json_section",
+      "perplexity_conversation_import_import_perplexity_generate_embedding",
+      "perplexity_conversation_import_import_perplexity_http_post_with_retry",
+      "perplexity_conversation_import_import_perplexity_ingest_thought_supabase",
+      "perplexity_conversation_import_import_perplexity_is_json_profile_row",
+      "perplexity_conversation_import_import_perplexity_main",
+      "perplexity_conversation_import_import_perplexity_make_dedupe_key",
+      "perplexity_conversation_import_import_perplexity_parse_args",
+      "perplexity_conversation_import_import_perplexity_parse_date",
+      "perplexity_conversation_import_import_perplexity_parse_output_str",
+      "perplexity_conversation_import_import_perplexity_parse_timestamp_iso",
+      "perplexity_conversation_import_import_perplexity_process_conversations",
+      "perplexity_conversation_import_import_perplexity_process_memory",
+      "perplexity_conversation_import_import_perplexity_rationale_119",
+      "perplexity_conversation_import_import_perplexity_rationale_142",
+      "perplexity_conversation_import_import_perplexity_rationale_162",
+      "perplexity_conversation_import_import_perplexity_rationale_178",
+      "perplexity_conversation_import_import_perplexity_rationale_205",
+      "perplexity_conversation_import_import_perplexity_rationale_257",
+      "perplexity_conversation_import_import_perplexity_rationale_276",
+      "perplexity_conversation_import_import_perplexity_rationale_322",
+      "perplexity_conversation_import_import_perplexity_rationale_343",
+      "perplexity_conversation_import_import_perplexity_rationale_376",
+      "perplexity_conversation_import_import_perplexity_rationale_403",
+      "perplexity_conversation_import_import_perplexity_rationale_466",
+      "perplexity_conversation_import_import_perplexity_rationale_509",
+      "perplexity_conversation_import_import_perplexity_rationale_548",
+      "perplexity_conversation_import_import_perplexity_rationale_558",
+      "perplexity_conversation_import_import_perplexity_rationale_631",
+      "perplexity_conversation_import_import_perplexity_rationale_698",
+      "perplexity_conversation_import_import_perplexity_rationale_816",
+      "perplexity_conversation_import_import_perplexity_should_skip_conversation",
+      "perplexity_conversation_import_import_perplexity_should_skip_memory",
+      "perplexity_conversation_import_import_perplexity_summarize",
+      "perplexity_conversation_import_import_perplexity_summarize_ollama",
+      "perplexity_conversation_import_import_perplexity_summarize_openrouter"
     ],
     "12": [
       "recipes_openclaw_taskflow_work_log_examples_writeback_json_examples_writeback",
@@ -1326,6 +1324,42 @@
       "integrations_smart_ingest_shared_helpers_tableexists"
     ],
     "26": [
+      "capture_route",
+      "capture_route_post",
+      "lib_ai",
+      "lib_ai_extractmetadata",
+      "lib_auth_extractkey",
+      "lib_auth_requireauth",
+      "lib_auth_validateaccesskey",
+      "lib_capture",
+      "lib_capture_capturethought",
+      "lib_db",
+      "lib_db_getsql",
+      "lib_db_insertthought",
+      "lib_db_listthoughts",
+      "lib_db_searchthoughts",
+      "lib_rate_limit",
+      "lib_rate_limit_checkratelimit",
+      "lib_rate_limit_requests",
+      "mcp_route",
+      "mcp_route_createopenbrainmcp",
+      "mcp_route_delete",
+      "mcp_route_get",
+      "mcp_route_head",
+      "mcp_route_options",
+      "mcp_route_post",
+      "obsidian_vault_import_import_obsidian_rationale_389",
+      "readwise_import_import_readwise_rationale_183",
+      "recipes_vercel_neon_telegram_src_lib_auth_ts_lib_auth",
+      "telegram_route",
+      "telegram_route_createbot",
+      "telegram_route_getbot",
+      "telegram_route_post",
+      "tests_auth_test",
+      "tests_auth_test_test_key",
+      "tests_rate_limit_test_freshratelimiter"
+    ],
+    "27": [
       "ob1_agent_dashboard_demo_rest_server",
       "ob1_agent_dashboard_demo_rest_server_duplicatesresponse",
       "ob1_agent_dashboard_demo_rest_server_filterrestricted",
@@ -1360,7 +1394,7 @@
       "smoke_seed_dashboard_demo_request",
       "smoke_seed_dashboard_demo_rows"
     ],
-    "27": [
+    "28": [
       "integrations_hermes_agent_memory_plugin_init_ob1memoryprovider",
       "integrations_hermes_agent_memory_plugin_init_ob1memoryprovider_consume_prefetch_cache",
       "integrations_hermes_agent_memory_plugin_init_ob1memoryprovider_do_recall",
@@ -1394,7 +1428,7 @@
       "integrations_hermes_agent_memory_plugin_init_rationale_932",
       "memoryprovider"
     ],
-    "28": [
+    "29": [
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_py_any",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_get_config_schema",
@@ -1430,7 +1464,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_writeback_strips_ob1_context_wrapper",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_returns_seven_schemas"
     ],
-    "29": [
+    "30": [
       "entity_extraction_worker_index",
       "entity_extraction_worker_index_claimqueueitems",
       "entity_extraction_worker_index_entity_extraction_max_calls",
@@ -1462,38 +1496,38 @@
       "shared_helpers_asstring",
       "shared_helpers_isrecord"
     ],
-    "30": [
-      "chatgpt_conversation_import_import_chatgpt",
-      "chatgpt_conversation_import_import_chatgpt_build_focus_instruction",
-      "chatgpt_conversation_import_import_chatgpt_check_semantic_duplicate",
-      "chatgpt_conversation_import_import_chatgpt_http_post_with_retry",
-      "chatgpt_conversation_import_import_chatgpt_ingest_thought_supabase",
-      "chatgpt_conversation_import_import_chatgpt_main",
-      "chatgpt_conversation_import_import_chatgpt_parse_args",
-      "chatgpt_conversation_import_import_chatgpt_parse_date",
-      "chatgpt_conversation_import_import_chatgpt_parse_extraction_response",
-      "chatgpt_conversation_import_import_chatgpt_rationale_122",
-      "chatgpt_conversation_import_import_chatgpt_rationale_274",
-      "chatgpt_conversation_import_import_chatgpt_rationale_295",
-      "chatgpt_conversation_import_import_chatgpt_rationale_360",
-      "chatgpt_conversation_import_import_chatgpt_rationale_412",
-      "chatgpt_conversation_import_import_chatgpt_rationale_452",
-      "chatgpt_conversation_import_import_chatgpt_rationale_464",
-      "chatgpt_conversation_import_import_chatgpt_rationale_496",
-      "chatgpt_conversation_import_import_chatgpt_rationale_534",
-      "chatgpt_conversation_import_import_chatgpt_rationale_575",
-      "chatgpt_conversation_import_import_chatgpt_rationale_606",
-      "chatgpt_conversation_import_import_chatgpt_rationale_698",
-      "chatgpt_conversation_import_import_chatgpt_store_conversation",
-      "chatgpt_conversation_import_import_chatgpt_summarize_ollama",
-      "chatgpt_conversation_import_import_chatgpt_summarize_openrouter",
-      "email_history_import_pull_gmail_ingestthoughtendpoint",
-      "lib_ai_generateembedding",
-      "local_ollama_embeddings_embed_local_rationale_85",
-      "obsidian_vault_import_import_obsidian_rationale_343",
-      "provenance_chains_eval_summarize"
-    ],
     "31": [
+      "chatgpt_conversation_import_import_chatgpt_rationale_249",
+      "chatgpt_conversation_import_import_chatgpt_rationale_258",
+      "email_history_import_pull_gmail_loadsynclog",
+      "email_history_import_pull_gmail_savesynclog",
+      "obsidian_vault_import_import_obsidian",
+      "obsidian_vault_import_import_obsidian_chunk_by_headings",
+      "obsidian_vault_import_import_obsidian_chunk_note",
+      "obsidian_vault_import_import_obsidian_content_hash",
+      "obsidian_vault_import_import_obsidian_extract_date",
+      "obsidian_vault_import_import_obsidian_iter_notes",
+      "obsidian_vault_import_import_obsidian_jsonify_frontmatter",
+      "obsidian_vault_import_import_obsidian_llm_distill",
+      "obsidian_vault_import_import_obsidian_main",
+      "obsidian_vault_import_import_obsidian_parse_note",
+      "obsidian_vault_import_import_obsidian_rationale_123",
+      "obsidian_vault_import_import_obsidian_rationale_132",
+      "obsidian_vault_import_import_obsidian_rationale_153",
+      "obsidian_vault_import_import_obsidian_rationale_168",
+      "obsidian_vault_import_import_obsidian_rationale_199",
+      "obsidian_vault_import_import_obsidian_rationale_224",
+      "obsidian_vault_import_import_obsidian_rationale_254",
+      "obsidian_vault_import_import_obsidian_rationale_298",
+      "obsidian_vault_import_import_obsidian_rationale_87",
+      "obsidian_vault_import_import_obsidian_scan_for_secrets",
+      "obsidian_vault_import_import_obsidian_strip_non_tag_regions",
+      "obsidian_vault_import_import_obsidian_word_count",
+      "perplexity_conversation_import_import_perplexity_rationale_104",
+      "perplexity_conversation_import_import_perplexity_rationale_113",
+      "recipes_obsidian_vault_import_import_obsidian_py_path"
+    ],
+    "32": [
       "dashboards_open_brain_dashboard_next_package",
       "dashboards_open_brain_dashboard_next_package_dependencies",
       "dashboards_open_brain_dashboard_next_package_dependencies_dnd_kit_core",
@@ -1524,7 +1558,7 @@
       "dashboards_open_brain_dashboard_next_package_scripts_start",
       "dashboards_open_brain_dashboard_next_package_version"
     ],
-    "32": [
+    "33": [
       "integrations_openclaw_agent_memory_plugin_src_index_ts_src_index",
       "scripts_check_tool_schemas",
       "scripts_check_tool_schemas_assertnopatternonlyobjects",
@@ -1555,7 +1589,7 @@
       "src_tool_schemas_runtimeschema",
       "src_tool_schemas_writebackparameters"
     ],
-    "33": [
+    "34": [
       "open_brain_rest_index",
       "open_brain_rest_index_app",
       "open_brain_rest_index_applysort",
@@ -1586,7 +1620,7 @@
       "open_brain_rest_index_tokensimilarity",
       "open_brain_rest_index_updateschema"
     ],
-    "34": [
+    "35": [
       "recipes_thought_enrichment_enrich_thoughts_callopenrouter",
       "typed_edge_classifier_classify_edges",
       "typed_edge_classifier_classify_edges_assertpricingknown",
@@ -1617,7 +1651,7 @@
       "typed_edge_classifier_classify_edges_warnedunknownpricing",
       "typed_edge_classifier_classify_edges_worstcaseperpair"
     ],
-    "35": [
+    "36": [
       "scripts_set_telegram_webhook",
       "scripts_set_telegram_webhook_setwebhook",
       "vercel_neon_telegram_package",
@@ -1648,37 +1682,67 @@
       "vercel_neon_telegram_package_scripts_test",
       "vercel_neon_telegram_package_version"
     ],
-    "36": [
-      "capture_route",
-      "capture_route_post",
-      "lib_ai",
-      "lib_ai_extractmetadata",
-      "lib_capture",
-      "lib_capture_capturethought",
-      "lib_db",
-      "lib_db_getsql",
-      "lib_db_insertthought",
-      "lib_db_listthoughts",
-      "lib_db_searchthoughts",
-      "lib_rate_limit",
-      "lib_rate_limit_checkratelimit",
-      "lib_rate_limit_requests",
-      "mcp_route",
-      "mcp_route_createopenbrainmcp",
-      "mcp_route_delete",
-      "mcp_route_get",
-      "mcp_route_head",
-      "mcp_route_options",
-      "mcp_route_post",
-      "obsidian_vault_import_import_obsidian_rationale_389",
-      "readwise_import_import_readwise_rationale_183",
-      "telegram_route",
-      "telegram_route_createbot",
-      "telegram_route_getbot",
-      "telegram_route_post",
-      "tests_rate_limit_test_freshratelimiter"
-    ],
     "37": [
+      "chatgpt_conversation_import_chatgpt_parser_conversation_hash",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_121",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_386",
+      "chatgpt_conversation_import_chatgpt_parser_should_skip",
+      "chatgpt_conversation_import_import_chatgpt",
+      "chatgpt_conversation_import_import_chatgpt_build_focus_instruction",
+      "chatgpt_conversation_import_import_chatgpt_check_semantic_duplicate",
+      "chatgpt_conversation_import_import_chatgpt_http_post_with_retry",
+      "chatgpt_conversation_import_import_chatgpt_ingest_thought_supabase",
+      "chatgpt_conversation_import_import_chatgpt_main",
+      "chatgpt_conversation_import_import_chatgpt_parse_args",
+      "chatgpt_conversation_import_import_chatgpt_parse_date",
+      "chatgpt_conversation_import_import_chatgpt_parse_extraction_response",
+      "chatgpt_conversation_import_import_chatgpt_rationale_122",
+      "chatgpt_conversation_import_import_chatgpt_rationale_274",
+      "chatgpt_conversation_import_import_chatgpt_rationale_295",
+      "chatgpt_conversation_import_import_chatgpt_rationale_360",
+      "chatgpt_conversation_import_import_chatgpt_rationale_412",
+      "chatgpt_conversation_import_import_chatgpt_rationale_452",
+      "chatgpt_conversation_import_import_chatgpt_rationale_496",
+      "chatgpt_conversation_import_import_chatgpt_rationale_575",
+      "chatgpt_conversation_import_import_chatgpt_rationale_606",
+      "chatgpt_conversation_import_import_chatgpt_rationale_698",
+      "chatgpt_conversation_import_import_chatgpt_store_conversation",
+      "chatgpt_conversation_import_import_chatgpt_summarize_ollama",
+      "chatgpt_conversation_import_import_chatgpt_summarize_openrouter",
+      "email_history_import_pull_gmail_ingestthoughtendpoint",
+      "provenance_chains_eval_summarize"
+    ],
+    "38": [
+      "chatgpt_conversation_import_import_chatgpt_rationale_464",
+      "google_activity_import_import_google_activity",
+      "google_activity_import_import_google_activity_filteractivities",
+      "google_activity_import_import_google_activity_findmyactivityfiles",
+      "google_activity_import_import_google_activity_groupbyday",
+      "google_activity_import_import_google_activity_hashtext",
+      "google_activity_import_import_google_activity_high_value_categories",
+      "google_activity_import_import_google_activity_httppost",
+      "google_activity_import_import_google_activity_loadsynclog",
+      "google_activity_import_import_google_activity_main",
+      "google_activity_import_import_google_activity_parseargs",
+      "google_activity_import_import_google_activity_printusage",
+      "google_activity_import_import_google_activity_savesynclog",
+      "google_activity_import_import_google_activity_sleep",
+      "google_activity_import_import_google_activity_summarizeday",
+      "lib_ai_generateembedding",
+      "local_ollama_embeddings_embed_local",
+      "local_ollama_embeddings_embed_local_http_post",
+      "local_ollama_embeddings_embed_local_ingest_thought",
+      "local_ollama_embeddings_embed_local_main",
+      "local_ollama_embeddings_embed_local_parse_args",
+      "local_ollama_embeddings_embed_local_rationale_121",
+      "local_ollama_embeddings_embed_local_rationale_154",
+      "local_ollama_embeddings_embed_local_rationale_187",
+      "local_ollama_embeddings_embed_local_rationale_67",
+      "local_ollama_embeddings_embed_local_rationale_85",
+      "local_ollama_embeddings_embed_local_read_thoughts_from_file",
+      "obsidian_vault_import_import_obsidian_rationale_343"
+    ],
+    "39": [
       "integrations_hermes_agent_memory_plugin_init",
       "integrations_hermes_agent_memory_plugin_init_as_bool",
       "integrations_hermes_agent_memory_plugin_init_clean_text_for_capture",
@@ -1708,7 +1772,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testpurehelpers_test_format_relative_time_recent",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testpurehelpers_test_is_trivial_message"
     ],
-    "38": [
+    "40": [
       "shared_config",
       "shared_config_allowed_types",
       "shared_config_extraction_prompt",
@@ -1738,7 +1802,7 @@
       "shared_helpers_stripcodefences",
       "shared_helpers_tableexists"
     ],
-    "39": [
+    "41": [
       "atomizer_atomize_packs",
       "atomizer_atomize_packs_countsemicolonclauses",
       "atomizer_atomize_packs_countsentences",
@@ -1767,7 +1831,7 @@
       "obsidian_vault_import_import_obsidian_rationale_899",
       "perplexity_conversation_import_import_perplexity_rationale_1106"
     ],
-    "40": [
+    "42": [
       "agent_memory_page",
       "agent_memory_page_statuses",
       "components_agentmemorybadges",
@@ -1794,62 +1858,6 @@
       "traces_page",
       "traces_page_formatscore",
       "traces_page_recalltracepage"
-    ],
-    "41": [
-      "chatgpt_conversation_import_chatgpt_parser",
-      "chatgpt_conversation_import_chatgpt_parser_conversation_hash",
-      "chatgpt_conversation_import_chatgpt_parser_count_messages",
-      "chatgpt_conversation_import_chatgpt_parser_extract_conversation_metadata",
-      "chatgpt_conversation_import_chatgpt_parser_extract_conversations",
-      "chatgpt_conversation_import_chatgpt_parser_extract_dialogue_text",
-      "chatgpt_conversation_import_chatgpt_parser_extract_text_from_content",
-      "chatgpt_conversation_import_chatgpt_parser_load_conversations_from_dir",
-      "chatgpt_conversation_import_chatgpt_parser_prepare_dialogue_for_extraction",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_1",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_121",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_132",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_195",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_248",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_280",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_294",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_311",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_336",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_351",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_386",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_61",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_96",
-      "chatgpt_conversation_import_chatgpt_parser_resolve_canonical_path",
-      "chatgpt_conversation_import_chatgpt_parser_should_skip",
-      "chatgpt_conversation_import_chatgpt_parser_split_sessions",
-      "chatgpt_conversation_import_chatgpt_parser_truncate_session"
-    ],
-    "42": [
-      "chatgpt_conversation_import_import_chatgpt_rationale_249",
-      "email_history_import_pull_gmail_loadsynclog",
-      "obsidian_vault_import_import_obsidian",
-      "obsidian_vault_import_import_obsidian_chunk_by_headings",
-      "obsidian_vault_import_import_obsidian_chunk_note",
-      "obsidian_vault_import_import_obsidian_content_hash",
-      "obsidian_vault_import_import_obsidian_extract_date",
-      "obsidian_vault_import_import_obsidian_iter_notes",
-      "obsidian_vault_import_import_obsidian_jsonify_frontmatter",
-      "obsidian_vault_import_import_obsidian_llm_distill",
-      "obsidian_vault_import_import_obsidian_main",
-      "obsidian_vault_import_import_obsidian_parse_note",
-      "obsidian_vault_import_import_obsidian_rationale_123",
-      "obsidian_vault_import_import_obsidian_rationale_132",
-      "obsidian_vault_import_import_obsidian_rationale_153",
-      "obsidian_vault_import_import_obsidian_rationale_168",
-      "obsidian_vault_import_import_obsidian_rationale_199",
-      "obsidian_vault_import_import_obsidian_rationale_224",
-      "obsidian_vault_import_import_obsidian_rationale_254",
-      "obsidian_vault_import_import_obsidian_rationale_298",
-      "obsidian_vault_import_import_obsidian_rationale_87",
-      "obsidian_vault_import_import_obsidian_scan_for_secrets",
-      "obsidian_vault_import_import_obsidian_strip_non_tag_regions",
-      "obsidian_vault_import_import_obsidian_word_count",
-      "perplexity_conversation_import_import_perplexity_rationale_104",
-      "recipes_obsidian_vault_import_import_obsidian_py_path"
     ],
     "43": [
       "components_addtobrain_importance_colors",
@@ -2148,32 +2156,6 @@
       "readwise_import_import_readwise_upsert_book"
     ],
     "54": [
-      "google_activity_import_import_google_activity",
-      "google_activity_import_import_google_activity_filteractivities",
-      "google_activity_import_import_google_activity_findmyactivityfiles",
-      "google_activity_import_import_google_activity_groupbyday",
-      "google_activity_import_import_google_activity_hashtext",
-      "google_activity_import_import_google_activity_high_value_categories",
-      "google_activity_import_import_google_activity_httppost",
-      "google_activity_import_import_google_activity_loadsynclog",
-      "google_activity_import_import_google_activity_main",
-      "google_activity_import_import_google_activity_parseargs",
-      "google_activity_import_import_google_activity_printusage",
-      "google_activity_import_import_google_activity_savesynclog",
-      "google_activity_import_import_google_activity_sleep",
-      "google_activity_import_import_google_activity_summarizeday",
-      "local_ollama_embeddings_embed_local",
-      "local_ollama_embeddings_embed_local_http_post",
-      "local_ollama_embeddings_embed_local_ingest_thought",
-      "local_ollama_embeddings_embed_local_main",
-      "local_ollama_embeddings_embed_local_parse_args",
-      "local_ollama_embeddings_embed_local_rationale_121",
-      "local_ollama_embeddings_embed_local_rationale_154",
-      "local_ollama_embeddings_embed_local_rationale_187",
-      "local_ollama_embeddings_embed_local_rationale_67",
-      "local_ollama_embeddings_embed_local_read_thoughts_from_file"
-    ],
-    "55": [
       "integrations_chrome_capture_extension_lib_sync_claude",
       "integrations_chrome_capture_extension_lib_sync_claude_authexpiredresult",
       "integrations_chrome_capture_extension_lib_sync_claude_backoffdelay",
@@ -2199,7 +2181,7 @@
       "integrations_chrome_capture_extension_lib_sync_claude_syncall",
       "integrations_chrome_capture_extension_lib_sync_claude_syncincremental"
     ],
-    "56": [
+    "55": [
       "atomizer_audit_gmail_pipeline",
       "atomizer_audit_gmail_pipeline_allgmailids",
       "atomizer_audit_gmail_pipeline_args",
@@ -2224,7 +2206,7 @@
       "atomizer_audit_gmail_pipeline_typecounts",
       "atomizer_audit_gmail_pipeline_uniquethreads"
     ],
-    "57": [
+    "56": [
       "integrations_chrome_capture_extension_background_gemini_debugger",
       "integrations_chrome_capture_extension_background_gemini_debugger_applyenabledstate",
       "integrations_chrome_capture_extension_background_gemini_debugger_attachtogeminitab",
@@ -2249,7 +2231,7 @@
       "integrations_chrome_capture_extension_background_gemini_debugger_wiresettingslistener",
       "integrations_chrome_capture_extension_background_gemini_debugger_wiretablisteners"
     ],
-    "58": [
+    "57": [
       "job_hunt_index",
       "job_hunt_index_addcompanyschema",
       "job_hunt_index_addjobcontactschema",
@@ -2274,7 +2256,7 @@
       "job_hunt_index_searchjobcontactsschema",
       "job_hunt_index_submitapplicationschema"
     ],
-    "59": [
+    "58": [
       "weekly_digest_metadata",
       "weekly_digest_metadata_author",
       "weekly_digest_metadata_author_github",
@@ -2298,6 +2280,30 @@
       "weekly_digest_metadata_tags",
       "weekly_digest_metadata_updated",
       "weekly_digest_metadata_version"
+    ],
+    "59": [
+      "chatgpt_conversation_import_chatgpt_parser",
+      "chatgpt_conversation_import_chatgpt_parser_count_messages",
+      "chatgpt_conversation_import_chatgpt_parser_extract_conversation_metadata",
+      "chatgpt_conversation_import_chatgpt_parser_extract_conversations",
+      "chatgpt_conversation_import_chatgpt_parser_extract_dialogue_text",
+      "chatgpt_conversation_import_chatgpt_parser_extract_text_from_content",
+      "chatgpt_conversation_import_chatgpt_parser_load_conversations_from_dir",
+      "chatgpt_conversation_import_chatgpt_parser_prepare_dialogue_for_extraction",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_1",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_132",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_195",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_248",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_280",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_294",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_311",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_336",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_351",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_61",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_96",
+      "chatgpt_conversation_import_chatgpt_parser_resolve_canonical_path",
+      "chatgpt_conversation_import_chatgpt_parser_split_sessions",
+      "chatgpt_conversation_import_chatgpt_parser_truncate_session"
     ],
     "60": [
       "components_reflectioncomposer",
@@ -2324,6 +2330,30 @@
       "lib_types_reflectioninput"
     ],
     "61": [
+      "contracts_recall_schema_query_minlength",
+      "examples_recall_request_workspace_id",
+      "plugin_openclaw_plugin",
+      "plugin_openclaw_plugin_accesskey_anyof",
+      "plugin_openclaw_plugin_configschema",
+      "plugin_openclaw_plugin_configschema_additionalproperties",
+      "plugin_openclaw_plugin_configschema_properties",
+      "plugin_openclaw_plugin_configschema_required",
+      "plugin_openclaw_plugin_contracts",
+      "plugin_openclaw_plugin_contracts_tools",
+      "plugin_openclaw_plugin_description",
+      "plugin_openclaw_plugin_endpoint_type",
+      "plugin_openclaw_plugin_id",
+      "plugin_openclaw_plugin_kind",
+      "plugin_openclaw_plugin_name",
+      "plugin_openclaw_plugin_properties_accesskey",
+      "plugin_openclaw_plugin_properties_endpoint",
+      "plugin_openclaw_plugin_properties_includeunconfirmedrecall",
+      "plugin_openclaw_plugin_properties_projectid",
+      "plugin_openclaw_plugin_properties_requirereviewbydefault",
+      "plugin_openclaw_plugin_requirereviewbydefault_default",
+      "plugin_openclaw_plugin_skills"
+    ],
+    "62": [
       "examples_writeback_request",
       "examples_writeback_request_channel",
       "examples_writeback_request_channel_id",
@@ -2347,7 +2377,7 @@
       "examples_writeback_request_visibility_project",
       "examples_writeback_request_workspace_id"
     ],
-    "62": [
+    "63": [
       "integrations_chrome_capture_extension_popup_popup",
       "integrations_chrome_capture_extension_popup_popup_addsynclogentry",
       "integrations_chrome_capture_extension_popup_popup_formatplatformsummary",
@@ -2371,7 +2401,7 @@
       "integrations_chrome_capture_extension_popup_popup_startgeminisyncpolling",
       "integrations_chrome_capture_extension_popup_popup_stopgeminisyncpolling"
     ],
-    "63": [
+    "64": [
       "provenance_chains_eval",
       "provenance_chains_eval_applyscoresfromfile",
       "provenance_chains_eval_base_url",
@@ -2395,7 +2425,7 @@
       "provenance_chains_eval_writereport",
       "provenance_chains_eval_writescore"
     ],
-    "64": [
+    "65": [
       "agent_memory_api_index",
       "agent_memory_api_index_app",
       "agent_memory_api_index_audit",
@@ -2418,7 +2448,7 @@
       "agent_memory_api_index_writebackresponseschema",
       "agent_memory_api_index_writebackschemaversion"
     ],
-    "65": [
+    "66": [
       "contracts_recall_response_schema",
       "contracts_recall_response_schema_additionalproperties",
       "contracts_recall_response_schema_id",
@@ -2440,30 +2470,6 @@
       "examples_writeback_request_provenance_confidence",
       "examples_writeback_request_provenance_default_status",
       "examples_writeback_request_provenance_requires_review"
-    ],
-    "66": [
-      "contracts_recall_schema_query_minlength",
-      "examples_recall_request_workspace_id",
-      "plugin_openclaw_plugin",
-      "plugin_openclaw_plugin_accesskey_anyof",
-      "plugin_openclaw_plugin_configschema",
-      "plugin_openclaw_plugin_configschema_additionalproperties",
-      "plugin_openclaw_plugin_configschema_properties",
-      "plugin_openclaw_plugin_configschema_required",
-      "plugin_openclaw_plugin_contracts",
-      "plugin_openclaw_plugin_contracts_tools",
-      "plugin_openclaw_plugin_description",
-      "plugin_openclaw_plugin_endpoint_type",
-      "plugin_openclaw_plugin_id",
-      "plugin_openclaw_plugin_kind",
-      "plugin_openclaw_plugin_name",
-      "plugin_openclaw_plugin_properties_accesskey",
-      "plugin_openclaw_plugin_properties_endpoint",
-      "plugin_openclaw_plugin_properties_includeunconfirmedrecall",
-      "plugin_openclaw_plugin_properties_projectid",
-      "plugin_openclaw_plugin_properties_requirereviewbydefault",
-      "plugin_openclaw_plugin_requirereviewbydefault_default",
-      "plugin_openclaw_plugin_skills"
     ],
     "67": [
       "contracts_recall_response_schema_properties",
@@ -2865,26 +2871,6 @@
       "meal_planning_metadata_version"
     ],
     "86": [
-      "recipes_panning-for-gold_panning-for-gold",
-      "recipes_panning-for-gold_panning-for-gold_common_mistakes",
-      "recipes_panning-for-gold_panning-for-gold_critical_rules",
-      "recipes_panning-for-gold_panning-for-gold_overview",
-      "recipes_panning-for-gold_panning-for-gold_phase_0",
-      "recipes_panning-for-gold_panning-for-gold_phase_1",
-      "recipes_panning-for-gold_panning-for-gold_phase_1_extraction_rules",
-      "recipes_panning-for-gold_panning-for-gold_phase_2",
-      "recipes_panning-for-gold_panning-for-gold_phase_2_triage",
-      "recipes_panning-for-gold_panning-for-gold_phase_3",
-      "recipes_panning-for-gold_panning-for-gold_phase_3_5",
-      "recipes_panning-for-gold_panning-for-gold_phase_3_gold_found_file_location",
-      "recipes_panning-for-gold_panning-for-gold_phase_3_summary_format",
-      "recipes_panning-for-gold_panning-for-gold_phase_4",
-      "recipes_panning-for-gold_panning-for-gold_phase_4_lessons_log",
-      "recipes_panning-for-gold_panning-for-gold_process",
-      "recipes_panning-for-gold_panning-for-gold_red_flags",
-      "recipes_panning-for-gold_panning-for-gold_red_flags_wasting_tokens"
-    ],
-    "87": [
       "repo_learning_coach_tsconfig_node",
       "repo_learning_coach_tsconfig_node_compileroptions",
       "repo_learning_coach_tsconfig_node_compileroptions_allowimportingtsextensions",
@@ -2904,7 +2890,7 @@
       "repo_learning_coach_tsconfig_node_compileroptions_verbatimmodulesyntax",
       "repo_learning_coach_tsconfig_node_include"
     ],
-    "88": [
+    "87": [
       "auditor_index",
       "auditor_index_auditresult",
       "auditor_index_buildauditcontent",
@@ -2923,7 +2909,7 @@
       "auditor_index_supabase",
       "auditor_index_thought"
     ],
-    "89": [
+    "88": [
       "auto_capture_metadata_requires_skills",
       "recipes_auto_capture_metadata_json_auto_capture_metadata",
       "recipes_auto_capture_metadata_json_auto_capture_metadata_author",
@@ -2942,7 +2928,7 @@
       "recipes_auto_capture_metadata_json_auto_capture_metadata_updated",
       "recipes_auto_capture_metadata_json_auto_capture_metadata_version"
     ],
-    "90": [
+    "89": [
       "editorial_policy_metadata",
       "editorial_policy_metadata_author",
       "editorial_policy_metadata_author_github",
@@ -2961,7 +2947,7 @@
       "editorial_policy_metadata_updated",
       "editorial_policy_metadata_version"
     ],
-    "91": [
+    "90": [
       "fingerprint_dedup_backfill_delete_duplicates",
       "fingerprint_dedup_backfill_delete_duplicates_args",
       "fingerprint_dedup_backfill_delete_duplicates_buildfingerprint",
@@ -2980,7 +2966,7 @@
       "fingerprint_dedup_backfill_delete_duplicates_savestate",
       "fingerprint_dedup_backfill_delete_duplicates_state_file"
     ],
-    "92": [
+    "91": [
       "freetypefont",
       "image",
       "imagedraw",
@@ -2999,7 +2985,7 @@
       "promotional_build_promotional_assets_save",
       "promotional_build_promotional_assets_square"
     ],
-    "93": [
+    "92": [
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_initialize",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_on_turn_start",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart",
@@ -3018,7 +3004,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_subagent_context_disables_writes",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_active"
     ],
-    "94": [
+    "93": [
       "lint_sweep_metadata",
       "lint_sweep_metadata_author",
       "lint_sweep_metadata_author_github",
@@ -3037,7 +3023,7 @@
       "lint_sweep_metadata_updated",
       "lint_sweep_metadata_version"
     ],
-    "95": [
+    "94": [
       "local_brain_no_mcp_metadata",
       "local_brain_no_mcp_metadata_author",
       "local_brain_no_mcp_metadata_author_github",
@@ -3056,7 +3042,7 @@
       "local_brain_no_mcp_metadata_updated",
       "local_brain_no_mcp_metadata_version"
     ],
-    "96": [
+    "95": [
       "openclaw_agent_memory_metadata_requires_skills",
       "recipes_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata",
       "recipes_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_author",
@@ -3075,7 +3061,7 @@
       "recipes_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_updated",
       "recipes_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_version"
     ],
-    "97": [
+    "96": [
       "openclaw_code_review_memory_metadata",
       "openclaw_code_review_memory_metadata_author",
       "openclaw_code_review_memory_metadata_author_github",
@@ -3094,7 +3080,7 @@
       "openclaw_code_review_memory_metadata_updated",
       "openclaw_code_review_memory_metadata_version"
     ],
-    "98": [
+    "97": [
       "openclaw_taskflow_work_log_metadata",
       "openclaw_taskflow_work_log_metadata_author",
       "openclaw_taskflow_work_log_metadata_author_github",
@@ -3113,7 +3099,7 @@
       "openclaw_taskflow_work_log_metadata_updated",
       "openclaw_taskflow_work_log_metadata_version"
     ],
-    "99": [
+    "98": [
       "provenance_chains_metadata_requires_skills",
       "recipes_provenance_chains_metadata_json_provenance_chains_metadata",
       "recipes_provenance_chains_metadata_json_provenance_chains_metadata_author",
@@ -3132,7 +3118,7 @@
       "recipes_provenance_chains_metadata_json_provenance_chains_metadata_updated",
       "recipes_provenance_chains_metadata_json_provenance_chains_metadata_version"
     ],
-    "100": [
+    "99": [
       "readwise_import_metadata",
       "readwise_import_metadata_author",
       "readwise_import_metadata_author_github",
@@ -3151,7 +3137,7 @@
       "readwise_import_metadata_updated",
       "readwise_import_metadata_version"
     ],
-    "101": [
+    "100": [
       "recipes_template_metadata_json_template_metadata",
       "recipes_template_metadata_json_template_metadata_author",
       "recipes_template_metadata_json_template_metadata_author_github",
@@ -3170,7 +3156,7 @@
       "recipes_template_metadata_json_template_metadata_version",
       "template_metadata_requires_skills"
     ],
-    "102": [
+    "101": [
       "research_to_decision_workflow_metadata",
       "research_to_decision_workflow_metadata_author",
       "research_to_decision_workflow_metadata_author_github",
@@ -3189,7 +3175,7 @@
       "research_to_decision_workflow_metadata_updated",
       "research_to_decision_workflow_metadata_version"
     ],
-    "103": [
+    "102": [
       "scripts_backfill_gmail_wikis",
       "scripts_backfill_gmail_wikis_appendlog",
       "scripts_backfill_gmail_wikis_capturewikithought",
@@ -3208,7 +3194,7 @@
       "scripts_backfill_gmail_wikis_wiki_eligibility",
       "scripts_backfill_gmail_wikis_writederivedfromedges"
     ],
-    "104": [
+    "103": [
       "work_operating_model_activation_metadata",
       "work_operating_model_activation_metadata_author",
       "work_operating_model_activation_metadata_author_github",
@@ -3227,7 +3213,7 @@
       "work_operating_model_activation_metadata_updated",
       "work_operating_model_activation_metadata_version"
     ],
-    "105": [
+    "104": [
       "world_model_diagnostic_activation_metadata",
       "world_model_diagnostic_activation_metadata_author",
       "world_model_diagnostic_activation_metadata_author_github",
@@ -3246,7 +3232,7 @@
       "world_model_diagnostic_activation_metadata_updated",
       "world_model_diagnostic_activation_metadata_version"
     ],
-    "106": [
+    "105": [
       "adaptive_capture_classification_metadata",
       "adaptive_capture_classification_metadata_author",
       "adaptive_capture_classification_metadata_author_github",
@@ -3264,7 +3250,7 @@
       "adaptive_capture_classification_metadata_updated",
       "adaptive_capture_classification_metadata_version"
     ],
-    "107": [
+    "106": [
       "agent_memory_api_metadata",
       "agent_memory_api_metadata_author",
       "agent_memory_api_metadata_author_github",
@@ -3282,7 +3268,7 @@
       "agent_memory_api_metadata_updated",
       "agent_memory_api_metadata_version"
     ],
-    "108": [
+    "107": [
       "agent_memory_metadata",
       "agent_memory_metadata_author",
       "agent_memory_metadata_author_github",
@@ -3300,7 +3286,7 @@
       "agent_memory_metadata_updated",
       "agent_memory_metadata_version"
     ],
-    "109": [
+    "108": [
       "atomizer_backfill_gmail_correspondents",
       "atomizer_backfill_gmail_correspondents_dirname",
       "atomizer_backfill_gmail_correspondents_main",
@@ -3318,7 +3304,7 @@
       "lib_entity_resolver_tryadoptordisambiguate",
       "lib_entity_resolver_upsertpersonbyemail"
     ],
-    "110": [
+    "109": [
       "atomizer_metadata",
       "atomizer_metadata_author",
       "atomizer_metadata_author_github",
@@ -3336,7 +3322,7 @@
       "atomizer_metadata_updated",
       "atomizer_metadata_version"
     ],
-    "111": [
+    "110": [
       "autodream_brain_sync_metadata",
       "autodream_brain_sync_metadata_author",
       "autodream_brain_sync_metadata_author_github",
@@ -3354,7 +3340,7 @@
       "autodream_brain_sync_metadata_updated",
       "autodream_brain_sync_metadata_version"
     ],
-    "112": [
+    "111": [
       "brain_smoke_test_metadata",
       "brain_smoke_test_metadata_author",
       "brain_smoke_test_metadata_author_github",
@@ -3372,7 +3358,7 @@
       "brain_smoke_test_metadata_updated",
       "brain_smoke_test_metadata_version"
     ],
-    "113": [
+    "112": [
       "brain_smoke_test_package",
       "brain_smoke_test_package_bin",
       "brain_smoke_test_package_bin_ob1_brain_smoke_test",
@@ -3390,7 +3376,7 @@
       "brain_smoke_test_package_type",
       "brain_smoke_test_package_version"
     ],
-    "114": [
+    "113": [
       "chatgpt_conversation_import_metadata",
       "chatgpt_conversation_import_metadata_author",
       "chatgpt_conversation_import_metadata_author_github",
@@ -3408,7 +3394,7 @@
       "chatgpt_conversation_import_metadata_updated",
       "chatgpt_conversation_import_metadata_version"
     ],
-    "115": [
+    "114": [
       "competitive_analysis_metadata",
       "competitive_analysis_metadata_author",
       "competitive_analysis_metadata_author_github",
@@ -3426,7 +3412,7 @@
       "competitive_analysis_metadata_updated",
       "competitive_analysis_metadata_version"
     ],
-    "116": [
+    "115": [
       "content_fingerprint_dedup_metadata",
       "content_fingerprint_dedup_metadata_author",
       "content_fingerprint_dedup_metadata_author_github",
@@ -3444,7 +3430,7 @@
       "content_fingerprint_dedup_metadata_updated",
       "content_fingerprint_dedup_metadata_version"
     ],
-    "117": [
+    "116": [
       "daily_digest_metadata",
       "daily_digest_metadata_author",
       "daily_digest_metadata_author_github",
@@ -3462,7 +3448,7 @@
       "daily_digest_metadata_updated",
       "daily_digest_metadata_version"
     ],
-    "118": [
+    "117": [
       "deal_memo_drafting_metadata",
       "deal_memo_drafting_metadata_author",
       "deal_memo_drafting_metadata_author_github",
@@ -3480,7 +3466,7 @@
       "deal_memo_drafting_metadata_updated",
       "deal_memo_drafting_metadata_version"
     ],
-    "119": [
+    "118": [
       "deploy_edge_function_metadata",
       "deploy_edge_function_metadata_author",
       "deploy_edge_function_metadata_author_github",
@@ -3498,7 +3484,7 @@
       "deploy_edge_function_metadata_updated",
       "deploy_edge_function_metadata_version"
     ],
-    "120": [
+    "119": [
       "edge_function_cost_optimization_metadata",
       "edge_function_cost_optimization_metadata_author",
       "edge_function_cost_optimization_metadata_author_github",
@@ -3516,7 +3502,7 @@
       "edge_function_cost_optimization_metadata_updated",
       "edge_function_cost_optimization_metadata_version"
     ],
-    "121": [
+    "120": [
       "email_history_import_metadata",
       "email_history_import_metadata_author",
       "email_history_import_metadata_author_github",
@@ -3534,7 +3520,7 @@
       "email_history_import_metadata_updated",
       "email_history_import_metadata_version"
     ],
-    "122": [
+    "121": [
       "entity_wiki_metadata",
       "entity_wiki_metadata_author",
       "entity_wiki_metadata_author_github",
@@ -3552,7 +3538,7 @@
       "entity_wiki_metadata_updated",
       "entity_wiki_metadata_version"
     ],
-    "123": [
+    "122": [
       "extensions_template_metadata_json_template_metadata",
       "extensions_template_metadata_json_template_metadata_author",
       "extensions_template_metadata_json_template_metadata_author_github",
@@ -3570,7 +3556,7 @@
       "template_metadata_learning_order",
       "template_metadata_requires_primitives"
     ],
-    "124": [
+    "123": [
       "financial_model_review_metadata",
       "financial_model_review_metadata_author",
       "financial_model_review_metadata_author_github",
@@ -3588,7 +3574,7 @@
       "financial_model_review_metadata_updated",
       "financial_model_review_metadata_version"
     ],
-    "125": [
+    "124": [
       "fingerprint_dedup_backfill_metadata",
       "fingerprint_dedup_backfill_metadata_author",
       "fingerprint_dedup_backfill_metadata_author_github",
@@ -3606,7 +3592,7 @@
       "fingerprint_dedup_backfill_metadata_updated",
       "fingerprint_dedup_backfill_metadata_version"
     ],
-    "126": [
+    "125": [
       "google_activity_import_metadata",
       "google_activity_import_metadata_author",
       "google_activity_import_metadata_author_github",
@@ -3624,7 +3610,7 @@
       "google_activity_import_metadata_updated",
       "google_activity_import_metadata_version"
     ],
-    "127": [
+    "126": [
       "grok_export_import_metadata",
       "grok_export_import_metadata_author",
       "grok_export_import_metadata_author_github",
@@ -3642,7 +3628,7 @@
       "grok_export_import_metadata_updated",
       "grok_export_import_metadata_version"
     ],
-    "128": [
+    "127": [
       "heavy_file_ingestion_metadata",
       "heavy_file_ingestion_metadata_author",
       "heavy_file_ingestion_metadata_author_github",
@@ -3660,7 +3646,7 @@
       "heavy_file_ingestion_metadata_updated",
       "heavy_file_ingestion_metadata_version"
     ],
-    "129": [
+    "128": [
       "infographic_generator_metadata",
       "infographic_generator_metadata_author",
       "infographic_generator_metadata_author_github",
@@ -3678,7 +3664,7 @@
       "infographic_generator_metadata_updated",
       "infographic_generator_metadata_version"
     ],
-    "130": [
+    "129": [
       "instagram_import_metadata",
       "instagram_import_metadata_author",
       "instagram_import_metadata_author_github",
@@ -3696,7 +3682,7 @@
       "instagram_import_metadata_updated",
       "instagram_import_metadata_version"
     ],
-    "131": [
+    "130": [
       "integrations_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata",
       "integrations_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_author",
       "integrations_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_author_github",
@@ -3714,7 +3700,7 @@
       "integrations_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_updated",
       "integrations_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_version"
     ],
-    "132": [
+    "131": [
       "integrations_smart_ingest_index_callanthropic",
       "integrations_smart_ingest_index_callllm",
       "integrations_smart_ingest_index_callopenai",
@@ -3732,7 +3718,7 @@
       "integrations_smart_ingest_shared_helpers_readanthropictext",
       "integrations_smart_ingest_shared_helpers_readchatcompletiontext"
     ],
-    "133": [
+    "132": [
       "integrations_template_metadata_json_template_metadata",
       "integrations_template_metadata_json_template_metadata_author",
       "integrations_template_metadata_json_template_metadata_author_github",
@@ -3750,7 +3736,7 @@
       "integrations_template_metadata_json_template_metadata_updated",
       "integrations_template_metadata_json_template_metadata_version"
     ],
-    "134": [
+    "133": [
       "journals_blogger_import_metadata",
       "journals_blogger_import_metadata_author",
       "journals_blogger_import_metadata_author_github",
@@ -3768,7 +3754,7 @@
       "journals_blogger_import_metadata_updated",
       "journals_blogger_import_metadata_version"
     ],
-    "135": [
+    "134": [
       "kubernetes_deployment_metadata",
       "kubernetes_deployment_metadata_author",
       "kubernetes_deployment_metadata_author_github",
@@ -3786,7 +3772,7 @@
       "kubernetes_deployment_metadata_updated",
       "kubernetes_deployment_metadata_version"
     ],
-    "136": [
+    "135": [
       "life_engine_metadata",
       "life_engine_metadata_author",
       "life_engine_metadata_author_github",
@@ -3804,7 +3790,7 @@
       "life_engine_metadata_updated",
       "life_engine_metadata_version"
     ],
-    "137": [
+    "136": [
       "life_engine_video_metadata",
       "life_engine_video_metadata_author",
       "life_engine_video_metadata_author_github",
@@ -3822,7 +3808,7 @@
       "life_engine_video_metadata_updated",
       "life_engine_video_metadata_version"
     ],
-    "138": [
+    "137": [
       "live_retrieval_metadata",
       "live_retrieval_metadata_author",
       "live_retrieval_metadata_author_github",
@@ -3840,7 +3826,7 @@
       "live_retrieval_metadata_updated",
       "live_retrieval_metadata_version"
     ],
-    "139": [
+    "138": [
       "local_ollama_embeddings_metadata",
       "local_ollama_embeddings_metadata_author",
       "local_ollama_embeddings_metadata_author_github",
@@ -3858,7 +3844,7 @@
       "local_ollama_embeddings_metadata_updated",
       "local_ollama_embeddings_metadata_version"
     ],
-    "140": [
+    "139": [
       "meeting_synthesis_metadata",
       "meeting_synthesis_metadata_author",
       "meeting_synthesis_metadata_author_github",
@@ -3876,7 +3862,7 @@
       "meeting_synthesis_metadata_updated",
       "meeting_synthesis_metadata_version"
     ],
-    "141": [
+    "140": [
       "n_agentic_harnesses_metadata",
       "n_agentic_harnesses_metadata_author",
       "n_agentic_harnesses_metadata_author_github",
@@ -3894,7 +3880,7 @@
       "n_agentic_harnesses_metadata_updated",
       "n_agentic_harnesses_metadata_version"
     ],
-    "142": [
+    "141": [
       "ob1_local_http_metadata",
       "ob1_local_http_metadata_author",
       "ob1_local_http_metadata_author_github",
@@ -3912,7 +3898,7 @@
       "ob1_local_http_metadata_updated",
       "ob1_local_http_metadata_version"
     ],
-    "143": [
+    "142": [
       "ob_graph_metadata",
       "ob_graph_metadata_author",
       "ob_graph_metadata_author_github",
@@ -3930,7 +3916,7 @@
       "ob_graph_metadata_updated",
       "ob_graph_metadata_version"
     ],
-    "144": [
+    "143": [
       "obsidian_vault_import_metadata",
       "obsidian_vault_import_metadata_author",
       "obsidian_vault_import_metadata_author_github",
@@ -3948,7 +3934,7 @@
       "obsidian_vault_import_metadata_updated",
       "obsidian_vault_import_metadata_version"
     ],
-    "145": [
+    "144": [
       "open_brain_dashboard_metadata",
       "open_brain_dashboard_metadata_author",
       "open_brain_dashboard_metadata_author_github",
@@ -3966,7 +3952,7 @@
       "open_brain_dashboard_metadata_updated",
       "open_brain_dashboard_metadata_version"
     ],
-    "146": [
+    "145": [
       "open_brain_dashboard_next_metadata",
       "open_brain_dashboard_next_metadata_author",
       "open_brain_dashboard_next_metadata_author_github",
@@ -3984,7 +3970,7 @@
       "open_brain_dashboard_next_metadata_updated",
       "open_brain_dashboard_next_metadata_version"
     ],
-    "147": [
+    "146": [
       "open_brain_dashboard_pro_metadata",
       "open_brain_dashboard_pro_metadata_author",
       "open_brain_dashboard_pro_metadata_author_github",
@@ -4002,7 +3988,7 @@
       "open_brain_dashboard_pro_metadata_updated",
       "open_brain_dashboard_pro_metadata_version"
     ],
-    "148": [
+    "147": [
       "per_agent_identity_metadata",
       "per_agent_identity_metadata_author",
       "per_agent_identity_metadata_author_github",
@@ -4020,7 +4006,7 @@
       "per_agent_identity_metadata_updated",
       "per_agent_identity_metadata_version"
     ],
-    "149": [
+    "148": [
       "perplexity_conversation_import_metadata",
       "perplexity_conversation_import_metadata_author",
       "perplexity_conversation_import_metadata_author_github",
@@ -4038,7 +4024,7 @@
       "perplexity_conversation_import_metadata_updated",
       "perplexity_conversation_import_metadata_version"
     ],
-    "150": [
+    "149": [
       "readwise_books_metadata",
       "readwise_books_metadata_author",
       "readwise_books_metadata_author_github",
@@ -4056,7 +4042,7 @@
       "readwise_books_metadata_updated",
       "readwise_books_metadata_version"
     ],
-    "151": [
+    "150": [
       "readwise_capture_metadata",
       "readwise_capture_metadata_author",
       "readwise_capture_metadata_author_github",
@@ -4074,7 +4060,7 @@
       "readwise_capture_metadata_updated",
       "readwise_capture_metadata_version"
     ],
-    "152": [
+    "151": [
       "recency_boosted_match_thoughts_metadata",
       "recency_boosted_match_thoughts_metadata_author",
       "recency_boosted_match_thoughts_metadata_author_github",
@@ -4092,7 +4078,7 @@
       "recency_boosted_match_thoughts_metadata_updated",
       "recency_boosted_match_thoughts_metadata_version"
     ],
-    "153": [
+    "152": [
       "recipes_claudeception_metadata_json_claudeception_metadata",
       "recipes_claudeception_metadata_json_claudeception_metadata_author",
       "recipes_claudeception_metadata_json_claudeception_metadata_author_github",
@@ -4110,7 +4096,7 @@
       "recipes_claudeception_metadata_json_claudeception_metadata_updated",
       "recipes_claudeception_metadata_json_claudeception_metadata_version"
     ],
-    "154": [
+    "153": [
       "recipes_panning_for_gold_metadata_json_panning_for_gold_metadata",
       "recipes_panning_for_gold_metadata_json_panning_for_gold_metadata_author",
       "recipes_panning_for_gold_metadata_json_panning_for_gold_metadata_author_github",
@@ -4128,7 +4114,7 @@
       "recipes_panning_for_gold_metadata_json_panning_for_gold_metadata_updated",
       "recipes_panning_for_gold_metadata_json_panning_for_gold_metadata_version"
     ],
-    "155": [
+    "154": [
       "remote_mcp_metadata",
       "remote_mcp_metadata_author",
       "remote_mcp_metadata_author_github",
@@ -4146,7 +4132,7 @@
       "remote_mcp_metadata_updated",
       "remote_mcp_metadata_version"
     ],
-    "156": [
+    "155": [
       "research_synthesis_metadata",
       "research_synthesis_metadata_author",
       "research_synthesis_metadata_author_github",
@@ -4164,7 +4150,7 @@
       "research_synthesis_metadata_updated",
       "research_synthesis_metadata_version"
     ],
-    "157": [
+    "156": [
       "schema_aware_routing_metadata",
       "schema_aware_routing_metadata_author",
       "schema_aware_routing_metadata_author_github",
@@ -4182,7 +4168,7 @@
       "schema_aware_routing_metadata_updated",
       "schema_aware_routing_metadata_version"
     ],
-    "158": [
+    "157": [
       "schemas_provenance_chains_metadata_json_provenance_chains_metadata",
       "schemas_provenance_chains_metadata_json_provenance_chains_metadata_author",
       "schemas_provenance_chains_metadata_json_provenance_chains_metadata_author_github",
@@ -4200,7 +4186,7 @@
       "schemas_provenance_chains_metadata_json_provenance_chains_metadata_updated",
       "schemas_provenance_chains_metadata_json_provenance_chains_metadata_version"
     ],
-    "159": [
+    "158": [
       "schemas_template_metadata_json_template_metadata",
       "schemas_template_metadata_json_template_metadata_author",
       "schemas_template_metadata_json_template_metadata_author_github",
@@ -4218,7 +4204,7 @@
       "schemas_template_metadata_json_template_metadata_updated",
       "schemas_template_metadata_json_template_metadata_version"
     ],
-    "160": [
+    "159": [
       "skills_auto_capture_metadata_json_auto_capture_metadata",
       "skills_auto_capture_metadata_json_auto_capture_metadata_author",
       "skills_auto_capture_metadata_json_auto_capture_metadata_author_github",
@@ -4236,7 +4222,7 @@
       "skills_auto_capture_metadata_json_auto_capture_metadata_updated",
       "skills_auto_capture_metadata_json_auto_capture_metadata_version"
     ],
-    "161": [
+    "160": [
       "skills_claudeception_metadata_json_claudeception_metadata",
       "skills_claudeception_metadata_json_claudeception_metadata_author",
       "skills_claudeception_metadata_json_claudeception_metadata_author_github",
@@ -4254,7 +4240,7 @@
       "skills_claudeception_metadata_json_claudeception_metadata_updated",
       "skills_claudeception_metadata_json_claudeception_metadata_version"
     ],
-    "162": [
+    "161": [
       "skills_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata",
       "skills_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_author",
       "skills_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_author_github",
@@ -4272,7 +4258,7 @@
       "skills_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_updated",
       "skills_openclaw_agent_memory_metadata_json_openclaw_agent_memory_metadata_version"
     ],
-    "163": [
+    "162": [
       "skills_panning_for_gold_metadata_json_panning_for_gold_metadata",
       "skills_panning_for_gold_metadata_json_panning_for_gold_metadata_author",
       "skills_panning_for_gold_metadata_json_panning_for_gold_metadata_author_github",
@@ -4290,7 +4276,7 @@
       "skills_panning_for_gold_metadata_json_panning_for_gold_metadata_updated",
       "skills_panning_for_gold_metadata_json_panning_for_gold_metadata_version"
     ],
-    "164": [
+    "163": [
       "skills_template_metadata_json_template_metadata",
       "skills_template_metadata_json_template_metadata_author",
       "skills_template_metadata_json_template_metadata_author_github",
@@ -4308,7 +4294,7 @@
       "skills_template_metadata_json_template_metadata_updated",
       "skills_template_metadata_json_template_metadata_version"
     ],
-    "165": [
+    "164": [
       "slack_capture_metadata",
       "slack_capture_metadata_author",
       "slack_capture_metadata_author_github",
@@ -4326,7 +4312,7 @@
       "slack_capture_metadata_updated",
       "slack_capture_metadata_version"
     ],
-    "166": [
+    "165": [
       "smoke_seed_nate_continuity_demo",
       "smoke_seed_nate_continuity_demo_assert",
       "smoke_seed_nate_continuity_demo_batches",
@@ -4344,7 +4330,7 @@
       "smoke_seed_nate_continuity_demo_summary",
       "smoke_seed_nate_continuity_demo_writebackpayload"
     ],
-    "167": [
+    "166": [
       "source_filtering_metadata",
       "source_filtering_metadata_author",
       "source_filtering_metadata_author_github",
@@ -4362,7 +4348,7 @@
       "source_filtering_metadata_updated",
       "source_filtering_metadata_version"
     ],
-    "168": [
+    "167": [
       "telegram_capture_metadata",
       "telegram_capture_metadata_author",
       "telegram_capture_metadata_author_github",
@@ -4380,7 +4366,7 @@
       "telegram_capture_metadata_updated",
       "telegram_capture_metadata_version"
     ],
-    "169": [
+    "168": [
       "text_search_trgm_metadata",
       "text_search_trgm_metadata_author",
       "text_search_trgm_metadata_author_github",
@@ -4398,7 +4384,7 @@
       "text_search_trgm_metadata_updated",
       "text_search_trgm_metadata_version"
     ],
-    "170": [
+    "169": [
       "thought_audit_metadata",
       "thought_audit_metadata_author",
       "thought_audit_metadata_author_github",
@@ -4416,7 +4402,7 @@
       "thought_audit_metadata_updated",
       "thought_audit_metadata_version"
     ],
-    "171": [
+    "170": [
       "troubleshooting_metadata",
       "troubleshooting_metadata_author",
       "troubleshooting_metadata_author_github",
@@ -4434,7 +4420,7 @@
       "troubleshooting_metadata_updated",
       "troubleshooting_metadata_version"
     ],
-    "172": [
+    "171": [
       "typed_edge_classifier_metadata",
       "typed_edge_classifier_metadata_author",
       "typed_edge_classifier_metadata_author_github",
@@ -4452,7 +4438,7 @@
       "typed_edge_classifier_metadata_updated",
       "typed_edge_classifier_metadata_version"
     ],
-    "173": [
+    "172": [
       "typed_reasoning_edges_metadata",
       "typed_reasoning_edges_metadata_author",
       "typed_reasoning_edges_metadata_author_github",
@@ -4470,7 +4456,7 @@
       "typed_reasoning_edges_metadata_updated",
       "typed_reasoning_edges_metadata_version"
     ],
-    "174": [
+    "173": [
       "update_thought_mcp_metadata",
       "update_thought_mcp_metadata_author",
       "update_thought_mcp_metadata_author_github",
@@ -4488,7 +4474,7 @@
       "update_thought_mcp_metadata_updated",
       "update_thought_mcp_metadata_version"
     ],
-    "175": [
+    "174": [
       "vercel_neon_telegram_metadata",
       "vercel_neon_telegram_metadata_author",
       "vercel_neon_telegram_metadata_author_github",
@@ -4506,7 +4492,7 @@
       "vercel_neon_telegram_metadata_updated",
       "vercel_neon_telegram_metadata_version"
     ],
-    "176": [
+    "175": [
       "weekly_signal_diff_metadata",
       "weekly_signal_diff_metadata_author",
       "weekly_signal_diff_metadata_author_github",
@@ -4524,7 +4510,7 @@
       "weekly_signal_diff_metadata_updated",
       "weekly_signal_diff_metadata_version"
     ],
-    "177": [
+    "176": [
       "wiki_compiler_metadata",
       "wiki_compiler_metadata_author",
       "wiki_compiler_metadata_author_github",
@@ -4542,7 +4528,7 @@
       "wiki_compiler_metadata_updated",
       "wiki_compiler_metadata_version"
     ],
-    "178": [
+    "177": [
       "wiki_synthesis_metadata",
       "wiki_synthesis_metadata_author",
       "wiki_synthesis_metadata_author_github",
@@ -4560,7 +4546,7 @@
       "wiki_synthesis_metadata_updated",
       "wiki_synthesis_metadata_version"
     ],
-    "179": [
+    "178": [
       "work_operating_model_metadata",
       "work_operating_model_metadata_author",
       "work_operating_model_metadata_author_github",
@@ -4578,7 +4564,7 @@
       "work_operating_model_metadata_updated",
       "work_operating_model_metadata_version"
     ],
-    "180": [
+    "179": [
       "workflow_status_metadata",
       "workflow_status_metadata_author",
       "workflow_status_metadata_author_github",
@@ -4596,7 +4582,7 @@
       "workflow_status_metadata_updated",
       "workflow_status_metadata_version"
     ],
-    "181": [
+    "180": [
       "world_model_diagnostic_metadata",
       "world_model_diagnostic_metadata_author",
       "world_model_diagnostic_metadata_author_github",
@@ -4614,7 +4600,7 @@
       "world_model_diagnostic_metadata_updated",
       "world_model_diagnostic_metadata_version"
     ],
-    "182": [
+    "181": [
       "x_twitter_import_metadata",
       "x_twitter_import_metadata_author",
       "x_twitter_import_metadata_author_github",
@@ -4632,7 +4618,7 @@
       "x_twitter_import_metadata_updated",
       "x_twitter_import_metadata_version"
     ],
-    "183": [
+    "182": [
       "adaptive_capture_classification_capture_with_gating",
       "adaptive_capture_classification_capture_with_gating_adjustthreshold",
       "adaptive_capture_classification_capture_with_gating_builduserprompt",
@@ -4649,7 +4635,7 @@
       "adaptive_capture_classification_capture_with_gating_resolveoutcome",
       "adaptive_capture_classification_capture_with_gating_writetoob1"
     ],
-    "184": [
+    "183": [
       "atomizer_re_atomize_gmail_thought",
       "atomizer_re_atomize_gmail_thought_args",
       "atomizer_re_atomize_gmail_thought_atomizeopts",
@@ -4666,7 +4652,7 @@
       "atomizer_re_atomize_gmail_thought_sb",
       "atomizer_re_atomize_gmail_thought_wordcount"
     ],
-    "185": [
+    "184": [
       "dashboards_template_metadata_json_template_metadata",
       "dashboards_template_metadata_json_template_metadata_author",
       "dashboards_template_metadata_json_template_metadata_author_github",
@@ -4683,7 +4669,7 @@
       "dashboards_template_metadata_json_template_metadata_updated",
       "dashboards_template_metadata_json_template_metadata_version"
     ],
-    "186": [
+    "185": [
       "discord_capture_metadata",
       "discord_capture_metadata_author",
       "discord_capture_metadata_category",
@@ -4700,7 +4686,7 @@
       "discord_capture_metadata_updated",
       "discord_capture_metadata_version"
     ],
-    "187": [
+    "186": [
       "entity_extraction_metadata",
       "entity_extraction_metadata_author",
       "entity_extraction_metadata_author_github",
@@ -4717,7 +4703,7 @@
       "entity_extraction_metadata_updated",
       "entity_extraction_metadata_version"
     ],
-    "188": [
+    "187": [
       "entity_extraction_worker_index_json",
       "mcp_server",
       "mcp_server_mcpjsonrpcresponse",
@@ -4734,7 +4720,7 @@
       "schemas_crm_person_tiers_dashboard_snippets_page_tier_copy",
       "schemas_crm_person_tiers_dashboard_snippets_page_tier_order"
     ],
-    "189": [
+    "188": [
       "examples_writeback_request_entities_customers",
       "examples_writeback_request_entities_files",
       "examples_writeback_request_entities_people",
@@ -4751,7 +4737,7 @@
       "examples_writeback_request_memory_payload_outputs",
       "examples_writeback_request_memory_payload_unresolved_questions"
     ],
-    "190": [
+    "189": [
       "integrations_chrome_capture_extension_content_scripts_extractor_claude",
       "integrations_chrome_capture_extension_content_scripts_extractor_claude_classifyturn",
       "integrations_chrome_capture_extension_content_scripts_extractor_claude_collectsearchroots",
@@ -4768,7 +4754,7 @@
       "integrations_chrome_capture_extension_content_scripts_extractor_claude_queryalldeep",
       "integrations_chrome_capture_extension_content_scripts_extractor_claude_sortbydocumentorder"
     ],
-    "191": [
+    "190": [
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_handle_tool_call",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_recall_requires_query",
@@ -4783,7 +4769,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_writeback_requires_summary_or_content",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_writeback_unknown_type_falls_back_to_outputs"
     ],
-    "192": [
+    "191": [
       "recipes_thought_enrichment_backfill_sensitivity",
       "recipes_thought_enrichment_backfill_sensitivity_apply",
       "recipes_thought_enrichment_backfill_sensitivity_detectsensitivity",
@@ -4800,7 +4786,7 @@
       "recipes_thought_enrichment_lib_memory_core_resolvetimeoutms",
       "recipes_thought_enrichment_lib_memory_core_sha256hex"
     ],
-    "193": [
+    "192": [
       "recipes_thought_enrichment_backfill_type",
       "recipes_thought_enrichment_backfill_type_args",
       "recipes_thought_enrichment_backfill_type_batchsizearg",
@@ -4817,7 +4803,7 @@
       "recipes_thought_enrichment_backfill_type_updaterow",
       "recipes_thought_enrichment_backfill_type_valid_types"
     ],
-    "194": [
+    "193": [
       "repo_learning_coach_metadata",
       "repo_learning_coach_metadata_author",
       "repo_learning_coach_metadata_category",
@@ -4834,7 +4820,7 @@
       "repo_learning_coach_metadata_updated",
       "repo_learning_coach_metadata_version"
     ],
-    "195": [
+    "194": [
       "scripts_update_readme_contributions",
       "scripts_update_readme_contributions_buildsection",
       "scripts_update_readme_contributions_chooserepotarget",
@@ -4851,7 +4837,7 @@
       "scripts_update_readme_contributions_rootforpath",
       "scripts_update_readme_contributions_titlewords"
     ],
-    "196": [
+    "195": [
       "brain_backup_metadata",
       "brain_backup_metadata_author",
       "brain_backup_metadata_author_github",
@@ -4867,7 +4853,7 @@
       "brain_backup_metadata_tags",
       "brain_backup_metadata_version"
     ],
-    "197": [
+    "196": [
       "enhanced_thoughts_metadata",
       "enhanced_thoughts_metadata_author",
       "enhanced_thoughts_metadata_author_github",
@@ -4883,7 +4869,7 @@
       "enhanced_thoughts_metadata_updated",
       "enhanced_thoughts_metadata_version"
     ],
-    "198": [
+    "197": [
       "entity_extraction_worker_metadata",
       "entity_extraction_worker_metadata_author",
       "entity_extraction_worker_metadata_author_github",
@@ -4899,7 +4885,7 @@
       "entity_extraction_worker_metadata_tags",
       "entity_extraction_worker_metadata_version"
     ],
-    "199": [
+    "198": [
       "fingerprint_dedup_backfill_backfill_fingerprints",
       "fingerprint_dedup_backfill_backfill_fingerprints_buildcontentfingerprint",
       "fingerprint_dedup_backfill_backfill_fingerprints_dirname",
@@ -4915,7 +4901,7 @@
       "fingerprint_dedup_backfill_backfill_fingerprints_savestate",
       "fingerprint_dedup_backfill_backfill_fingerprints_state_file"
     ],
-    "200": [
+    "199": [
       "home_runner_work_ob1_ob1_recipes_local_brain_no_mcp_setup_sh__entry",
       "local_brain_no_mcp_setup",
       "local_brain_no_mcp_setup_check_prereqs",
@@ -4931,7 +4917,7 @@
       "local_brain_no_mcp_setup_warn",
       "local_brain_no_mcp_setup_write_env"
     ],
-    "201": [
+    "200": [
       "integrations_hermes_agent_memory_plugin_tests_init",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_clean_env",
@@ -4947,7 +4933,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock_test_lists_tools_and_workspace_when_active",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_tool_error"
     ],
-    "202": [
+    "201": [
       "ob1_agent_dashboard_capture_chrome_screenshots",
       "ob1_agent_dashboard_capture_chrome_screenshots_captured",
       "ob1_agent_dashboard_capture_chrome_screenshots_execfileasync",
@@ -4963,7 +4949,7 @@
       "ob1_agent_dashboard_walkthrough_content",
       "ob1_agent_dashboard_walkthrough_content_walkthroughsections"
     ],
-    "203": [
+    "202": [
       "primitives_template_metadata_json_template_metadata",
       "primitives_template_metadata_json_template_metadata_author",
       "primitives_template_metadata_json_template_metadata_author_github",
@@ -4979,7 +4965,7 @@
       "primitives_template_metadata_json_template_metadata_tags",
       "primitives_template_metadata_json_template_metadata_version"
     ],
-    "204": [
+    "203": [
       "recipes_editorial-policy_editorial-policy",
       "recipes_email-history-import_README",
       "recipes_entity-wiki_README",
@@ -4995,7 +4981,7 @@
       "recipes_local-ollama-embeddings_README",
       "recipes_ob-graph_README"
     ],
-    "205": [
+    "204": [
       "repo_learning_coach_package_devdependencies",
       "repo_learning_coach_package_devdependencies_concurrently",
       "repo_learning_coach_package_devdependencies_eslint",
@@ -5011,7 +4997,7 @@
       "repo_learning_coach_package_devdependencies_vite",
       "repo_learning_coach_package_devdependencies_vitejs_plugin_react"
     ],
-    "206": [
+    "205": [
       "rls_metadata",
       "rls_metadata_author",
       "rls_metadata_author_github",
@@ -5027,7 +5013,7 @@
       "rls_metadata_tags",
       "rls_metadata_version"
     ],
-    "207": [
+    "206": [
       "server_index",
       "server_index_app",
       "server_index_buildserver",
@@ -5043,7 +5029,7 @@
       "server_index_thoughturl",
       "server_index_unauthorizedresponse"
     ],
-    "208": [
+    "207": [
       "shared_mcp_metadata",
       "shared_mcp_metadata_author",
       "shared_mcp_metadata_author_github",
@@ -5059,7 +5045,7 @@
       "shared_mcp_metadata_tags",
       "shared_mcp_metadata_version"
     ],
-    "209": [
+    "208": [
       "thought_enrichment_metadata",
       "thought_enrichment_metadata_author",
       "thought_enrichment_metadata_author_github",
@@ -5075,7 +5061,7 @@
       "thought_enrichment_metadata_tags",
       "thought_enrichment_metadata_version"
     ],
-    "210": [
+    "209": [
       "x_twitter_import_import_x_twitter",
       "x_twitter_import_import_x_twitter_args",
       "x_twitter_import_import_x_twitter_contentfingerprint",
@@ -5091,7 +5077,7 @@
       "x_twitter_import_import_x_twitter_supabase",
       "x_twitter_import_import_x_twitter_upsertthought"
     ],
-    "211": [
+    "210": [
       "instagram_import_import_instagram",
       "instagram_import_import_instagram_args",
       "instagram_import_import_instagram_dirpath",
@@ -5106,7 +5092,7 @@
       "instagram_import_import_instagram_supabase",
       "instagram_import_import_instagram_upsertthought"
     ],
-    "212": [
+    "211": [
       "lib_atomize_text",
       "lib_atomize_text_atomizeviaanthropic",
       "lib_atomize_text_atomizeviaclaudecli",
@@ -5121,7 +5107,7 @@
       "lib_claude_cli_spawnclaudecli",
       "lib_claude_cli_strip_keys"
     ],
-    "213": [
+    "212": [
       "lint_sweep_package",
       "lint_sweep_package_bin",
       "lint_sweep_package_bin_ob1_lint_sweep",
@@ -5136,7 +5122,7 @@
       "lint_sweep_package_type",
       "lint_sweep_package_version"
     ],
-    "214": [
+    "213": [
       "ob1_canonical_landing_metadata",
       "ob1_canonical_landing_metadata_author",
       "ob1_canonical_landing_metadata_author_github",
@@ -5151,7 +5137,7 @@
       "ob1_canonical_landing_metadata_updated",
       "ob1_canonical_landing_metadata_version"
     ],
-    "215": [
+    "214": [
       "ob_graph_smoke_graph_rpcs",
       "ob_graph_smoke_graph_rpcs_assert",
       "ob_graph_smoke_graph_rpcs_cleanupscenario",
@@ -5166,7 +5152,7 @@
       "ob_graph_smoke_graph_rpcs_tableinsert",
       "ob_graph_smoke_graph_rpcs_timed"
     ],
-    "216": [
+    "215": [
       "open_brain_dashboard_tsconfig",
       "open_brain_dashboard_tsconfig_compileroptions",
       "open_brain_dashboard_tsconfig_compileroptions_allowjs",
@@ -5181,7 +5167,7 @@
       "open_brain_dashboard_tsconfig_compileroptions_strict",
       "open_brain_dashboard_tsconfig_extends"
     ],
-    "217": [
+    "216": [
       "shared_helpers_applyevergreentag",
       "shared_helpers_asinteger",
       "shared_helpers_asnumber",
@@ -5196,7 +5182,7 @@
       "shared_helpers_sanitizemetadata",
       "shared_helpers_sanitizetype"
     ],
-    "218": [
+    "217": [
       "src_client",
       "src_client_agentmemoryclient_getrecalltrace",
       "src_client_agentmemoryclient_inspectmemory",
@@ -5211,7 +5197,7 @@
       "src_client_requestinput",
       "src_client_requestoptions"
     ],
-    "219": [
+    "218": [
       "dashboards_open-brain-dashboard-next_readme",
       "dashboards_open-brain-dashboard-pro_readme",
       "docs_01-getting-started",
@@ -5225,7 +5211,7 @@
       "docs_video-walkthrough-script",
       "docs_workflow-pipeline"
     ],
-    "220": [
+    "219": [
       "dashboards_open_brain_dashboard_src_lib_api_ts_lib_api",
       "dashboards_open_brain_dashboard_src_lib_api_ts_lib_api_capturethought",
       "lib_api_apithought",
@@ -5239,7 +5225,7 @@
       "lib_api_parsestatsfromtext",
       "lib_api_parsethoughtsfromtext"
     ],
-    "221": [
+    "220": [
       "grok_export_import_package",
       "grok_export_import_package_dependencies",
       "grok_export_import_package_dependencies_dotenv",
@@ -5253,7 +5239,7 @@
       "grok_export_import_package_type",
       "grok_export_import_package_version"
     ],
-    "222": [
+    "221": [
       "instagram_import_package",
       "instagram_import_package_dependencies",
       "instagram_import_package_dependencies_dotenv",
@@ -5267,7 +5253,7 @@
       "instagram_import_package_type",
       "instagram_import_package_version"
     ],
-    "223": [
+    "222": [
       "integrations_chrome_capture_extension_lib_gemini_sync_state",
       "integrations_chrome_capture_extension_lib_gemini_sync_state_cantransition",
       "integrations_chrome_capture_extension_lib_gemini_sync_state_createinitialstate",
@@ -5281,7 +5267,7 @@
       "integrations_chrome_capture_extension_lib_gemini_sync_state_transition",
       "integrations_chrome_capture_extension_lib_gemini_sync_state_wasgenuinelyingested"
     ],
-    "224": [
+    "223": [
       "integrations_kubernetes_deployment_index",
       "integrations_kubernetes_deployment_index_app",
       "integrations_kubernetes_deployment_index_buildserver",
@@ -5295,7 +5281,7 @@
       "integrations_kubernetes_deployment_index_thoughttitle",
       "integrations_kubernetes_deployment_index_thoughturl"
     ],
-    "225": [
+    "224": [
       "journals_blogger_import_package",
       "journals_blogger_import_package_dependencies",
       "journals_blogger_import_package_dependencies_dotenv",
@@ -5309,7 +5295,7 @@
       "journals_blogger_import_package_type",
       "journals_blogger_import_package_version"
     ],
-    "226": [
+    "225": [
       "lint_sweep_lint_sweep_envvar",
       "lint_sweep_lint_sweep_envvarwithlegacy",
       "lint_sweep_lint_sweep_expandhome",
@@ -5323,7 +5309,7 @@
       "lint_sweep_lint_sweep_tier2graphlint",
       "lint_sweep_lint_sweep_tier3llmlint"
     ],
-    "227": [
+    "226": [
       "ob1_agent_dashboard_generate_guide",
       "ob1_agent_dashboard_generate_guide_brandpath",
       "ob1_agent_dashboard_generate_guide_buildhtml",
@@ -5337,7 +5323,7 @@
       "ob1_agent_dashboard_generate_guide_rendersection",
       "ob1_agent_dashboard_generate_guide_reporoot"
     ],
-    "228": [
+    "227": [
       "recipes_brain_backup_backup_brain",
       "recipes_brain_backup_backup_brain_envvars",
       "recipes_brain_backup_backup_brain_exporttable",
@@ -5351,7 +5337,7 @@
       "recipes_brain_backup_backup_brain_tables",
       "recipes_brain_backup_backup_brain_today"
     ],
-    "229": [
+    "228": [
       "source_filtering_backfill_metadata",
       "source_filtering_backfill_metadata_args",
       "source_filtering_backfill_metadata_extractmetadata",
@@ -5365,7 +5351,7 @@
       "source_filtering_backfill_metadata_thought",
       "source_filtering_backfill_metadata_updatethoughtmetadata"
     ],
-    "230": [
+    "229": [
       "x_twitter_import_package",
       "x_twitter_import_package_dependencies",
       "x_twitter_import_package_dependencies_dotenv",
@@ -5378,6 +5364,19 @@
       "x_twitter_import_package_scripts_import",
       "x_twitter_import_package_type",
       "x_twitter_import_package_version"
+    ],
+    "230": [
+      ".github_workflows_ob1_pr_followups",
+      ".github_workflows_ob1_pr_gate",
+      ".github_workflows_release_drafter",
+      ".github_workflows_update_readme_contributions",
+      ".github_workflows_welcome_new_contributors",
+      "dashboards_ob1_canonical_landing_llms",
+      "dashboards_ob1_canonical_landing_robots",
+      "dashboards_ob1_template_README",
+      "dashboards_open_brain_dashboard_next_EXTENSIONS",
+      "dashboards_open_brain_dashboard_src_app",
+      "dashboards_open_brain_dashboard_src_lib_assets_favicon_svg"
     ],
     "231": [
       "components_sidebar_navitem",
@@ -5541,6 +5540,18 @@
       "provenance_chains_backfill_sbrpc"
     ],
     "244": [
+      "schemas__template_README",
+      "schemas_brain-stats-daily_dashboard-snippets_README",
+      "schemas_crm-person-tiers_dashboard-snippets_README",
+      "schemas_per-agent-identity_README",
+      "schemas_readwise-books_README",
+      "schemas_recency-boosted-match-thoughts_README",
+      "schemas_smart-ingest_README",
+      "schemas_text-search-trgm_README",
+      "schemas_thought-audit_README",
+      "schemas_typed-reasoning-edges_README"
+    ],
+    "245": [
       "server_test_stateless",
       "server_test_stateless_app",
       "server_test_stateless_assert",
@@ -5552,7 +5563,7 @@
       "server_test_stateless_port",
       "server_test_stateless_readmcpbody"
     ],
-    "245": [
+    "246": [
       "dashboards_open_brain_dashboard_src_lib_types_ts_lib_types",
       "dashboards_open_brain_dashboard_src_lib_types_ts_lib_types_thought",
       "dashboards_open_brain_dashboard_src_lib_types_ts_lib_types_thought_types",
@@ -5563,7 +5574,7 @@
       "recipes_vercel_neon_telegram_src_lib_types_ts_lib_types_thoughtmetadata",
       "tests_types_test"
     ],
-    "246": [
+    "247": [
       "fingerprint_dedup_backfill_package",
       "fingerprint_dedup_backfill_package_description",
       "fingerprint_dedup_backfill_package_name",
@@ -5574,7 +5585,7 @@
       "fingerprint_dedup_backfill_package_type",
       "fingerprint_dedup_backfill_package_version"
     ],
-    "247": [
+    "248": [
       "google_activity_import_package",
       "google_activity_import_package_dependencies",
       "google_activity_import_package_description",
@@ -5585,7 +5596,7 @@
       "google_activity_import_package_type",
       "google_activity_import_package_version"
     ],
-    "248": [
+    "249": [
       "integrations_hermes_agent_memory_plugin_init_rationale_320",
       "integrations_hermes_agent_memory_plugin_init_read_hermes_active_model",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_rationale_290",
@@ -5596,7 +5607,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testreadhermesactivemodel_test_returns_empty_when_no_config",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testreadhermesactivemodel_test_treats_provider_auto_as_empty"
     ],
-    "249": [
+    "250": [
       "lib_sensitivity_patterns",
       "lib_sensitivity_patterns_compile",
       "lib_sensitivity_patterns_dirname",
@@ -5607,7 +5618,7 @@
       "thought_enrichment_sensitivity_patterns_personal",
       "thought_enrichment_sensitivity_patterns_restricted"
     ],
-    "250": [
+    "251": [
       "ob1_agent_dashboard_prepare_video_assets",
       "ob1_agent_dashboard_prepare_video_assets_audioout",
       "ob1_agent_dashboard_prepare_video_assets_brandout",
@@ -5618,7 +5629,7 @@
       "ob1_agent_dashboard_prepare_video_assets_reporoot",
       "ob1_agent_dashboard_prepare_video_assets_screenshotout"
     ],
-    "251": [
+    "252": [
       "open_brain_dashboard_pro_package",
       "open_brain_dashboard_pro_package_name",
       "open_brain_dashboard_pro_package_private",
@@ -5629,7 +5640,7 @@
       "open_brain_dashboard_pro_package_scripts_start",
       "open_brain_dashboard_pro_package_version"
     ],
-    "252": [
+    "253": [
       "repo_learning_coach_package_scripts",
       "repo_learning_coach_package_scripts_build",
       "repo_learning_coach_package_scripts_dev",
@@ -5640,7 +5651,7 @@
       "repo_learning_coach_package_scripts_serve",
       "repo_learning_coach_package_scripts_sync"
     ],
-    "253": [
+    "254": [
       "smoke_cleanup_test_memory",
       "smoke_cleanup_test_memory_apply",
       "smoke_cleanup_test_memory_endpoint",
@@ -5651,7 +5662,7 @@
       "smoke_cleanup_test_memory_requiredenv",
       "smoke_cleanup_test_memory_result"
     ],
-    "254": [
+    "255": [
       "after_index",
       "after_index_app",
       "after_index_corsheaders",
@@ -5661,7 +5672,7 @@
       "after_server",
       "after_server_server"
     ],
-    "255": [
+    "256": [
       "clawhub_banner_summary",
       "clawhub_banner_summary_generated_at",
       "clawhub_banner_summary_gpt_image_2_duration_ms",
@@ -5671,7 +5682,7 @@
       "clawhub_banner_summary_models_gpt_image_2",
       "clawhub_banner_summary_prompt"
     ],
-    "256": [
+    "257": [
       "dashboards_open_brain_dashboard_pro_lib_auth_ts_lib_auth",
       "dashboards_open_brain_dashboard_pro_lib_auth_ts_lib_auth_autherror",
       "dashboards_open_brain_dashboard_pro_lib_auth_ts_lib_auth_autherror_constructor",
@@ -5681,7 +5692,7 @@
       "dashboards_open_brain_dashboard_pro_lib_auth_ts_lib_auth_sessiondata",
       "dashboards_open_brain_dashboard_pro_lib_auth_ts_lib_auth_sessionoptions"
     ],
-    "257": [
+    "258": [
       "extensions_professional-crm",
       "integrations_agent-memory-api",
       "integrations_chrome-capture-extension",
@@ -5691,7 +5702,7 @@
       "integrations_enhanced-mcp",
       "integrations_open-brain-rest"
     ],
-    "258": [
+    "259": [
       "hero_16x9_summary",
       "hero_16x9_summary_generated_at",
       "hero_16x9_summary_gpt_image_2_duration_ms",
@@ -5701,7 +5712,7 @@
       "hero_16x9_summary_models_gpt_image_2",
       "hero_16x9_summary_prompt"
     ],
-    "259": [
+    "260": [
       "integrations_chrome_capture_extension_content_scripts_extractor_chatgpt",
       "integrations_chrome_capture_extension_content_scripts_extractor_chatgpt_collectallmessages",
       "integrations_chrome_capture_extension_content_scripts_extractor_chatgpt_extractconversationid",
@@ -5711,7 +5722,7 @@
       "integrations_chrome_capture_extension_content_scripts_extractor_chatgpt_iswithincomposer",
       "integrations_chrome_capture_extension_content_scripts_extractor_chatgpt_sortbydocumentorder"
     ],
-    "260": [
+    "261": [
       "integrations_chrome_capture_extension_content_scripts_extractor_gemini",
       "integrations_chrome_capture_extension_content_scripts_extractor_gemini_collectmessages",
       "integrations_chrome_capture_extension_content_scripts_extractor_gemini_extractconversationid",
@@ -5721,7 +5732,7 @@
       "integrations_chrome_capture_extension_content_scripts_extractor_gemini_iswithincomposer",
       "integrations_chrome_capture_extension_content_scripts_extractor_gemini_sortbydocumentorder"
     ],
-    "261": [
+    "262": [
       "integrations_chrome_capture_extension_lib_extractor_gemini_history",
       "integrations_chrome_capture_extension_lib_extractor_gemini_history_decodebytes",
       "integrations_chrome_capture_extension_lib_extractor_gemini_history_extractgeminihistory",
@@ -5731,7 +5742,7 @@
       "integrations_chrome_capture_extension_lib_extractor_gemini_history_parsehistorypayload",
       "integrations_chrome_capture_extension_lib_extractor_gemini_history_stripleadingprefix"
     ],
-    "262": [
+    "263": [
       "integrations_open_brain_rest_smoke_live_smoke_mjs_smoke_live_smoke",
       "integrations_open_brain_rest_smoke_live_smoke_mjs_smoke_live_smoke_assert",
       "integrations_open_brain_rest_smoke_live_smoke_mjs_smoke_live_smoke_fail",
@@ -5741,7 +5752,7 @@
       "smoke_live_smoke_createdids",
       "smoke_live_smoke_keep"
     ],
-    "263": [
+    "264": [
       "loop_card_summary",
       "loop_card_summary_generated_at",
       "loop_card_summary_gpt_image_2_duration_ms",
@@ -5751,7 +5762,7 @@
       "loop_card_summary_models_gpt_image_2",
       "loop_card_summary_prompt"
     ],
-    "264": [
+    "265": [
       "open_brain_dashboard_pro_package_devdependencies",
       "open_brain_dashboard_pro_package_devdependencies_eslint",
       "open_brain_dashboard_pro_package_devdependencies_tailwindcss",
@@ -5760,16 +5771,6 @@
       "open_brain_dashboard_pro_package_devdependencies_typescript",
       "repo_learning_coach_eslint_config",
       "repo_learning_coach_package_devdependencies_types_react"
-    ],
-    "265": [
-      "recipes_",
-      "recipes_adaptive_capture_classification",
-      "recipes_atomizer",
-      "recipes_auto_capture",
-      "recipes_brain_smoke_test",
-      "recipes_bring_your_own_context",
-      "recipes_claudeception",
-      "recipes_content_fingerprint_dedup"
     ],
     "266": [
       "repo_learning_coach_package_dependencies",
@@ -5857,6 +5858,15 @@
       "household_knowledge_deno_imports_zod"
     ],
     "275": [
+      "integrations__openclaw_agent_memory__claw_hub_publishing",
+      "integrations__openclaw_agent_memory__plugin__readme",
+      "integrations__openclaw_agent_memory__plugin__skills__openclaw_agent_memory__skill",
+      "integrations__openclaw_agent_memory__release_notes_0_1_0",
+      "integrations__openclaw_agent_memory__release_notes_0_1_1",
+      "integrations__openclaw_agent_memory__release_notes_0_1_5",
+      "integrations__openclaw_agent_memory__release_notes_0_1_6"
+    ],
+    "276": [
       "integrations_chrome_capture_extension_lib_tests_gemini_sync_state_test",
       "integrations_chrome_capture_extension_lib_tests_gemini_sync_state_test_dirname",
       "integrations_chrome_capture_extension_lib_tests_gemini_sync_state_test_filename",
@@ -5865,7 +5875,7 @@
       "integrations_chrome_capture_extension_lib_tests_gemini_sync_state_test_loadstatemodule",
       "integrations_chrome_capture_extension_lib_tests_gemini_sync_state_test_statemod"
     ],
-    "276": [
+    "277": [
       "integrations_chrome_capture_extension_popup_config",
       "integrations_chrome_capture_extension_popup_config_ensurehostpermission",
       "integrations_chrome_capture_extension_popup_config_loadexistingconfig",
@@ -5874,7 +5884,7 @@
       "integrations_chrome_capture_extension_popup_config_showresult",
       "integrations_chrome_capture_extension_popup_config_testconnection"
     ],
-    "277": [
+    "278": [
       "integrations_consolidation_workers_deno",
       "integrations_consolidation_workers_deno_compileroptions",
       "integrations_consolidation_workers_deno_compileroptions_strict",
@@ -5883,7 +5893,7 @@
       "integrations_consolidation_workers_deno_tasks",
       "integrations_consolidation_workers_deno_tasks_check"
     ],
-    "278": [
+    "279": [
       "integrations_delete_thought_mcp_deno",
       "integrations_delete_thought_mcp_deno_imports",
       "integrations_delete_thought_mcp_deno_imports_hono",
@@ -5892,7 +5902,7 @@
       "integrations_delete_thought_mcp_deno_imports_supabase_supabase_js",
       "integrations_delete_thought_mcp_deno_imports_zod"
     ],
-    "279": [
+    "280": [
       "integrations_enhanced_mcp_deno",
       "integrations_enhanced_mcp_deno_imports",
       "integrations_enhanced_mcp_deno_imports_hono",
@@ -5901,7 +5911,7 @@
       "integrations_enhanced_mcp_deno_imports_supabase_supabase_js",
       "integrations_enhanced_mcp_deno_imports_zod"
     ],
-    "280": [
+    "281": [
       "integrations_smart_ingest_deno",
       "integrations_smart_ingest_deno_imports",
       "integrations_smart_ingest_deno_imports_supabase_supabase_js",
@@ -5910,7 +5920,7 @@
       "integrations_smart_ingest_deno_tasks_fmt",
       "integrations_smart_ingest_deno_tasks_lint"
     ],
-    "281": [
+    "282": [
       "job_hunt_deno",
       "job_hunt_deno_imports",
       "job_hunt_deno_imports_hono",
@@ -5919,7 +5929,7 @@
       "job_hunt_deno_imports_supabase_supabase_js",
       "job_hunt_deno_imports_zod"
     ],
-    "282": [
+    "283": [
       "kubernetes_deployment_deno",
       "kubernetes_deployment_deno_imports",
       "kubernetes_deployment_deno_imports_hono",
@@ -5928,7 +5938,7 @@
       "kubernetes_deployment_deno_imports_postgres",
       "kubernetes_deployment_deno_imports_zod"
     ],
-    "283": [
+    "284": [
       "meal_planning_deno",
       "meal_planning_deno_imports",
       "meal_planning_deno_imports_hono",
@@ -5937,7 +5947,7 @@
       "meal_planning_deno_imports_supabase_supabase_js",
       "meal_planning_deno_imports_zod"
     ],
-    "284": [
+    "285": [
       "ob1_agent_dashboard_generate_voiceover",
       "ob1_agent_dashboard_generate_voiceover_audiopath",
       "ob1_agent_dashboard_generate_voiceover_buffer",
@@ -5946,7 +5956,7 @@
       "ob1_agent_dashboard_generate_voiceover_pickvoice",
       "wiki_compiler_compile_wiki_script_paths"
     ],
-    "285": [
+    "286": [
       "ob_graph_deno",
       "ob_graph_deno_imports",
       "ob_graph_deno_imports_hono",
@@ -5955,7 +5965,7 @@
       "ob_graph_deno_imports_supabase_supabase_js",
       "ob_graph_deno_imports_zod"
     ],
-    "286": [
+    "287": [
       "professional_crm_deno",
       "professional_crm_deno_imports",
       "professional_crm_deno_imports_hono",
@@ -5964,7 +5974,7 @@
       "professional_crm_deno_imports_supabase_supabase_js",
       "professional_crm_deno_imports_zod"
     ],
-    "287": [
+    "288": [
       "readwise_capture_index",
       "readwise_capture_index_fetchbook",
       "readwise_capture_index_getembedding",
@@ -5973,7 +5983,7 @@
       "readwise_capture_index_resolvebook",
       "readwise_capture_index_supabase"
     ],
-    "288": [
+    "289": [
       "scripts_build_client_exports",
       "scripts_build_client_exports_build_exports",
       "scripts_build_client_exports_build_zip_from_dir",
@@ -5982,7 +5992,7 @@
       "scripts_build_client_exports_reset_dir",
       "skills_heavy_file_ingestion_scripts_build_client_exports_py_path"
     ],
-    "289": [
+    "290": [
       "server_deno",
       "server_deno_imports",
       "server_deno_imports_hono",
@@ -5991,7 +6001,7 @@
       "server_deno_imports_supabase_supabase_js",
       "server_deno_imports_zod"
     ],
-    "290": [
+    "291": [
       "wiki_page",
       "wiki_page_parsearticle",
       "wiki_page_readarticles",
@@ -6000,7 +6010,7 @@
       "wiki_page_wikiarticlemeta",
       "wiki_page_wikiindexpage"
     ],
-    "291": [
+    "292": [
       "work_operating_model_activation_deno",
       "work_operating_model_activation_deno_imports",
       "work_operating_model_activation_deno_imports_hono",
@@ -6009,7 +6019,7 @@
       "work_operating_model_activation_deno_imports_supabase_supabase_js",
       "work_operating_model_activation_deno_imports_zod"
     ],
-    "292": [
+    "293": [
       "after_cache",
       "after_cache_entry",
       "after_cache_getcached",
@@ -6017,7 +6027,7 @@
       "after_cache_setcached",
       "after_cache_store"
     ],
-    "293": [
+    "294": [
       "audio_voiceover_meta",
       "audio_voiceover_meta_bytes",
       "audio_voiceover_meta_model_id",
@@ -6025,7 +6035,7 @@
       "audio_voiceover_meta_voice_id",
       "audio_voiceover_meta_voice_name"
     ],
-    "294": [
+    "295": [
       "components_sidebarshell",
       "dashboards_open_brain_dashboard_next_app_layout_tsx_app_layout",
       "dashboards_open_brain_dashboard_next_app_layout_tsx_app_layout_geistmono",
@@ -6033,7 +6043,7 @@
       "dashboards_open_brain_dashboard_next_app_layout_tsx_app_layout_metadata",
       "dashboards_open_brain_dashboard_next_app_layout_tsx_app_layout_rootlayout"
     ],
-    "295": [
+    "296": [
       "contracts_recall_response_schema_schema_version_const",
       "contracts_recall_schema_name_const",
       "contracts_recall_schema_properties_name",
@@ -6041,7 +6051,7 @@
       "contracts_writeback_schema_properties_name",
       "src_tool_schemas_schemaversion"
     ],
-    "296": [
+    "297": [
       "docs_assets_agent_memory_promotional_generated_backgrounds_social_square_openai_gpt_image_2_request_json_openai_gpt_image_2_request",
       "docs_assets_agent_memory_promotional_generated_backgrounds_social_square_openai_gpt_image_2_request_json_openai_gpt_image_2_request_model",
       "docs_assets_agent_memory_promotional_generated_backgrounds_social_square_openai_gpt_image_2_request_json_openai_gpt_image_2_request_output_format",
@@ -6049,7 +6059,7 @@
       "docs_assets_agent_memory_promotional_generated_backgrounds_social_square_openai_gpt_image_2_request_json_openai_gpt_image_2_request_quality",
       "docs_assets_agent_memory_promotional_generated_backgrounds_social_square_openai_gpt_image_2_request_json_openai_gpt_image_2_request_size"
     ],
-    "297": [
+    "298": [
       "docs_drafts_agent-memory-branding-dna",
       "docs_drafts_agent-memory-staging-deploy-notes",
       "docs_drafts_discord-chunking-discussion",
@@ -6057,7 +6067,7 @@
       "docs_walkthroughs_ob1-agent-dashboard_output_OB1-Agent-Dashboard-Walkthrough.html",
       "docs_walkthroughs_ob1-agent-dashboard_output_audio_voiceover-script.txt"
     ],
-    "298": [
+    "299": [
       "infographic_generator_generate",
       "infographic_generator_generate_extract_prompts",
       "infographic_generator_generate_generate_image",
@@ -6065,21 +6075,13 @@
       "infographic_generator_generate_rationale_43",
       "infographic_generator_generate_rationale_83"
     ],
-    "299": [
+    "300": [
       "integrations_chrome_capture_extension_lib_sensitivity",
       "integrations_chrome_capture_extension_lib_sensitivity_compilegroup",
       "integrations_chrome_capture_extension_lib_sensitivity_containsrestrictedcontent",
       "integrations_chrome_capture_extension_lib_sensitivity_detectsensitivity",
       "integrations_chrome_capture_extension_lib_sensitivity_getpatternsurl",
       "integrations_chrome_capture_extension_lib_sensitivity_loadpatterns"
-    ],
-    "300": [
-      "lib_auth_extractkey",
-      "lib_auth_requireauth",
-      "lib_auth_validateaccesskey",
-      "recipes_vercel_neon_telegram_src_lib_auth_ts_lib_auth",
-      "tests_auth_test",
-      "tests_auth_test_test_key"
     ],
     "301": [
       "open_brain_dashboard_pro_package_dependencies",
@@ -6090,6 +6092,22 @@
       "open_brain_dashboard_pro_package_dependencies_server_only"
     ],
     "302": [
+      "skills__template_README",
+      "skills_auto-capture-claude-code_README",
+      "skills_auto-capture_SKILL.md",
+      "skills_autodream-brain-sync_README",
+      "skills_claudeception_README",
+      "skills_competitive-analysis_SKILL.md"
+    ],
+    "303": [
+      "skills_deal-memo-drafting",
+      "skills_financial-model-review",
+      "skills_heavy-file-ingestion",
+      "skills_meeting-synthesis",
+      "skills_n-agentic-harnesses",
+      "skills_work-operating-model"
+    ],
+    "304": [
       "update_thought_mcp_index",
       "update_thought_mcp_index_app",
       "update_thought_mcp_index_corsheaders",
@@ -6097,823 +6115,900 @@
       "update_thought_mcp_index_server",
       "update_thought_mcp_index_supabase"
     ],
-    "303": [
+    "305": [
       "agent_memory_api_deno",
       "agent_memory_api_deno_imports",
       "agent_memory_api_deno_imports_hono",
       "agent_memory_api_deno_imports_supabase_supabase_js",
       "agent_memory_api_deno_imports_zod"
     ],
-    "304": [
+    "306": [
       "components_kanbansummary_status_colors",
       "dashboards_open_brain_dashboard_next_app_ingest_page_tsx_ingest_page",
       "dashboards_open_brain_dashboard_next_app_ingest_page_tsx_ingest_page_addtobrainpage",
       "dashboards_open_brain_dashboard_pro_app_ingest_page_tsx_ingest_page",
       "dashboards_open_brain_dashboard_pro_app_ingest_page_tsx_ingest_page_addtobrainpage"
     ],
-    "305": [
+    "307": [
+      "contracts_writeback_schema_confidence_maximum",
+      "contracts_writeback_schema_properties_confidence",
+      "contracts_writeback_schema_properties_stale_after_days",
+      "contracts_writeback_schema_properties_ttl_days",
+      "contracts_writeback_schema_ttl_days_minimum"
+    ],
+    "308": [
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route",
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route_delete",
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route_get",
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route_hashpassphrase",
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route_post"
     ],
-    "306": [
+    "309": [
       "dashboards_open_brain_dashboard_next_components_thoughteditor_tsx_components_thoughteditor_importance_options",
       "dashboards_open_brain_dashboard_next_components_thoughteditor_tsx_components_thoughteditor_types",
       "dashboards_open_brain_dashboard_pro_components_thoughteditor_tsx_components_thoughteditor",
       "dashboards_open_brain_dashboard_pro_components_thoughteditor_tsx_components_thoughteditor_importance_options",
       "dashboards_open_brain_dashboard_pro_components_thoughteditor_tsx_components_thoughteditor_types"
     ],
-    "307": [
+    "310": [
       "dashboards_open_brain_dashboard_pro_app_api_restricted_route_ts_restricted_route",
       "dashboards_open_brain_dashboard_pro_app_api_restricted_route_ts_restricted_route_delete",
       "dashboards_open_brain_dashboard_pro_app_api_restricted_route_ts_restricted_route_get",
       "dashboards_open_brain_dashboard_pro_app_api_restricted_route_ts_restricted_route_hashpassphrase",
       "dashboards_open_brain_dashboard_pro_app_api_restricted_route_ts_restricted_route_post"
     ],
-    "308": [
+    "311": [
       "dashboards_open_brain_dashboard_pro_app_layout_tsx_app_layout",
       "dashboards_open_brain_dashboard_pro_app_layout_tsx_app_layout_geistmono",
       "dashboards_open_brain_dashboard_pro_app_layout_tsx_app_layout_geistsans",
       "dashboards_open_brain_dashboard_pro_app_layout_tsx_app_layout_metadata",
       "dashboards_open_brain_dashboard_pro_app_layout_tsx_app_layout_rootlayout"
     ],
-    "309": [
+    "312": [
       "docs_assets_agent-memory_exports_taskflow-work-log-handoff",
       "docs_assets_agent-memory_exports_trust-ladder",
       "docs_assets_agent-memory_exports_writeback-lifecycle",
       "docs_assets_agent-memory_promotional_README",
       "docs_assets_agent-memory_screenshots_README"
     ],
-    "310": [
+    "313": [
       "extensions_family-calendar_README",
       "extensions_home-maintenance_README",
       "extensions_household-knowledge_README",
       "extensions_job-hunt_README",
       "extensions_meal-planning_README"
     ],
-    "311": [
+    "314": [
       "integrations_chrome_capture_extension_lib_api_client",
       "integrations_chrome_capture_extension_lib_api_client_apifetch",
       "integrations_chrome_capture_extension_lib_api_client_healthcheck",
       "integrations_chrome_capture_extension_lib_api_client_ingestdocument",
       "integrations_chrome_capture_extension_lib_api_client_parseerrorbody"
     ],
-    "312": [
+    "315": [
       "integrations_delete_thought_mcp_index",
       "integrations_delete_thought_mcp_index_app",
       "integrations_delete_thought_mcp_index_corsheaders",
       "integrations_delete_thought_mcp_index_server",
       "integrations_delete_thought_mcp_index_supabase"
     ],
-    "313": [
+    "316": [
       "open_brain_rest_deno",
       "open_brain_rest_deno_imports",
       "open_brain_rest_deno_imports_hono",
       "open_brain_rest_deno_imports_supabase_supabase_js",
       "open_brain_rest_deno_imports_zod"
     ],
-    "314": [
+    "317": [
       "open_brain_rest_metadata",
       "open_brain_rest_metadata_description",
       "open_brain_rest_metadata_name",
       "open_brain_rest_metadata_status",
       "open_brain_rest_metadata_type"
     ],
-    "315": [
+    "318": [
+      "primitives__deploy_edge_function__readme",
+      "primitives__remote_mcp__readme",
+      "primitives__shared_mcp__readme",
+      "primitives__template__readme",
+      "primitives__troubleshooting__readme"
+    ],
+    "319": [
       "provenance_chains_mcp_tools",
       "provenance_chains_mcp_tools_buildfromrow",
       "provenance_chains_mcp_tools_derivativerow",
       "provenance_chains_mcp_tools_node",
       "provenance_chains_mcp_tools_tracerow"
     ],
-    "316": [
+    "320": [
       "repo_learning_coach_package",
       "repo_learning_coach_package_name",
       "repo_learning_coach_package_private",
       "repo_learning_coach_package_type",
       "repo_learning_coach_package_version"
     ],
-    "317": [
+    "321": [
       "atomizer_test_atomize",
       "atomizer_test_atomize_atomizeopts",
       "atomizer_test_atomize_dirname",
       "atomizer_test_atomize_env"
     ],
-    "318": [
+    "322": [
       "components_generateautobiographybutton",
       "components_generateautobiographybutton_generateautobiographyactionstate",
       "components_generateautobiographybutton_submitbutton",
       "components_generateautobiographybutton_yearoptions"
     ],
-    "319": [
+    "323": [
       "dashboards_open_brain_dashboard_next_app_api_ingest_route_ts_ingest_route",
       "dashboards_open_brain_dashboard_next_app_api_ingest_route_ts_ingest_route_get",
       "dashboards_open_brain_dashboard_next_app_api_ingest_route_ts_ingest_route_post",
       "dashboards_open_brain_dashboard_next_app_api_ingest_route_ts_ingest_route_shouldextract"
     ],
-    "320": [
+    "324": [
       "dashboards_open_brain_dashboard_next_app_search_page_tsx_search_page",
       "dashboards_open_brain_dashboard_next_app_search_page_tsx_search_page_searchpage",
       "dashboards_open_brain_dashboard_next_app_search_page_tsx_search_page_searchresult",
       "dashboards_open_brain_dashboard_next_app_search_page_tsx_search_page_searchstate"
     ],
-    "321": [
+    "325": [
       "dashboards_open_brain_dashboard_pro_app_api_ingest_route_ts_ingest_route",
       "dashboards_open_brain_dashboard_pro_app_api_ingest_route_ts_ingest_route_get",
       "dashboards_open_brain_dashboard_pro_app_api_ingest_route_ts_ingest_route_post",
       "dashboards_open_brain_dashboard_pro_app_api_ingest_route_ts_ingest_route_shouldextract"
     ],
-    "322": [
+    "326": [
       "dashboards_open_brain_dashboard_pro_app_search_page_tsx_search_page",
       "dashboards_open_brain_dashboard_pro_app_search_page_tsx_search_page_searchpage",
       "dashboards_open_brain_dashboard_pro_app_search_page_tsx_search_page_searchresult",
       "dashboards_open_brain_dashboard_pro_app_search_page_tsx_search_page_searchstate"
     ],
-    "323": [
+    "327": [
       "integrations_chrome_capture_extension_lib_fingerprint",
       "integrations_chrome_capture_extension_lib_fingerprint_compute",
       "integrations_chrome_capture_extension_lib_fingerprint_normalize",
       "integrations_chrome_capture_extension_lib_fingerprint_sha256"
     ],
-    "324": [
+    "328": [
+      "recipes_repo-learning-coach_curriculum_lessons_01-orient-the-learning-coach",
+      "recipes_repo-learning-coach_curriculum_lessons_02-separate-content-from-runtime",
+      "recipes_repo-learning-coach_curriculum_lessons_03-capture-durable-learning",
+      "recipes_repo-learning-coach_index"
+    ],
+    "329": [
+      "recipes_repo-learning-coach_research_01-what-the-recipe-builds",
+      "recipes_repo-learning-coach_research_02-content-contract",
+      "recipes_repo-learning-coach_research_03-brain-bridge",
+      "recipes_research-to-decision-workflow_workflow-template"
+    ],
+    "330": [
       "schemas_brain_stats_daily_dashboard_snippets_heatmapsourcefilter",
       "schemas_brain_stats_daily_dashboard_snippets_heatmapsourcefilter_heatmap_source_options",
       "schemas_brain_stats_daily_dashboard_snippets_heatmapsourcefilter_heatmapsourcefilter",
       "schemas_brain_stats_daily_dashboard_snippets_heatmapsourcefilter_heatmapsourceoption"
     ],
-    "325": [
+    "331": [
       "settings_page",
       "settings_page_brainstatus",
       "settings_page_settingspage",
       "settings_page_statcard"
     ],
-    "326": [
+    "332": [
       "skills_n-agentic-harnesses_references_08-design-and-build-playbook",
       "skills_n-agentic-harnesses_references_09-evaluation-and-improvement-playbook",
       "skills_n-agentic-harnesses_references_10-example-requests-and-output-patterns",
       "skills_n-agentic-harnesses_references_11-codex-translation-notes"
     ],
-    "327": [
+    "333": [
       "auditor_deno",
       "auditor_deno_imports",
       "auditor_deno_imports_supabase_functions_js"
     ],
-    "328": [
+    "334": [
       "dashboards_open_brain_dashboard_next_app_duplicates_page_tsx_duplicates_page",
       "dashboards_open_brain_dashboard_next_app_duplicates_page_tsx_duplicates_page_duplicatespage",
       "dashboards_open_brain_dashboard_next_app_duplicates_page_tsx_duplicates_page_selection"
     ],
-    "329": [
+    "335": [
       "dashboards_open_brain_dashboard_next_app_login_page_tsx_login_page",
       "dashboards_open_brain_dashboard_next_app_login_page_tsx_login_page_loginaction",
       "dashboards_open_brain_dashboard_next_app_login_page_tsx_login_page_loginpage"
     ],
-    "330": [
+    "336": [
       "dashboards_open_brain_dashboard_next_app_thoughts_page_tsx_thoughts_page",
       "dashboards_open_brain_dashboard_next_app_thoughts_page_tsx_thoughts_page_thoughtspage",
       "dashboards_open_brain_dashboard_next_app_thoughts_page_tsx_thoughts_page_types"
     ],
-    "331": [
+    "337": [
       "dashboards_open_brain_dashboard_next_components_connectionspanel_tsx_components_connectionspanel_connection",
       "dashboards_open_brain_dashboard_pro_components_connectionspanel_tsx_components_connectionspanel",
       "dashboards_open_brain_dashboard_pro_components_connectionspanel_tsx_components_connectionspanel_connection"
     ],
-    "332": [
+    "338": [
       "dashboards_open_brain_dashboard_next_components_thoughtsfilter_tsx_components_thoughtsfilter_importance_options",
       "dashboards_open_brain_dashboard_pro_components_thoughtsfilter_tsx_components_thoughtsfilter",
       "dashboards_open_brain_dashboard_pro_components_thoughtsfilter_tsx_components_thoughtsfilter_importance_options"
     ],
-    "333": [
+    "339": [
       "dashboards_open_brain_dashboard_pro_app_duplicates_page_tsx_duplicates_page",
       "dashboards_open_brain_dashboard_pro_app_duplicates_page_tsx_duplicates_page_duplicatespage",
       "dashboards_open_brain_dashboard_pro_app_duplicates_page_tsx_duplicates_page_selection"
     ],
-    "334": [
+    "340": [
       "dashboards_open_brain_dashboard_pro_app_login_page_tsx_login_page",
       "dashboards_open_brain_dashboard_pro_app_login_page_tsx_login_page_loginaction",
       "dashboards_open_brain_dashboard_pro_app_login_page_tsx_login_page_loginpage"
     ],
-    "335": [
+    "341": [
       "dashboards_open_brain_dashboard_pro_app_thoughts_page_tsx_thoughts_page",
       "dashboards_open_brain_dashboard_pro_app_thoughts_page_tsx_thoughts_page_thoughtspage",
       "dashboards_open_brain_dashboard_pro_app_thoughts_page_tsx_thoughts_page_types"
     ],
-    "336": [
+    "342": [
       "docs_assets_agent_memory_brand_ob1_beanie_source_outline_png",
       "docs_assets_agent_memory_brand_ob1_logo_png",
       "docs_assets_agent_memory_brand_ob1_logo_wide_png"
     ],
-    "337": [
+    "343": [
       "entity_extraction_worker_deno",
       "entity_extraction_worker_deno_imports",
       "entity_extraction_worker_deno_imports_supabase_supabase_js"
     ],
-    "338": [
+    "344": [
+      "integrations__chrome_capture_extension__docs__screenshots__readme",
+      "integrations__chrome_capture_extension__icons__readme",
+      "integrations__template__readme"
+    ],
+    "345": [
       "integrations_entity-extraction-worker_readme",
       "integrations_hermes-agent-memory_readme",
       "integrations_openclaw-agent-memory_readme"
     ],
-    "339": [
+    "346": [
       "integrations_kubernetes-deployment_readme",
       "integrations_open-brain-rest_readme",
       "integrations_rest-api_readme"
     ],
-    "340": [
+    "347": [
       "integrations_readwise-capture_readme",
       "integrations_slack-capture_readme",
       "integrations_smart-ingest_readme"
     ],
-    "341": [
+    "348": [
       "integrations_rest_api_deno",
       "integrations_rest_api_deno_imports",
       "integrations_rest_api_deno_imports_supabase_supabase_js"
     ],
-    "342": [
+    "349": [
       "open_brain_dashboard_pro_proxy",
       "open_brain_dashboard_pro_proxy_config",
       "open_brain_dashboard_pro_proxy_proxy"
     ],
-    "343": [
+    "350": [
+      "recipes__adaptive_capture_classification__classifier_prompt",
+      "recipes__adaptive_capture_classification__readme",
+      "recipes__template__readme"
+    ],
+    "351": [
+      "recipes__atomizer__readme",
+      "recipes__auto_capture__readme",
+      "recipes__brain_smoke_test__readme"
+    ],
+    "352": [
       "recipes_brain-backup_readme",
       "recipes_brain-health-monitoring_readme",
       "recipes_editorial-policy_readme"
     ],
-    "344": [
+    "353": [
       "repo_learning_coach_tsconfig",
       "repo_learning_coach_tsconfig_files",
       "repo_learning_coach_tsconfig_references"
     ],
-    "345": [
+    "354": [
+      "resources_README",
+      "resources_heavy-file-ingestion-claude-desktop.skill",
+      "resources_open-brain-companion.skill"
+    ],
+    "355": [
       "scripts_migrate",
       "scripts_migrate_migrate",
       "scripts_migrate_splitstatements"
     ],
-    "346": [
+    "356": [
       "slug_page",
       "slug_page_splitfrontmatter",
       "slug_page_wikiarticlepage"
     ],
-    "347": [
+    "357": [
       "src_app_d",
       "src_app_d_importmeta",
       "src_app_d_locals"
     ],
-    "348": [
+    "358": [
       "update_route",
       "update_route_post",
       "update_route_valid_statuses"
     ],
-    "349": [
+    "359": [
       "update_thought_mcp_deno",
       "update_thought_mcp_deno_imports",
       "update_thought_mcp_deno_imports_supabase_supabase_js"
     ],
-    "350": [
+    "360": [
       "after_410_stub",
       "after_410_stub_corsheaders"
     ],
-    "351": [
+    "361": [
       "before_per_request_server",
       "before_per_request_server_app"
     ],
-    "352": [
+    "362": [
       "clawhub_banner_prompt",
       "clawhub_banner_prompt_prompt"
     ],
-    "353": [
+    "363": [
       "dashboards_open_brain_dashboard_next_app_api_audit_delete_route_ts_delete_route",
       "dashboards_open_brain_dashboard_next_app_api_audit_delete_route_ts_delete_route_post"
     ],
-    "354": [
+    "364": [
       "dashboards_open_brain_dashboard_next_app_api_audit_route_ts_audit_route",
       "dashboards_open_brain_dashboard_next_app_api_audit_route_ts_audit_route_get"
     ],
-    "355": [
+    "365": [
       "dashboards_open_brain_dashboard_next_app_api_duplicates_resolve_route_ts_resolve_route",
       "dashboards_open_brain_dashboard_next_app_api_duplicates_resolve_route_ts_resolve_route_post"
     ],
-    "356": [
+    "366": [
       "dashboards_open_brain_dashboard_next_app_api_duplicates_route_ts_duplicates_route",
       "dashboards_open_brain_dashboard_next_app_api_duplicates_route_ts_duplicates_route_get"
     ],
-    "357": [
+    "367": [
       "dashboards_open_brain_dashboard_next_app_api_ingest_id_execute_route_ts_execute_route",
       "dashboards_open_brain_dashboard_next_app_api_ingest_id_execute_route_ts_execute_route_post"
     ],
-    "358": [
+    "368": [
       "dashboards_open_brain_dashboard_next_app_api_ingest_id_route_ts_id_route",
       "dashboards_open_brain_dashboard_next_app_api_ingest_id_route_ts_id_route_get"
     ],
-    "359": [
+    "369": [
       "dashboards_open_brain_dashboard_next_app_api_kanban_delete_route_ts_delete_route",
       "dashboards_open_brain_dashboard_next_app_api_kanban_delete_route_ts_delete_route_post"
     ],
-    "360": [
+    "370": [
       "dashboards_open_brain_dashboard_next_app_api_logout_route_ts_logout_route",
       "dashboards_open_brain_dashboard_next_app_api_logout_route_ts_logout_route_post"
     ],
-    "361": [
+    "371": [
       "dashboards_open_brain_dashboard_next_app_api_search_route_ts_search_route",
       "dashboards_open_brain_dashboard_next_app_api_search_route_ts_search_route_get"
     ],
-    "362": [
+    "372": [
       "dashboards_open_brain_dashboard_next_app_api_thoughts_id_connections_route_ts_connections_route",
       "dashboards_open_brain_dashboard_next_app_api_thoughts_id_connections_route_ts_connections_route_get"
     ],
-    "363": [
+    "373": [
       "dashboards_open_brain_dashboard_next_app_audit_page_tsx_audit_page",
       "dashboards_open_brain_dashboard_next_app_audit_page_tsx_audit_page_auditpage"
     ],
-    "364": [
+    "374": [
       "dashboards_open_brain_dashboard_next_app_login_layout_tsx_login_layout",
       "dashboards_open_brain_dashboard_next_app_login_layout_tsx_login_layout_loginlayout"
     ],
-    "365": [
+    "375": [
       "dashboards_open_brain_dashboard_next_components_searchbar_tsx_components_searchbar",
       "dashboards_open_brain_dashboard_next_components_searchbar_tsx_components_searchbar_searchbar"
     ],
-    "366": [
+    "376": [
       "dashboards_open_brain_dashboard_pro_app_api_audit_delete_route_ts_delete_route",
       "dashboards_open_brain_dashboard_pro_app_api_audit_delete_route_ts_delete_route_post"
     ],
-    "367": [
+    "377": [
       "dashboards_open_brain_dashboard_pro_app_api_audit_route_ts_audit_route",
       "dashboards_open_brain_dashboard_pro_app_api_audit_route_ts_audit_route_get"
     ],
-    "368": [
+    "378": [
       "dashboards_open_brain_dashboard_pro_app_api_duplicates_route_ts_duplicates_route",
       "dashboards_open_brain_dashboard_pro_app_api_duplicates_route_ts_duplicates_route_get"
     ],
-    "369": [
+    "379": [
       "dashboards_open_brain_dashboard_pro_app_api_ingest_id_execute_route_ts_execute_route",
       "dashboards_open_brain_dashboard_pro_app_api_ingest_id_execute_route_ts_execute_route_post"
     ],
-    "370": [
+    "380": [
       "dashboards_open_brain_dashboard_pro_app_api_logout_route_ts_logout_route",
       "dashboards_open_brain_dashboard_pro_app_api_logout_route_ts_logout_route_post"
     ],
-    "371": [
+    "381": [
       "dashboards_open_brain_dashboard_pro_app_api_search_route_ts_search_route",
       "dashboards_open_brain_dashboard_pro_app_api_search_route_ts_search_route_get"
     ],
-    "372": [
+    "382": [
       "dashboards_open_brain_dashboard_pro_app_api_thoughts_id_connections_route_ts_connections_route",
       "dashboards_open_brain_dashboard_pro_app_api_thoughts_id_connections_route_ts_connections_route_get"
     ],
-    "373": [
+    "383": [
       "dashboards_open_brain_dashboard_pro_app_audit_page_tsx_audit_page",
       "dashboards_open_brain_dashboard_pro_app_audit_page_tsx_audit_page_auditpage"
     ],
-    "374": [
+    "384": [
       "dashboards_open_brain_dashboard_pro_app_login_layout_tsx_login_layout",
       "dashboards_open_brain_dashboard_pro_app_login_layout_tsx_login_layout_loginlayout"
     ],
-    "375": [
+    "385": [
       "dashboards_open_brain_dashboard_pro_app_page_tsx_app_page",
       "dashboards_open_brain_dashboard_pro_app_page_tsx_app_page_dashboardpage"
     ],
-    "376": [
+    "386": [
       "dashboards_open_brain_dashboard_pro_app_thoughts_id_page_tsx_id_page",
       "dashboards_open_brain_dashboard_pro_app_thoughts_id_page_tsx_id_page_thoughtdetailpage"
     ],
-    "377": [
+    "387": [
       "dashboards_open_brain_dashboard_pro_components_searchbar_tsx_components_searchbar",
       "dashboards_open_brain_dashboard_pro_components_searchbar_tsx_components_searchbar_searchbar"
     ],
-    "378": [
+    "388": [
+      "extensions__template__agent_spec",
+      "extensions__template__readme"
+    ],
+    "389": [
       "family_calendar_index",
       "family_calendar_index_app"
     ],
-    "379": [
+    "390": [
       "health_route",
       "health_route_get"
     ],
-    "380": [
+    "391": [
       "hero_16x9_prompt",
       "hero_16x9_prompt_prompt"
     ],
-    "381": [
+    "392": [
       "home_maintenance_index",
       "home_maintenance_index_app"
     ],
-    "382": [
+    "393": [
       "home_runner_work_ob1_ob1_dashboards_open_brain_dashboard_src_app_css",
       "routes_layout"
     ],
-    "383": [
+    "394": [
       "home_runner_work_ob1_ob1_recipes_local_brain_no_mcp_volumes_db_init_01_thoughts_schema_sh__entry",
       "init_01_thoughts_schema"
     ],
-    "384": [
+    "395": [
       "household_knowledge_index",
       "household_knowledge_index_app"
     ],
-    "385": [
+    "396": [
+      "integrations__chrome_capture_extension__popup__config",
+      "integrations__chrome_capture_extension__popup__popup"
+    ],
+    "397": [
+      "integrations__hermes_agent_memory__changelog",
+      "integrations__hermes_agent_memory__plugin__plugin"
+    ],
+    "398": [
       "integrations_chrome_capture_extension_content_scripts_bridge",
       "integrations_chrome_capture_extension_content_scripts_bridge_registerextractor"
     ],
-    "386": [
+    "399": [
       "integrations_telegram-capture_readme",
       "integrations_update-thought-mcp_readme"
     ],
-    "387": [
+    "400": [
       "loop_card_prompt",
       "loop_card_prompt_prompt"
     ],
-    "388": [
+    "401": [
       "meal_planning_index",
       "meal_planning_index_app"
     ],
-    "389": [
+    "402": [
       "meal_planning_shared_server",
       "meal_planning_shared_server_app"
     ],
-    "390": [
+    "403": [
       "ob_graph_index",
       "ob_graph_index_app"
     ],
-    "391": [
+    "404": [
       "open_brain_dashboard_next_middleware",
       "open_brain_dashboard_next_middleware_config"
     ],
-    "392": [
+    "405": [
       "open_brain_dashboard_next_postcss_config",
       "open_brain_dashboard_next_postcss_config_config"
     ],
-    "393": [
+    "406": [
       "open_brain_dashboard_pro_postcss_config",
       "open_brain_dashboard_pro_postcss_config_config"
     ],
-    "394": [
+    "407": [
       "open_brain_dashboard_svelte_config",
       "open_brain_dashboard_svelte_config_config"
     ],
-    "395": [
+    "408": [
       "primitives_readme",
       "primitives_rls_readme"
     ],
-    "396": [
+    "409": [
       "professional_crm_index",
       "professional_crm_index_app"
     ],
-    "397": [
+    "410": [
+      "recipes_bring-your-own-context_extraction-prompts",
+      "recipes_bring-your-own-context_readme"
+    ],
+    "411": [
       "recipes_chatgpt-conversation-import_readme",
       "recipes_daily-digest_readme"
     ],
-    "398": [
+    "412": [
+      "recipes_claudeception_claudeception.skill",
+      "recipes_claudeception_readme"
+    ],
+    "413": [
+      "recipes_infographic-generator_infographic-generator.skill",
+      "recipes_infographic-generator_readme"
+    ],
+    "414": [
       "recipes_obsidian-vault-import_readme",
       "recipes_obsidian-vault-import_requirements"
     ],
-    "399": [
+    "415": [
       "reflection_route",
       "reflection_route_post"
     ],
-    "400": [
+    "416": [
       "routes_layout_server",
       "routes_layout_server_load"
     ],
-    "401": [
+    "417": [
       "scripts_generate_key",
       "scripts_generate_key_key"
     ],
-    "402": [
+    "418": [
       "signin_page_server",
       "signin_page_server_load"
     ],
-    "403": [
+    "419": [
       "signout_server",
       "signout_server_get"
     ],
-    "404": [
+    "420": [
       "skills_n-agentic-harnesses_variants_anthropic_SKILL",
       "skills_n-agentic-harnesses_variants_codex_SKILL"
     ],
-    "405": [
+    "421": [
       "skills_ob1-local-http_README",
       "skills_ob1-local-http_SKILL"
     ],
-    "406": [
+    "422": [
       "skills_openclaw-agent-memory_README",
       "skills_openclaw-agent-memory_SKILL"
     ],
-    "407": [
+    "423": [
       "skills_panning-for-gold_README",
       "skills_panning-for-gold_SKILL"
     ],
-    "408": [
+    "424": [
       "skills_research-synthesis_README",
       "skills_research-synthesis_SKILL"
     ],
-    "409": [
+    "425": [
       "skills_weekly-signal-diff_README",
       "skills_weekly-signal-diff_SKILL"
     ],
-    "410": [
-      "skills_work-operating-model_SKILL",
-      "skills_work-operating-model_readme"
-    ],
-    "411": [
+    "426": [
       "skills_world-model-diagnostic_README",
       "skills_world-model-diagnostic_SKILL"
     ],
-    "412": [
+    "427": [
       "smoke_native_openclaw_smoke",
       "smoke_native_openclaw_smoke_cleanup"
     ],
-    "413": [
+    "428": [
       "social_square_prompt",
       "social_square_prompt_prompt"
     ],
-    "414": [
+    "429": [
       "src_hooks_server",
       "src_hooks_server_handle"
     ],
-    "415": [
+    "430": [
       "status_route",
       "status_route_get"
     ],
-    "416": [
+    "431": [
       "vercel_neon_telegram_vercel",
       "vercel_neon_telegram_vercel_framework"
     ],
-    "417": [
+    "432": [
       ".claude_skills_review_pr_md"
     ],
-    "418": [
+    "433": [
       ".github_issue_template_bug_report_yml"
     ],
-    "419": [
+    "434": [
       ".github_issue_template_extension_submission_yml"
     ],
-    "420": [
+    "435": [
       ".github_issue_template_feature_request_yml"
     ],
-    "421": [
+    "436": [
       ".github_issue_template_non_technical_contribution_yml"
     ],
-    "422": [
+    "437": [
       ".github_issue_template_primitive_submission_yml"
     ],
-    "423": [
+    "438": [
       ".github_issue_template_recipe_submission_yml"
     ],
-    "424": [
+    "439": [
       ".github_metadata_schema_json"
     ],
-    "425": [
-      "dashboards_ob1-canonical-landing_robots.txt"
-    ],
-    "426": [
-      "dashboards_ob1_canonical_landing_llms_txt"
-    ],
-    "427": [
+    "440": [
       "dashboards_open-brain-dashboard-next_public_brand_ob1-beanie-mark-128"
     ],
-    "428": [
+    "441": [
       "dashboards_open-brain-dashboard-next_public_brand_ob1-beanie-mark-cream"
     ],
-    "429": [
+    "442": [
       "dashboards_open-brain-dashboard-next_public_brand_ob1-beanie-mark-green"
     ],
-    "430": [
+    "443": [
       "dashboards_open-brain-dashboard-next_public_brand_ob1-beanie-mark-white"
     ],
-    "431": [
+    "444": [
       "dashboards_open-brain-dashboard-next_public_brand_ob1-logo"
     ],
-    "432": [
+    "445": [
       "dashboards_open-brain-dashboard-next_public_brand_ob1-logo-wide"
     ],
-    "433": [
-      "dashboards_open-brain-dashboard_src_app.html"
-    ],
-    "434": [
-      "dashboards_open-brain-dashboard_src_lib_assets_favicon_svg"
-    ],
-    "435": [
+    "446": [
       "dashboards_open_brain_dashboard_next_open_next_config"
     ],
-    "436": [
+    "447": [
       "dashboards_open_brain_dashboard_pro_app_login_loginform_tsx_login_loginform"
     ],
-    "437": [
+    "448": [
       "dashboards_open_brain_dashboard_pro_components_deletemodal_tsx_components_deletemodal"
     ],
-    "438": [
+    "449": [
       "dashboards_open_brain_dashboard_pro_components_formatteddate_tsx_components_formatteddate"
     ],
-    "439": [
+    "450": [
       "dashboards_open_brain_dashboard_pro_components_restrictedtoggle_tsx_components_restrictedtoggle"
     ],
-    "440": [
+    "451": [
       "dashboards_open_brain_dashboard_pro_components_statswidget_tsx_components_statswidget"
     ],
-    "441": [
+    "452": [
       "dashboards_open_brain_dashboard_pro_components_thoughtdeletebutton_tsx_components_thoughtdeletebutton"
     ],
-    "442": [
+    "453": [
       "docs_assets_agent-memory_brand_README"
     ],
-    "443": [
-      "docs_assets_agent-memory_screenshots_agent-memory-inspector"
-    ],
-    "444": [
-      "docs_assets_agent-memory_screenshots_agent-memory-recall-trace"
-    ],
-    "445": [
-      "docs_assets_agent-memory_screenshots_agent-memory-review-queue"
-    ],
-    "446": [
-      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_agent-memory-review"
-    ],
-    "447": [
-      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_audit-quality"
-    ],
-    "448": [
-      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_dashboard-overview"
-    ],
-    "449": [
-      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_duplicates-review"
-    ],
-    "450": [
-      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_recall-trace"
-    ],
-    "451": [
-      "docs_assets_agent-memory_screenshots_nate-continuity-confirmed-iab"
-    ],
-    "452": [
-      "docs_assets_agent-memory_screenshots_nate-continuity-evidence-iab"
-    ],
-    "453": [
-      "docs_assets_agent-memory_screenshots_nate-continuity-pending-iab"
-    ],
     "454": [
-      "docs_assets_agent-memory_screenshots_nate-continuity-rejected-iab"
+      "docs_assets_agent-memory_linear_trust-ladder"
     ],
     "455": [
-      "docs_assets_agent-memory_screenshots_nate-continuity-stale-iab"
+      "docs_assets_agent-memory_linear_writeback-lifecycle"
     ],
     "456": [
-      "docs_assets_agent-memory_screenshots_nate-continuity-trace-iab"
+      "docs_assets_agent-memory_promotional_final_nbj-ob1-agent-memory-clawhub-banner"
     ],
     "457": [
-      "docs_assets_agent_memory_brand_ob1_beanie_gpt_image_2_original"
+      "docs_assets_agent-memory_promotional_final_nbj-ob1-agent-memory-hero-16x9"
     ],
     "458": [
-      "docs_walkthroughs_ob1-agent-dashboard_output_OB1-Agent-Dashboard-Walkthrough.pdf"
+      "docs_assets_agent-memory_promotional_final_nbj-ob1-agent-memory-loop-card"
     ],
     "459": [
-      "extension-template_document"
+      "docs_assets_agent-memory_promotional_final_nbj-ob1-agent-memory-social-square"
     ],
     "460": [
-      "extensions_README"
+      "docs_assets_agent-memory_promotional_generated-backgrounds_clawhub-banner_openai-gpt-image-2_image"
     ],
     "461": [
-      "extensions__template_AGENT_SPEC"
+      "docs_assets_agent-memory_promotional_generated-backgrounds_hero-16x9_openai-gpt-image-2_image"
     ],
     "462": [
-      "init_02_match_thoughts_fn"
+      "docs_assets_agent-memory_promotional_generated-backgrounds_loop-card_openai-gpt-image-2_image"
     ],
     "463": [
-      "lib_index"
+      "docs_assets_agent-memory_promotional_generated-backgrounds_social-square_openai-gpt-image-2_image"
     ],
     "464": [
-      "lint_sweep_lint_sweep_deprecationwarned"
+      "docs_assets_agent-memory_screenshots_agent-memory-inspector"
     ],
     "465": [
-      "lint_sweep_lint_sweep_dirname"
+      "docs_assets_agent-memory_screenshots_agent-memory-recall-trace"
     ],
     "466": [
-      "lint_sweep_lint_sweep_fileenv"
+      "docs_assets_agent-memory_screenshots_agent-memory-review-queue"
     ],
     "467": [
-      "lint_sweep_lint_sweep_help"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_agent-memory-review"
     ],
     "468": [
-      "lint_sweep_lint_sweep_loadenvfile"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_audit-quality"
     ],
     "469": [
-      "ob1-agent-dashboard_screenshot"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_dashboard-overview"
     ],
     "470": [
-      "ob1-agent-dashboard_screenshot_2"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_duplicates-review"
     ],
     "471": [
-      "obsidian_vault_import_import_obsidian_rationale_473"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_recall-trace"
     ],
     "472": [
-      "open_brain_dashboard_vite_config"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_thoughts-table"
     ],
     "473": [
-      "primitives_deploy_edge_function"
+      "docs_assets_agent-memory_screenshots_dashboard-walkthrough_workflow-board"
     ],
     "474": [
-      "primitives_remote_mcp"
+      "docs_assets_agent-memory_screenshots_nate-continuity-confirmed-iab"
     ],
     "475": [
-      "primitives_shared_mcp"
+      "docs_assets_agent-memory_screenshots_nate-continuity-evidence-iab"
     ],
     "476": [
-      "primitives_troubleshooting"
+      "docs_assets_agent-memory_screenshots_nate-continuity-pending-iab"
     ],
     "477": [
-      "recipes_bring-your-own-context_extraction-prompts"
+      "docs_assets_agent-memory_screenshots_nate-continuity-rejected-iab"
     ],
     "478": [
-      "recipes_chatgpt-conversation-import_requirements"
+      "docs_assets_agent-memory_screenshots_nate-continuity-stale-iab"
     ],
     "479": [
-      "recipes_claudeception_claudeception.skill.md"
+      "docs_assets_agent-memory_screenshots_nate-continuity-trace-iab"
     ],
     "480": [
-      "recipes_daily-digest_daily-digest-skill.md"
+      "docs_assets_agent-memory_video_agent-memory-loop"
     ],
     "481": [
-      "recipes_edge_function_cost_optimization"
+      "docs_assets_agent-memory_video_code-review-workflow"
     ],
     "482": [
-      "recipes_grok-export-import_readme"
+      "docs_assets_agent-memory_video_continuity-layer"
     ],
     "483": [
-      "recipes_infographic-generator_infographic-generator.skill.md"
+      "docs_assets_agent-memory_video_data-model-er"
     ],
     "484": [
-      "recipes_infographic-generator_readme"
+      "docs_assets_agent-memory_video_evaluation-dashboard"
     ],
     "485": [
-      "recipes_instagram-import_readme"
+      "docs_assets_agent-memory_video_openclaw-plugin-skill-distribution"
     ],
     "486": [
-      "recipes_life-engine_life-engine-skill.md"
+      "docs_assets_agent-memory_video_recall-lifecycle"
     ],
     "487": [
-      "recipes_live-retrieval_live-retrieval.skill"
+      "docs_assets_agent-memory_video_recall-trace-debug"
     ],
     "488": [
-      "recipes_local-brain-no-mcp_docker-compose"
+      "docs_assets_agent_memory_brand_ob1_beanie_gpt_image_2_original"
     ],
     "489": [
-      "recipes_local-ollama-embeddings_requirements.txt"
+      "docs_walkthroughs_ob1-agent-dashboard_output_OB1-Agent-Dashboard-Walkthrough.pdf"
     ],
     "490": [
-      "recipes_local_brain_no_mcp_docker_compose"
+      "extensions_README"
     ],
     "491": [
-      "recipes_panning-for-gold_panning-for-gold_phase_0_5"
+      "init_02_match_thoughts_fn"
     ],
     "492": [
-      "repo_learning_coach_vite_config"
+      "integrations__kubernetes_deployment__k8s__openbrain"
     ],
     "493": [
-      "resources"
+      "lib_index"
     ],
     "494": [
-      "routes_page"
+      "lint_sweep_lint_sweep_deprecationwarned"
     ],
     "495": [
-      "schemas_per-agent-identity_readme"
+      "lint_sweep_lint_sweep_dirname"
     ],
     "496": [
-      "schemas_readwise-books_readme"
+      "lint_sweep_lint_sweep_fileenv"
     ],
     "497": [
-      "schemas_recency-boosted-match-thoughts_readme"
+      "lint_sweep_lint_sweep_help"
     ],
     "498": [
-      "schemas_smart-ingest_readme"
+      "lint_sweep_lint_sweep_loadenvfile"
     ],
     "499": [
-      "schemas_text-search-trgm_readme"
+      "obsidian_vault_import_import_obsidian_rationale_473"
     ],
     "500": [
-      "schemas_thought-audit_readme"
+      "open_brain_dashboard_vite_config"
     ],
     "501": [
-      "schemas_typed-reasoning-edges_readme"
+      "recipes_"
     ],
     "502": [
-      "signin_page"
+      "recipes_chatgpt-conversation-import_requirements"
     ],
     "503": [
-      "skills_n_agentic_harnesses_references_05_context_memory_and_evaluation"
+      "recipes_content-fingerprint-dedup_readme"
     ],
     "504": [
-      "skills_n_agentic_harnesses_references_06_agents_and_extensibility"
+      "recipes_daily-digest_daily-digest-skill"
     ],
     "505": [
-      "skills_n_agentic_harnesses_references_07_ux_observability_and_operations"
+      "recipes_edge-function-cost-optimization_readme"
     ],
     "506": [
-      "vercel_neon_telegram_next_config"
+      "recipes_gmail-smart-pull_scripts_pull-gmail_readme"
     ],
     "507": [
-      "contracts_writeback_schema_confidence_maximum",
-      "contracts_writeback_schema_properties_confidence",
-      "contracts_writeback_schema_properties_stale_after_days",
-      "contracts_writeback_schema_properties_ttl_days",
-      "contracts_writeback_schema_ttl_days_minimum"
+      "recipes_grok-export-import_readme"
+    ],
+    "508": [
+      "recipes_instagram-import_readme"
+    ],
+    "509": [
+      "recipes_life-engine_life-engine-skill"
+    ],
+    "510": [
+      "recipes_live-retrieval_live-retrieval.skill"
+    ],
+    "511": [
+      "recipes_local-brain-no-mcp_docker-compose"
+    ],
+    "512": [
+      "recipes_local-ollama-embeddings_requirements"
+    ],
+    "513": [
+      "recipes_panning-for-gold_panning-for-gold.skill"
+    ],
+    "514": [
+      "recipes_perplexity-conversation-import_requirements"
+    ],
+    "515": [
+      "recipes_readwise-import_requirements"
+    ],
+    "516": [
+      "repo_learning_coach_vite_config"
+    ],
+    "517": [
+      "routes_page"
+    ],
+    "518": [
+      "signin_page"
+    ],
+    "519": [
+      "skills__template_SKILL.md"
+    ],
+    "520": [
+      "skills_auto-capture-claude-code_SKILL.md"
+    ],
+    "521": [
+      "skills_autodream-brain-sync_SKILL.md"
+    ],
+    "522": [
+      "skills_claudeception_SKILL.md"
+    ],
+    "523": [
+      "skills_n_agentic_harnesses_references_05_context_memory_and_evaluation"
+    ],
+    "524": [
+      "skills_n_agentic_harnesses_references_06_agents_and_extensibility"
+    ],
+    "525": [
+      "skills_n_agentic_harnesses_references_07_ux_observability_and_operations"
+    ],
+    "526": [
+      "skills_work-operating-model_readme"
+    ],
+    "527": [
+      "vercel_neon_telegram_next_config"
     ]
   },
   "cohesion": {
@@ -6926,9 +7021,9 @@
     "6": 0.09803921568627451,
     "7": 0.06648936170212766,
     "8": 0.1,
-    "9": 0.07822410147991543,
-    "10": 0.09191583610188261,
-    "11": 0.10188261351052048,
+    "9": 0.09191583610188261,
+    "10": 0.10188261351052048,
+    "11": 0.08130081300813008,
     "12": 0.04878048780487805,
     "13": 0.06829268292682927,
     "14": 0.05,
@@ -6943,23 +7038,23 @@
     "23": 0.09206349206349207,
     "24": 0.06190476190476191,
     "25": 0.11596638655462185,
-    "26": 0.09848484848484848,
-    "27": 0.11290322580645161,
-    "28": 0.10160427807486631,
-    "29": 0.09885057471264368,
-    "30": 0.11822660098522167,
-    "31": 0.06896551724137931,
-    "32": 0.09113300492610837,
-    "33": 0.10837438423645321,
-    "34": 0.1354679802955665,
-    "35": 0.06896551724137931,
-    "36": 0.14814814814814814,
-    "37": 0.10317460317460317,
-    "38": 0.1164021164021164,
-    "39": 0.1225071225071225,
-    "40": 0.1476923076923077,
-    "41": 0.09846153846153846,
-    "42": 0.12923076923076923,
+    "26": 0.12299465240641712,
+    "27": 0.09848484848484848,
+    "28": 0.11290322580645161,
+    "29": 0.10160427807486631,
+    "30": 0.09885057471264368,
+    "31": 0.11330049261083744,
+    "32": 0.06896551724137931,
+    "33": 0.09113300492610837,
+    "34": 0.10837438423645321,
+    "35": 0.1354679802955665,
+    "36": 0.06896551724137931,
+    "37": 0.1164021164021164,
+    "38": 0.1349206349206349,
+    "39": 0.10317460317460317,
+    "40": 0.1164021164021164,
+    "41": 0.1225071225071225,
+    "42": 0.1476923076923077,
     "43": 0.07692307692307693,
     "44": 0.07692307692307693,
     "45": 0.26461538461538464,
@@ -6971,19 +7066,19 @@
     "51": 0.13043478260869565,
     "52": 0.09057971014492754,
     "53": 0.13405797101449277,
-    "54": 0.15217391304347827,
-    "55": 0.2246376811594203,
-    "56": 0.08695652173913043,
-    "57": 0.16600790513833993,
-    "58": 0.08695652173913043,
-    "59": 0.09090909090909091,
+    "54": 0.2246376811594203,
+    "55": 0.08695652173913043,
+    "56": 0.16600790513833993,
+    "57": 0.08695652173913043,
+    "58": 0.09090909090909091,
+    "59": 0.11688311688311688,
     "60": 0.09523809523809523,
-    "61": 0.09523809523809523,
-    "62": 0.1774891774891775,
-    "63": 0.15584415584415584,
-    "64": 0.09523809523809523,
-    "65": 0.15714285714285714,
-    "66": 0.14285714285714285,
+    "61": 0.14285714285714285,
+    "62": 0.09523809523809523,
+    "63": 0.1774891774891775,
+    "64": 0.15584415584415584,
+    "65": 0.09523809523809523,
+    "66": 0.15714285714285714,
     "67": 0.1,
     "68": 0.18947368421052632,
     "69": 0.1,
@@ -7004,13 +7099,13 @@
     "84": 0.11764705882352941,
     "85": 0.11764705882352941,
     "86": 0.1111111111111111,
-    "87": 0.1111111111111111,
+    "87": 0.125,
     "88": 0.125,
     "89": 0.125,
-    "90": 0.125,
-    "91": 0.16911764705882354,
-    "92": 0.41911764705882354,
-    "93": 0.16911764705882354,
+    "90": 0.16911764705882354,
+    "91": 0.41911764705882354,
+    "92": 0.16911764705882354,
+    "93": 0.125,
     "94": 0.125,
     "95": 0.125,
     "96": 0.125,
@@ -7019,18 +7114,18 @@
     "99": 0.125,
     "100": 0.125,
     "101": 0.125,
-    "102": 0.125,
-    "103": 0.19852941176470587,
+    "102": 0.19852941176470587,
+    "103": 0.125,
     "104": 0.125,
-    "105": 0.125,
+    "105": 0.13333333333333333,
     "106": 0.13333333333333333,
     "107": 0.13333333333333333,
-    "108": 0.13333333333333333,
-    "109": 0.25833333333333336,
+    "108": 0.25833333333333336,
+    "109": 0.13333333333333333,
     "110": 0.13333333333333333,
     "111": 0.13333333333333333,
-    "112": 0.13333333333333333,
-    "113": 0.125,
+    "112": 0.125,
+    "113": 0.13333333333333333,
     "114": 0.13333333333333333,
     "115": 0.13333333333333333,
     "116": 0.13333333333333333,
@@ -7048,8 +7143,8 @@
     "128": 0.13333333333333333,
     "129": 0.13333333333333333,
     "130": 0.13333333333333333,
-    "131": 0.13333333333333333,
-    "132": 0.23333333333333334,
+    "131": 0.23333333333333334,
+    "132": 0.13333333333333333,
     "133": 0.13333333333333333,
     "134": 0.13333333333333333,
     "135": 0.13333333333333333,
@@ -7082,8 +7177,8 @@
     "162": 0.13333333333333333,
     "163": 0.13333333333333333,
     "164": 0.13333333333333333,
-    "165": 0.13333333333333333,
-    "166": 0.225,
+    "165": 0.225,
+    "166": 0.13333333333333333,
     "167": 0.13333333333333333,
     "168": 0.13333333333333333,
     "169": 0.13333333333333333,
@@ -7099,55 +7194,55 @@
     "179": 0.13333333333333333,
     "180": 0.13333333333333333,
     "181": 0.13333333333333333,
-    "182": 0.13333333333333333,
-    "183": 0.20952380952380953,
-    "184": 0.19047619047619047,
+    "182": 0.20952380952380953,
+    "183": 0.19047619047619047,
+    "184": 0.14285714285714285,
     "185": 0.14285714285714285,
     "186": 0.14285714285714285,
-    "187": 0.14285714285714285,
-    "188": 0.1619047619047619,
-    "189": 0.13333333333333333,
-    "190": 0.2761904761904762,
-    "191": 0.28205128205128205,
-    "192": 0.17142857142857143,
-    "193": 0.18095238095238095,
-    "194": 0.14285714285714285,
-    "195": 0.23809523809523808,
+    "187": 0.1619047619047619,
+    "188": 0.13333333333333333,
+    "189": 0.2761904761904762,
+    "190": 0.28205128205128205,
+    "191": 0.17142857142857143,
+    "192": 0.18095238095238095,
+    "193": 0.14285714285714285,
+    "194": 0.23809523809523808,
+    "195": 0.15384615384615385,
     "196": 0.15384615384615385,
     "197": 0.15384615384615385,
-    "198": 0.15384615384615385,
-    "199": 0.1978021978021978,
-    "200": 0.31868131868131866,
-    "201": 0.15384615384615385,
-    "202": 0.16483516483516483,
-    "203": 0.15384615384615385,
+    "198": 0.1978021978021978,
+    "199": 0.31868131868131866,
+    "200": 0.15384615384615385,
+    "201": 0.16483516483516483,
+    "202": 0.15384615384615385,
+    "203": 0.14285714285714285,
     "204": 0.14285714285714285,
-    "205": 0.14285714285714285,
-    "206": 0.15384615384615385,
-    "207": 0.14285714285714285,
+    "205": 0.15384615384615385,
+    "206": 0.14285714285714285,
+    "207": 0.15384615384615385,
     "208": 0.15384615384615385,
-    "209": 0.15384615384615385,
-    "210": 0.23076923076923078,
-    "211": 0.2692307692307692,
-    "212": 0.32051282051282054,
-    "213": 0.15384615384615385,
-    "214": 0.16666666666666666,
-    "215": 0.2692307692307692,
-    "216": 0.15384615384615385,
-    "217": 0.21794871794871795,
-    "218": 0.19230769230769232,
-    "219": 0.3787878787878788,
-    "220": 0.25757575757575757,
+    "209": 0.23076923076923078,
+    "210": 0.2692307692307692,
+    "211": 0.32051282051282054,
+    "212": 0.15384615384615385,
+    "213": 0.16666666666666666,
+    "214": 0.2692307692307692,
+    "215": 0.15384615384615385,
+    "216": 0.21794871794871795,
+    "217": 0.19230769230769232,
+    "218": 0.3787878787878788,
+    "219": 0.25757575757575757,
+    "220": 0.16666666666666666,
     "221": 0.16666666666666666,
-    "222": 0.16666666666666666,
-    "223": 0.21212121212121213,
+    "222": 0.21212121212121213,
+    "223": 0.16666666666666666,
     "224": 0.16666666666666666,
-    "225": 0.16666666666666666,
+    "225": 0.19696969696969696,
     "226": 0.19696969696969696,
-    "227": 0.19696969696969696,
-    "228": 0.24242424242424243,
-    "229": 0.19696969696969696,
-    "230": 0.16666666666666666,
+    "227": 0.24242424242424243,
+    "228": 0.19696969696969696,
+    "229": 0.16666666666666666,
+    "230": 0.18181818181818182,
     "231": 0.18181818181818182,
     "232": 0.34545454545454546,
     "233": 0.2727272727272727,
@@ -7162,25 +7257,25 @@
     "242": 0.3111111111111111,
     "243": 0.3333333333333333,
     "244": 0.2,
-    "245": 0.2222222222222222,
+    "245": 0.2,
     "246": 0.2222222222222222,
     "247": 0.2222222222222222,
-    "248": 0.3333333333333333,
-    "249": 0.2222222222222222,
+    "248": 0.2222222222222222,
+    "249": 0.3333333333333333,
     "250": 0.2222222222222222,
     "251": 0.2222222222222222,
     "252": 0.2222222222222222,
-    "253": 0.2777777777777778,
-    "254": 0.2857142857142857,
-    "255": 0.25,
-    "256": 0.32142857142857145,
-    "257": 0.25,
+    "253": 0.2222222222222222,
+    "254": 0.2777777777777778,
+    "255": 0.2857142857142857,
+    "256": 0.25,
+    "257": 0.32142857142857145,
     "258": 0.25,
-    "259": 0.5,
+    "259": 0.25,
     "260": 0.5,
-    "261": 0.4642857142857143,
-    "262": 0.2857142857142857,
-    "263": 0.25,
+    "261": 0.5,
+    "262": 0.4642857142857143,
+    "263": 0.2857142857142857,
     "264": 0.25,
     "265": 0.25,
     "266": 0.25,
@@ -7193,8 +7288,8 @@
     "273": 0.2857142857142857,
     "274": 0.2857142857142857,
     "275": 0.2857142857142857,
-    "276": 0.5714285714285714,
-    "277": 0.2857142857142857,
+    "276": 0.2857142857142857,
+    "277": 0.5714285714285714,
     "278": 0.2857142857142857,
     "279": 0.2857142857142857,
     "280": 0.2857142857142857,
@@ -7204,52 +7299,52 @@
     "284": 0.2857142857142857,
     "285": 0.2857142857142857,
     "286": 0.2857142857142857,
-    "287": 0.3333333333333333,
-    "288": 0.6190476190476191,
-    "289": 0.2857142857142857,
-    "290": 0.3333333333333333,
-    "291": 0.2857142857142857,
-    "292": 0.3333333333333333,
+    "287": 0.2857142857142857,
+    "288": 0.3333333333333333,
+    "289": 0.6190476190476191,
+    "290": 0.2857142857142857,
+    "291": 0.3333333333333333,
+    "292": 0.2857142857142857,
     "293": 0.3333333333333333,
     "294": 0.3333333333333333,
     "295": 0.3333333333333333,
     "296": 0.3333333333333333,
     "297": 0.3333333333333333,
-    "298": 0.4666666666666667,
-    "299": 0.5333333333333333,
-    "300": 0.6,
+    "298": 0.3333333333333333,
+    "299": 0.4666666666666667,
+    "300": 0.5333333333333333,
     "301": 0.3333333333333333,
     "302": 0.3333333333333333,
-    "303": 0.4,
-    "304": 0.4,
-    "305": 0.5,
+    "303": 0.4666666666666667,
+    "304": 0.3333333333333333,
+    "305": 0.4,
     "306": 0.4,
-    "307": 0.5,
-    "308": 0.4,
-    "309": 0.9,
-    "310": 0.4,
-    "311": 0.7,
-    "312": 0.4,
+    "307": 0.4,
+    "308": 0.5,
+    "309": 0.4,
+    "310": 0.5,
+    "311": 0.4,
+    "312": 0.9,
     "313": 0.4,
-    "314": 0.4,
+    "314": 0.7,
     "315": 0.4,
     "316": 0.4,
-    "317": 0.5,
-    "318": 0.5,
-    "319": 0.6666666666666666,
-    "320": 0.5,
-    "321": 0.6666666666666666,
+    "317": 0.4,
+    "318": 0.4,
+    "319": 0.4,
+    "320": 0.4,
+    "321": 0.5,
     "322": 0.5,
-    "323": 0.8333333333333334,
+    "323": 0.6666666666666666,
     "324": 0.5,
-    "325": 0.5,
+    "325": 0.6666666666666666,
     "326": 0.5,
-    "327": 0.6666666666666666,
-    "328": 0.6666666666666666,
+    "327": 0.8333333333333334,
+    "328": 0.5,
     "329": 0.6666666666666666,
-    "330": 0.6666666666666666,
-    "331": 0.6666666666666666,
-    "332": 0.6666666666666666,
+    "330": 0.5,
+    "331": 0.5,
+    "332": 0.5,
     "333": 0.6666666666666666,
     "334": 0.6666666666666666,
     "335": 0.6666666666666666,
@@ -7262,21 +7357,21 @@
     "342": 0.6666666666666666,
     "343": 0.6666666666666666,
     "344": 0.6666666666666666,
-    "345": 1.0,
-    "346": 1.0,
+    "345": 0.6666666666666666,
+    "346": 0.6666666666666666,
     "347": 0.6666666666666666,
     "348": 0.6666666666666666,
     "349": 0.6666666666666666,
-    "350": 1.0,
-    "351": 1.0,
-    "352": 1.0,
-    "353": 1.0,
-    "354": 1.0,
+    "350": 0.6666666666666666,
+    "351": 0.6666666666666666,
+    "352": 0.6666666666666666,
+    "353": 0.6666666666666666,
+    "354": 0.6666666666666666,
     "355": 1.0,
     "356": 1.0,
-    "357": 1.0,
-    "358": 1.0,
-    "359": 1.0,
+    "357": 0.6666666666666666,
+    "358": 0.6666666666666666,
+    "359": 0.6666666666666666,
     "360": 1.0,
     "361": 1.0,
     "362": 1.0,
@@ -7424,7 +7519,27 @@
     "504": 1.0,
     "505": 1.0,
     "506": 1.0,
-    "507": 0.4
+    "507": 1.0,
+    "508": 1.0,
+    "509": 1.0,
+    "510": 1.0,
+    "511": 1.0,
+    "512": 1.0,
+    "513": 1.0,
+    "514": 1.0,
+    "515": 1.0,
+    "516": 1.0,
+    "517": 1.0,
+    "518": 1.0,
+    "519": 1.0,
+    "520": 1.0,
+    "521": 1.0,
+    "522": 1.0,
+    "523": 1.0,
+    "524": 1.0,
+    "525": 1.0,
+    "526": 1.0,
+    "527": 1.0
   },
   "gods": [
     {
@@ -7480,6 +7595,17 @@
   ],
   "surprises": [
     {
+      "source": "Open Brain Favicon",
+      "target": "OB1 PR Gate Workflow",
+      "source_files": [
+        "dashboards/open-brain-dashboard/src/lib/assets/favicon.svg",
+        ".github/workflows/ob1-gate-v2.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (image ↔ doc); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+    },
+    {
       "source": "POST()",
       "target": "json()",
       "source_files": [
@@ -7522,34 +7648,23 @@
       "confidence": "EXTRACTED",
       "relation": "references",
       "why": "connects across different repos/directories; peripheral node `Feature Request` unexpectedly reaches hub `Contributing to OB1`"
-    },
-    {
-      "source": "Non-Technical Contribution",
-      "target": "Contributing to OB1",
-      "source_files": [
-        ".github/ISSUE_TEMPLATE/non-technical-contribution.yml",
-        "CONTRIBUTING.md"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Non-Technical Contribution` unexpectedly reaches hub `Contributing to OB1`"
     }
   ],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Memory Management` to `Sync Log Management`, `Sync Log Loading`, `ChatGPT Integration`?",
+      "question": "Why does `writeReport()` connect `Memory Management` to `Thought Ingestion`, `Conversation Management`, `Sync Log Management`?",
+      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction`?",
       "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondent Backfill` to `Entity Extraction`?",
-      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `corsHeaders` connect `Session Management API` to `Memory Management`, `Entity Extraction`?",
-      "why": "High betweenness centrality (0.025) - this node is a cross-community bridge."
+      "question": "Why does `corsHeaders` connect `Session Management` to `Memory API`, `Entity Extraction`?",
+      "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
     },
     {
       "type": "verify_inferred",
@@ -7559,7 +7674,7 @@
     {
       "type": "isolated_nodes",
       "question": "What connects `description`, `category`, `github` to the rest of the system?",
-      "why": "2803 weakly-connected nodes found - possible documentation gaps or missing edges."
+      "why": "2834 weakly-connected nodes found - possible documentation gaps or missing edges."
     },
     {
       "type": "low_cohesion",

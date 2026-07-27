@@ -1,0 +1,1 @@
+{"nodes": [{"id": "integrations__kubernetes_deployment__k8s__openbrain", "label": "Open Brain - Self-hosted on Kubernetes", "file_type": "code", "source_file": "integrations/kubernetes-deployment/k8s/openbrain.yml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
