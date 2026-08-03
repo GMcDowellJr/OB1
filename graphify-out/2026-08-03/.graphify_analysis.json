@@ -1704,7 +1704,6 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_name",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_prefetch",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_queue_prefetch",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_save_config",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_shutdown",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_sync_turn",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache",
@@ -1717,11 +1716,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache_test_shutdown_joins_threads_and_clears_cache",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache_test_stale_cache_is_discarded",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testprefetchandcache_test_warm_prefetch_consumes_cache_without_recall",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_save_config_persists_only_known_keys",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_patched",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_extracts_findings_and_writes_synchronously",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_skips_when_inactive",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_patched",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_skips_short_assistant",
@@ -2551,6 +2546,7 @@
     "72": [
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_initialize",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_on_turn_start",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_save_config",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart_test_caches_kwargs",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testonturnstart_test_resolve_model_provider_falls_back_to_config",
@@ -2564,6 +2560,7 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_inactive_without_endpoint",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_inactive_without_key",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_name_is_ob1",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_save_config_persists_only_known_keys",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testproviderlifecycle_test_subagent_context_disables_writes",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_active"
     ],
@@ -2938,6 +2935,9 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_rationale_107",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_rationale_123",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_system_prompt_block",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_extracts_findings_and_writes_synchronously",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsessionend_test_skips_when_inactive",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock_test_empty_when_inactive",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsystempromptblock_test_lists_tools_and_workspace_when_active",
@@ -7057,7 +7057,7 @@
     "35": 0.1164021164021164,
     "36": 0.10317460317460317,
     "37": 0.1164021164021164,
-    "38": 0.11088709677419355,
+    "38": 0.1396011396011396,
     "39": 0.09846153846153846,
     "40": 0.07692307692307693,
     "41": 0.26461538461538464,
@@ -7091,7 +7091,7 @@
     "69": 0.1,
     "70": 0.1,
     "71": 0.1,
-    "72": 0.16911764705882354,
+    "72": 0.14619883040935672,
     "73": 0.1111111111111111,
     "74": 0.10526315789473684,
     "75": 0.10526315789473684,
@@ -7110,7 +7110,7 @@
     "88": 0.125,
     "89": 0.16911764705882354,
     "90": 0.41911764705882354,
-    "91": 0.15384615384615385,
+    "91": 0.125,
     "92": 0.125,
     "93": 0.125,
     "94": 0.125,
@@ -7610,7 +7610,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "crosses file types (image ↔ doc); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+      "why": "crosses file types (image \u2194 doc); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
       "source": "POST()",
@@ -7646,7 +7646,7 @@
       "why": "connects across different repos/directories; peripheral node `Primitive Proposal` unexpectedly reaches hub `Contributing to OB1`"
     },
     {
-      "source": "CLAUDE.md — Agent Instructions for Open Brain",
+      "source": "CLAUDE.md \u2014 Agent Instructions for Open Brain",
       "target": "Contributing to OB1",
       "source_files": [
         "CLAUDE.md",
@@ -7654,44 +7654,11 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `CLAUDE.md — Agent Instructions for Open Brain` unexpectedly reaches hub `Contributing to OB1`"
+      "why": "connects across different repos/directories; peripheral node `CLAUDE.md \u2014 Agent Instructions for Open Brain` unexpectedly reaches hub `Contributing to OB1`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Conversation Import` to `ChatGPT Integration`, `Memory Management`, `Conversation Extraction`?",
-      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondent Backfill` to `Entity Extraction`?",
-      "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `corsHeaders` connect `Session Management` to `Entity Extraction`, `Memory API Management`?",
-      "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 14 inferred relationships involving `OB1MemoryProvider` (e.g. with `_StubProvider` and `TestExtractFindings`) actually correct?",
-      "why": "`OB1MemoryProvider` has 14 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `description`, `category`, `github` to the rest of the system?",
-      "why": "2826 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Schema Properties` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.055964653902798235 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `API Request Handling` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06233062330623306 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 20032,
+    "output": 4075
+  }
 }
