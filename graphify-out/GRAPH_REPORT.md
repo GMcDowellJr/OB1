@@ -1,15 +1,15 @@
-# Graph Report - .  (2026-07-27)
+# Graph Report - .  (2026-08-03)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 5954 nodes · 7981 edges · 528 communities (379 shown, 149 thin omitted)
+- 5961 nodes · 7999 edges · 528 communities (385 shown, 143 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 58 edges (avg confidence: 0.73)
-- Token cost: 16,879 input · 4,891 output
+- Token cost: 17,112 input · 4,916 output
 
 ## Graph Freshness
-- Built from commit: `a08b6400`
+- Built from commit: `c58db434`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,143 +20,142 @@
 - Text Atomization
 - Learning Artifact Management
 - Data Ingestion
-- Writeback Schema
-- Lesson Management
 - Recall Schema
+- Lesson Management
+- Recall Properties
 - Wiki Generation
-- Capture Logging
-- Thought Ingestion
+- Capture Management
 - Taskflow Work Log
 - Smart Ingestion
+- Conversation Extraction
 - Code Review Memory
 - Gmail Integration
 - Thought Enrichment
-- Code Review Recall
-- Taskflow Recall
-- Operating Model Activation
+- Code Review Memory Recall
+- Taskflow Work Log Recall
+- Operating Model Management
 - Recall Request
-- Contribution Guidelines
-- Smoke Tests
+- Smoke Testing
 - API Duplicates Management
 - Plugin Configuration
-- Smart Ingestion Config
-- Thought Capture
+- Smart Ingestion Configuration
 - Thought Filtering
-- Memory Provider
-- ._patched
+- Agent Memory Management
+- Memory Prefetching
+- Conversation Import
 - Entity Extraction
-- Sync Log Management
-- Next.js Configuration
+- Dashboard Dependencies
 - Tool Schema Validation
 - Thought Management
-- Thought Classification
+- Edge Classification
 - Telegram Webhook Setup
-- Conversation Management
-- Activity Tracking
+- ChatGPT Integration
 - OB1 Memory Provider
-- Entity Extraction Config
-- Memory Management
-- Agent Memory UI
-- Action Management
+- Entity Extraction Configuration
+- Stub Provider
+- ChatGPT Parser
 - Supabase Integration
 - File Conversion
+- Open Brain Documentation
 - Video Components
 - Sync Management
 - ChatGPT Sync
 - Browser Extension Manifest
 - Kanban Board
-- Thought Detail Page
-- Sidebar Components
+- Thought Detail Management
+- Dashboard Icons
 - Readwise Import
 - Claude Sync
+- Memory Management
 - Gmail Audit Pipeline
 - Gemini Debugger
 - Job Hunt Management
 - Weekly Digest Metadata
-- ChatGPT Parser
 - Reflection Management
 - Plugin Configuration Schema
 - Writeback Request
 - Sync UI Management
-- Grading System
-- Memory API
+- Thought Database
+- Score Evaluation
+- Memory API Management
 - Recall Response Schema
 - Evidence Properties
-- OB1 Client
+- OB1 Client Management
 - Agent Dashboard
-- Next.js TypeScript Config
-- Pro Dashboard TypeScript Config
-- Memory Management Framework
-- Telegram TypeScript Config
+- Next.js Configuration
+- Pro Dashboard Configuration
+- Memory Management Workflows
+- Telegram Configuration
+- Testing Framework
 - CRM Metadata
-- App TypeScript Config
-- Server TypeScript Config
+- App Configuration
+- Server Configuration
 - Session Capture
 - Wiki Compilation
 - Context Metadata
-- Capture API
+- Capture and Search
 - Family Calendar Metadata
 - Home Maintenance Metadata
 - Household Knowledge Metadata
 - Job Hunt Metadata
 - Meal Planning Metadata
-- Node TypeScript Config
+- Node Configuration
 - Audit Management
 - Recipe Metadata
 - Editorial Policy Metadata
 - Duplicate Deletion
 - Promotional Assets
-- Testing Framework
+- Hermes OB1 Memory Tests
 - Lint Sweep Metadata
 - Local Brain Metadata
-- OpenClaw Memory Recipe
+- Recipe Metadata
 - Code Review Memory Metadata
 - Taskflow Work Log Metadata
-- Provenance Chains Recipe
+- Provenance Chains Metadata
 - Readwise Import Metadata
-- Recipe Metadata
-- Research Decision Workflow
-- Gmail Wiki Backfill
-- Work Operating Model Activation
-- World Model Diagnostic Activation
+- Template Metadata
+- Research Workflow Metadata
+- Gmail Thought Processing
+- Work Model Metadata
+- World Model Metadata
 - Adaptive Capture Classification
 - Agent Memory API
 - Agent Memory Management
-- Gmail Correspondents Backfill
+- Gmail Correspondent Backfill
 - Atomizer Metadata
-- Auto Dream Brain Sync
-- Brain Smoke Test
+- Autodream Brain Sync
+- Brain Smoke Testing
 - Smoke Test Package
 - ChatGPT Conversation Import
-- Competitive Analysis
+- Competitive Analysis Metadata
 - Content Fingerprint Deduplication
-- Daily Digest
+- Daily Digest Metadata
 - Deal Memo Drafting
 - Edge Function Deployment
-- Edge Function Cost Optimization
+- Edge Function Optimization
 - Email History Import
-- Entity Wiki
-- Extension Metadata
+- Entity Wiki Metadata
+- Extension Template Metadata
 - Financial Model Review
-- Fingerprint Dedup Backfill
+- Fingerprint Deduplication Backfill
 - Google Activity Import
 - Grok Export Import
 - Heavy File Ingestion
-- Infographic Generator
+- Infographic Generation
 - Instagram Import
-- OpenClaw Agent Memory Integration
-- LLM Metadata Extraction
-- Integration Template
+- OpenClaw Agent Memory
+- Thought Extraction and Embedding
+- Integration Template Metadata
 - Journals Blogger Import
 - Kubernetes Deployment
-- Life Engine
+- Life Engine Metadata
 - Life Engine Video
 - Live Retrieval
 - Local Ollama Embeddings
 - Meeting Synthesis
 - N-Agentic Harnesses
-- Local HTTP API
-- OB Graph
+- Local HTTP Integration
+- OB Graph Metadata
 - Obsidian Vault Import
 - Open Brain Dashboard
 - Open Brain Dashboard Next
@@ -166,23 +165,23 @@
 - Readwise Books Import
 - Readwise Capture
 - Recency Boosted Thoughts
-- Claudeception Recipe
-- Panning for Gold Recipe
-- Remote MCP
+- Recipe Claudeception
+- Recipe Panning for Gold
+- Remote MCP Metadata
 - Research Synthesis
 - Schema Aware Routing
 - Provenance Chains Schema
-- Schema Template
+- Schema Template Metadata
 - Auto Capture Skills
 - Claudeception Skills
 - OpenClaw Agent Memory Skills
 - Panning for Gold Skills
-- Skills Template
+- Skills Template Metadata
 - Slack Capture
 - Seed Nate Continuity Demo
 - Source Filtering
 - Telegram Capture
-- Text Search TRGM
+- Text Search Trigram
 - Thought Audit
 - Troubleshooting
 - Typed Edge Classifier
@@ -197,59 +196,63 @@
 - World Model Diagnostic
 - X Twitter Import
 - Capture with Gating
-- Gmail Thought Re-Atomization
-- Dashboard Template
+- Re-Atomize Gmail Thought
+- Dashboard Template Metadata
 - Discord Capture
 - Entity Extraction
 - MCP JSON Handling
 - Customer Memory Management
 - Extractor Claude
-- Testing Tools
-- Backfill Sensitivity
-- Backfill Type
+- Tool Call Testing
+- Sensitivity Backfill
+- Type Backfill
 - Repo Learning Coach
-- Update README Contributions
-- Brain Backup
-- Enhanced Thoughts
+- Update Readme Contributions
+- Brain Backup Metadata
+- Embedding Generation
+- Open Brain Ingestion API
+- Enhanced Thoughts Metadata
 - Entity Extraction Worker
-- Backfill Fingerprints
-- Setup Script
-- Hermes OB1 Tests
-- Screenshot Capture
-- Template Metadata
-- Open Brain Imports
+- Fingerprint Backfill
+- Google Activity Import
+- Supabase Setup Scripts
+- Chrome Screenshot Capture
+- Metadata Template
+- Open Brain Import Processes
 - Development Dependencies
 - RLS Metadata
 - Server Middleware
-- Shared MCP Metadata
+- Shared Metadata
 - Thought Enrichment Metadata
-- Twitter Import
-- Instagram Import
+- Twitter Data Import
+- Instagram Data Import
 - Text Atomization
 - Lint Sweep Package
 - Canonical Landing Metadata
 - Smoke Graph RPCs
-- Dashboard TypeScript Config
+- Open Brain Dashboard Config
 - Thought Processing Utilities
-- Client Memory Management
-- Open Brain Dashboard
-- Dashboard API
+- Authentication Middleware
+- Brain UI Components
+- Open Brain Dashboard Resources
+- Open Brain API
 - Grok Export Import
 - Instagram Import Package
-- Gemini State Management
+- Gemini Sync State
 - Kubernetes Deployment
-- Blogger Import Package
+- Journals Blogger Import
 - Report Generation Utilities
 - Guide Generation
 - Brain Backup
 - Metadata Backfill
-- Twitter Import Package
+- X Twitter Import Package
 - Open Brain Workflows
 - Dashboard Sidebar Components
 - Agent Memory API Smoke Test
 - Blogger Import
 - Schema Aware Routing
 - Server Package
+- Contribution Management
 - Dashboard Authentication
 - Agent Memory Visuals
 - Grok Import
@@ -257,23 +260,23 @@
 - Gemini History Extractor Test
 - Finding Extraction Tests
 - Workspace ID Resolution
-- Backfill Operations
-- Dashboard Snippets
-- Stateless Testing
+- Backfill Script
+- Dashboard Metadata
+- Stateless Test
 - Dashboard Type Definitions
 - Fingerprint Deduplication
-- Google Activity Import
+- Google Activity Import Package
 - Hermes Model Management
 - Sensitivity Patterns
 - Video Asset Preparation
-- Dashboard Pro Package
+- Open Brain Dashboard Pro
 - Build Scripts
-- Memory Cleanup Tests
+- Test Memory Cleanup
 - Session Management
-- ClawHub Banner Summary
-- Dashboard Pro Authentication
+- ClawHub Banner Metadata
+- Open Brain Auth
 - Professional CRM Tools
-- Hero Summary
+- Hero Summary Metadata
 - ChatGPT Extractor
 - Gemini Extractor
 - Gemini History Extractor
@@ -281,16 +284,17 @@
 - Loop Card Summary
 - Development Dependencies
 - Project Dependencies
-- Agent Memory Overview
-- Task Management
+- Agent Memory and Stats
+- Agentic Harnesses
+- Agentic Frameworks
 - Social Square Summary
 - Thought Card Styles
-- Usage Reporting
+- Usage Report
 - Family Calendar
 - Home Maintenance
 - Household Knowledge
 - ClawHub Publishing Notes
-- Gemini State Test
+- Gemini Sync State Test
 - Popup Configuration
 - Consolidation Workers
 - Delete Thought MCP
@@ -305,130 +309,127 @@
 - Readwise Capture
 - Client Exports Builder
 - Server Configuration
+- Agent Memory Operations
 - Wiki Article Processing
 - Work Operating Model
 - Cache Management
 - Voiceover Metadata
 - Dashboard Layout
 - Schema Definition
-- Request Configuration
+- Request Parameters
 - Agent Memory Documentation
-- Image Generation
+- Image Generation Script
 - Content Sensitivity Detection
-- Session Management Dependencies
-- Skill Name and Capture
-- Financial Document Processing
-- Embedding and Server Setup
-- Agent Memory API Setup
-- Dashboard Ingestion Components
-- Data Expiration Settings
-- Restricted API Operations
-- Thought Editor Types
-- Restricted API Operations Pro
-- Dashboard Layout Components
-- Agent Memory Workflow
+- Session Management
+- Agent Memory Tools
+- Financial Review Processes
+- Embedding Update API
+- Agent Memory API
+- Dashboard Ingest Page
+- Cache Configuration
+- Restricted API Routes
+- Thought Editor Options
+- Restricted API Routes
+- Dashboard Layout
+- Agent Memory Assets
 - Family Management Tools
 - API Client Utilities
 - Thought Deletion API
-- REST API Setup
-- Metadata Management
-- Edge Function Deployment
+- REST API Configuration
+- Metadata Configuration
+- MCP Deployment Guide
 - Data Processing Tools
 - Package Configuration
-- Atomize Testing Configuration
+- File Ingestion Processes
+- Atomization Testing
 - Autobiography Generation
-- Ingest API Operations
+- Ingest API Routes
 - Search Functionality
-- Ingest API Operations Pro
-- Search Functionality Pro
-- Fingerprinting Utilities
+- Ingest API Routes
+- Search Functionality
+- Fingerprinting Utility
 - Learning Coach Orientation
-- Learning Coach Development
-- Heatmap Source Filtering
+- Learning Coach Insights
+- Heatmap Source Filter
 - Settings Management
-- Playbook Documentation
+- Design Playbooks
 - Auditor Configuration
-- Duplicate Management
+- Duplicates Management
 - Thoughts Management
 - Connection Management
-- Thoughts Filtering Options
-- Duplicate Management Pro
-- Thoughts Management Pro
-- OB1 Branding Assets
+- Thoughts Filtering
+- Duplicates Management
+- Thoughts Management
+- Branding Assets
 - Entity Extraction Worker
 - Integration Assets
-- Entity Extraction and Memory
+- Agent Memory Overview
 - Kubernetes Deployment
 - Capture Integrations
 - REST API Configuration
 - Proxy Configuration
 - Capture Classification
-- Atomizer and Capture Protocol
-- Brain Health Management
+- Atomization Protocol
+- Brain Health Monitoring
 - Learning Coach Configuration
-- File Ingestion Resources
-- Database Migration Tools
-- Wiki Article Management
+- File Ingestion Tools
+- Migration Script
+- Wiki Article Page
 - Type Definitions
-- Update Management
-- Thought Update API
-- CORS Headers Management
-- Per-Request Server Setup
+- Update API Routes
+- MCP Update API
+- CORS Configuration
+- Server Request Handling
 - Prompt Configuration
-- Extension Generator Specification
-- Family Calendar Management
+- Extension Specification
+- Family Calendar App
 - Prompt Configuration
-- Home Maintenance Management
-- Layout Styles
+- Home Maintenance App
+- App Styles
 - Thoughts Schema Script
-- Household Knowledge Management
-- Open Brain Capture Configuration
-- Changelog Management
-- Telegram Capture Integration
-- Loop Card Prompts
+- Household Knowledge App
+- Open Brain Capture Setup
+- Changelog for Hermes Agent
+- Telegram Thought Capture
+- Prompt Configuration
 - Meal Planning App
-- Shared Server App
-- OB Graph App
+- Shared Server Configuration
+- OB Graph Application
 - Middleware Configuration
 - Open Brain Dashboard Config
-- Open Brain Dashboard Config
+- Open Brain Pro Config
 - Svelte Configuration
 - Row Level Security
 - Professional CRM App
 - Context Extraction Prompts
-- ChatGPT Conversation Import
+- ChatGPT Conversation Digest
 - Aiception Skill
 - Infographic Generator Skill
-- Obsidian Vault Import
-- Key Generation
+- Obsidian Vault Requirements
+- Key Generation Script
 - Agentic Harnesses for Codex
 - OB1 Local HTTP Skill
 - OB1 Agent Memory Skill
 - Panning for Gold Skill
 - Research Synthesis Skill
 - Weekly Signal Diff Skill
+- Live Search Upgrade
 - World Model Diagnostic Skill
-- Social Square Prompts
+- Social Square Prompt
 - Vercel Framework Config
-- OB1 PR Review Skill
-- Bug Report
-- Extension Proposal
-- Feature Request
-- Non-Technical Contribution
 - Primitive Proposal
-- Recipe Contribution Idea
-- JSON Schema Validation
+- Metadata JSON Schema
 - OB1 Beanie Mark 128
 - OB1 Beanie Mark Cream
 - OB1 Beanie Mark Green
 - OB1 Beanie Mark White
 - OB1 Logo
-- OB1 Logo Wide
+- OB1 Wide Logo
 - Agent Memory Brand Assets
 - Trust Ladder Diagram
 - Writeback Lifecycle Diagram
 - Clawhub Banner
-- Hero Image
+- Hero Image 16x9
 - Loop Card Image
 - Social Square Image
 - Generated Clawhub Banner
@@ -436,9 +437,9 @@
 - Generated Loop Card Image
 - Generated Social Square Image
 - Agent Memory Inspector Screenshot
-- Agent Memory Recall Trace Screenshot
-- Agent Memory Review Queue Screenshot
-- Agent Memory Review Screenshot
+- Memory Recall Trace Screenshot
+- Memory Review Queue Screenshot
+- Memory Review Screenshot
 - Audit Quality Screenshot
 - Dashboard Overview Screenshot
 - Duplicates Review Screenshot
@@ -462,47 +463,46 @@
 - OB1 Beanie GPT Image
 - OB1 Agent Dashboard PDF
 - Extensions Overview
-- Self-hosted Open Brain
+- Discord Release Announcement
+- Knowledge Graph Rebuild
+- Markdown Lint Tool
+- Open Brain Kubernetes Setup
 - Deprecation Warning
 - Directory Name
 - File Environment
-- Help Documentation
-- SHA-256 Fingerprint
-- Recipe Collection
+- Help Resources
+- Database Content Deduplication
+- Recipe Management
 - ChatGPT Import Requirements
-- Content Deduplication
+- Content Deduplication Fingerprint
 - Daily Digest Feature
-- Cost Optimization for Edge Functions
-- Gmail OAuth Management
-- Data Export and Import
+- Edge Function Optimization
+- Gmail OAuth State Management
+- Grok Data Export/Import
 - Instagram Data Import
 - Life Engine Skill
-- Live Data Retrieval
+- Live Data Retrieval Skill
 - Local Brain Docker Setup
 - Ollama Embeddings Requirements
-- Skill Development
+- Gold Panning Skill
 - Perplexity Import Requirements
 - Readwise Data Import
 - Skill Naming
-- Claude Code Integration
-- Brain Synchronization
-- Aiception Framework
-- Context and Memory Evaluation
-- Agent Extensibility
-- User Experience and Operations
-- Work Operating Model
+- Claude Code Adapter
+- Autodream Synchronization
+- Aiception Feature
 
 ## God Nodes (most connected - your core abstractions)
 1. `OB1MemoryProvider` - 66 edges
 2. `$defs` - 23 edges
 3. `requestJson()` - 23 edges
 4. `generateEmbedding()` - 23 edges
-5. `Contributing to OB1` - 22 edges
-6. `json()` - 21 edges
-7. `_OB1Client` - 18 edges
-8. `main()` - 18 edges
-9. `additionalProperties` - 17 edges
-10. `main()` - 17 edges
+5. `json()` - 21 edges
+6. `_OB1Client` - 18 edges
+7. `main()` - 18 edges
+8. `additionalProperties` - 17 edges
+9. `main()` - 17 edges
+10. `compilerOptions` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Open Brain Favicon` --references--> `OB1 PR Gate Workflow`  [EXTRACTED]
@@ -511,15 +511,16 @@
   dashboards/open-brain-dashboard/src/routes/api/mcp/+server.ts → integrations/entity-extraction-worker/index.ts
 - `Pull Request Template` --references--> `Contributing to OB1`  [EXTRACTED]
   .github/PULL_REQUEST_TEMPLATE.md → CONTRIBUTING.md
-- `Bug Report` --references--> `Contributing to OB1`  [EXTRACTED]
-  .github/ISSUE_TEMPLATE/bug-report.yml → CONTRIBUTING.md
-- `Feature Request` --references--> `Contributing to OB1`  [EXTRACTED]
-  .github/ISSUE_TEMPLATE/feature-request.yml → CONTRIBUTING.md
+- `Primitive Proposal` --references--> `Contributing to OB1`  [EXTRACTED]
+  .github/ISSUE_TEMPLATE/primitive-submission.yml → CONTRIBUTING.md
+- `CLAUDE.md — Agent Instructions for Open Brain` --references--> `Contributing to OB1`  [EXTRACTED]
+  CLAUDE.md → CONTRIBUTING.md
 
 ## Import Cycles
 - 1-file cycle: `recipes/readwise-import/import-readwise.py -> recipes/readwise-import/import-readwise.py`
 
 ## Hyperedges (group relationships)
+- **Issue Templates** — github_issue_template_bug_report, github_issue_template_feature_request, github_issue_template_extension_submission, github_issue_template_recipe_submission, github_issue_template_non_technical_contribution, github_issue_template_blank [EXTRACTED 0.75]
 - **OB1 PR Workflows** — .github_workflows_ob1_pr_gate, .github_workflows_ob1_pr_followups, .github_workflows_release_drafter, .github_workflows_update_readme_contributions, .github_workflows_welcome_new_contributors [EXTRACTED 0.75]
 - **Extensions Template** — extensions__template__agent_spec, extensions__template__readme [EXTRACTED 0.75]
 - **Integrations Template** — integrations__template__readme, integrations__chrome_capture_extension__docs__screenshots__readme [EXTRACTED 0.75]
@@ -548,10 +549,9 @@
 - **N Agentic Harnesses** — skills_n-agentic-harnesses_references_08-design-and-build-playbook, skills_n-agentic-harnesses_references_09-evaluation-and-improvement-playbook, skills_n-agentic-harnesses_references_10-example-requests-and-output-patterns, skills_n-agentic-harnesses_references_11-codex-translation-notes [EXTRACTED 0.75]
 - **OB1 Skills** — skills_ob1-local-http_SKILL, skills_openclaw-agent-memory_SKILL, skills_panning-for-gold_SKILL, skills_research-synthesis_SKILL, skills_weekly-signal-diff_SKILL, skills_world-model-diagnostic_SKILL [EXTRACTED 0.75]
 - **Agent Memory Skills** — skills_openclaw-agent-memory_SKILL, skills_panning-for-gold_SKILL, skills_research-synthesis_SKILL, skills_weekly-signal-diff_SKILL, skills_world-model-diagnostic_SKILL [EXTRACTED 0.75]
-- **Issue Templates** — .github_issue_template_bug_report_md, .github_issue_template_feature_request_md, .github_issue_template_non_technical_contribution_md, .github_issue_template_extension_submission_md, .github_issue_template_primitive_submission_md, .github_issue_template_recipe_submission_md [EXTRACTED 0.75]
 - **Recipes** — recipes_ [EXTRACTED 0.75]
 
-## Communities (528 total, 149 thin omitted)
+## Communities (528 total, 143 thin omitted)
 
 ### Community 0 - "Schema Properties"
 Cohesion: 0.06
@@ -577,7 +577,7 @@ Nodes (61): BrainBridgeState, app, buildArtifactContent(), buildSearchQuery(), C
 Cohesion: 0.07
 Nodes (53): app, corsHeaders, server, SourceErrorRow, SourceIngestionRow, supabase, ThoughtRow, UpsertThoughtResult (+45 more)
 
-### Community 6 - "Writeback Schema"
+### Community 6 - "Recall Schema"
 Cohesion: 0.10
 Nodes (50): additionalProperties, $id, properties, artifacts, channel, constraints, content_hash, customers (+42 more)
 
@@ -585,7 +585,7 @@ Nodes (50): additionalProperties, $id, properties, artifacts, channel, constrain
 Cohesion: 0.07
 Nodes (40): model, output_format, prompt, quality, size, model, output_format, prompt (+32 more)
 
-### Community 8 - "Recall Schema"
+### Community 8 - "Recall Properties"
 Cohesion: 0.10
 Nodes (44): additionalProperties, $id, maximum, minimum, items, properties, channel, contains_code (+36 more)
 
@@ -593,21 +593,21 @@ Nodes (44): additionalProperties, $id, maximum, minimum, items, properties, chan
 Cohesion: 0.09
 Nodes (39): buildFrontmatter(), buildSynthesisInput(), createSupabase(), embedQuery(), fenceSnippets(), fetchEntityNames(), fetchLinkedThoughts(), fetchTypedEdges() (+31 more)
 
-### Community 10 - "Capture Logging"
+### Community 10 - "Capture Management"
 Cohesion: 0.10
 Nodes (37): appendCaptureLog(), buildPreview(), captureActiveTab(), claimRetryQueueItems(), clearCaptureLog(), createStateDefaults(), describeIngestError(), ensureGeminiSyncAlarm() (+29 more)
 
-### Community 11 - "Thought Ingestion"
-Cohesion: 0.08
-Nodes (41): Insert a thought directly into Supabase with a generated embedding.      Args:, _cell_value(), extract_conversations(), extract_memory_rows(), flatten_json_profile(), flatten_json_section(), generate_embedding(), http_post_with_retry() (+33 more)
-
-### Community 12 - "Taskflow Work Log"
+### Community 11 - "Taskflow Work Log"
 Cohesion: 0.05
 Nodes (41): channel, id, kind, thread_id, content_hash, customers, files, people (+33 more)
 
-### Community 13 - "Smart Ingestion"
+### Community 12 - "Smart Ingestion"
 Cohesion: 0.07
 Nodes (31): ALLOWED_TYPES, BudgetTracker, chunkText(), constantTimeEqual(), CORS_HEADERS, countWords(), EDGE_FUNCTION_BUDGET_MS, executeItem() (+23 more)
+
+### Community 13 - "Conversation Extraction"
+Cohesion: 0.08
+Nodes (40): _cell_value(), extract_conversations(), extract_memory_rows(), flatten_json_profile(), flatten_json_section(), generate_embedding(), http_post_with_retry(), ingest_thought_supabase() (+32 more)
 
 ### Community 14 - "Code Review Memory"
 Cohesion: 0.05
@@ -621,15 +621,15 @@ Nodes (38): authorize(), buildEmailContent(), CliArgs, decodeBase64Url(), extrac
 Cohesion: 0.10
 Nodes (38): addFailedId(), ALLOWED_SOURCE_TYPES, ALLOWED_TYPES, buildConfig(), callAnthropic(), checkpointState(), clampFloat(), clampInt() (+30 more)
 
-### Community 17 - "Code Review Recall"
+### Community 17 - "Code Review Memory Recall"
 Cohesion: 0.05
 Nodes (37): channel, id, kind, thread_id, entities, customers, files, orgs (+29 more)
 
-### Community 18 - "Taskflow Recall"
+### Community 18 - "Taskflow Work Log Recall"
 Cohesion: 0.05
 Nodes (37): channel, id, kind, thread_id, entities, customers, files, orgs (+29 more)
 
-### Community 19 - "Operating Model Activation"
+### Community 19 - "Operating Model Management"
 Cohesion: 0.06
 Nodes (29): app, ARTIFACTS, baseEntrySchema, buildScheduleRecommendations(), buildUserMarkdown(), cadenceBucket(), CheckpointRecord, DEFAULT_USER_ID (+21 more)
 
@@ -637,1252 +637,1276 @@ Nodes (29): app, ARTIFACTS, baseEntrySchema, buildScheduleRecommendations(), bui
 Cohesion: 0.05
 Nodes (36): channel, id, kind, thread_id, entities, customers, files, orgs (+28 more)
 
-### Community 21 - "Contribution Guidelines"
-Cohesion: 0.06
-Nodes (36): Bug Report, Extension Proposal, Feature Request, Non-Technical Contribution, Primitive Proposal, Recipe / Contribution Idea, Pull Request Template, Auto-Label PRs (+28 more)
-
-### Community 22 - "Smoke Tests"
+### Community 21 - "Smoke Testing"
 Cohesion: 0.06
 Nodes (29): accessKeyChecks, ANON_KEY, args, authChecks, categories, categoryArg, coreChecks, dbChecks (+21 more)
 
-### Community 23 - "API Duplicates Management"
+### Community 22 - "API Duplicates Management"
 Cohesion: 0.09
 Nodes (29): POST(), ApiError, apiFetch(), CaptureResult, captureThought(), checkHealth(), fetchDuplicates(), fetchStats() (+21 more)
 
-### Community 24 - "Plugin Configuration"
+### Community 23 - "Plugin Configuration"
 Cohesion: 0.06
 Nodes (35): author, openclawVersion, pluginSdkVersion, minGatewayVersion, pluginApi, dependencies, typebox, description (+27 more)
 
-### Community 25 - "Smart Ingestion Config"
+### Community 24 - "Smart Ingestion Configuration"
 Cohesion: 0.12
 Nodes (30): ALLOWED_TYPES, EXTRACTION_PROMPT, PERSONAL_PATTERNS, PreparedPayload, PrepareThoughtOpts, RESTRICTED_PATTERNS, SENSITIVITY_TIERS, SensitivityResult (+22 more)
 
-### Community 26 - "Thought Capture"
-Cohesion: 0.12
-Nodes (20): POST(), extractMetadata(), extractKey(), requireAuth(), validateAccessKey(), captureThought(), getSQL(), insertThought() (+12 more)
-
-### Community 27 - "Thought Filtering"
+### Community 25 - "Thought Filtering"
 Cohesion: 0.10
 Nodes (27): duplicatesResponse(), filterRestricted(), filterThoughts(), findThought(), isAuthorized(), orderObject(), port, positiveInt() (+19 more)
 
-### Community 28 - "Memory Provider"
+### Community 26 - "Agent Memory Management"
+Cohesion: 0.12
+Nodes (16): STATUSES, MemoryRecordPolicy(), PolicyBadges(), PolicyLike, StatusBadge(), AgentMemoryDetailPage(), agentMemoryDefaults(), agentMemoryFetch() (+8 more)
+
+### Community 27 - "Memory Prefetching"
 Cohesion: 0.11
 Nodes (10): OB1MemoryProvider, Any, Fire a background recall whose result is consumed by the next prefetch()., Extract structured findings from the full session and write to OB1.          Run, Extract findings from messages about to be compressed and return         a summa, OpenBrain (OB1) memory provider for Hermes.      Mirrors the supermemory provide, Capture per-turn runtime metadata for the next writeback.          The MemoryPro, Return {model, provider} from cached on_turn_start kwargs OR from         Hermes (+2 more)
 
-### Community 29 - "._patched"
-Cohesion: 0.10
-Nodes (5): Any, _StubProvider, TestPrefetchAndCache, TestSessionEnd, TestSyncTurn
+### Community 28 - "Conversation Import"
+Cohesion: 0.11
+Nodes (29): writeReport(), Write a markdown report of imported conversations., Save sync log to disk., saveSyncLog(), chunk_by_headings(), chunk_note(), content_hash(), extract_date() (+21 more)
 
-### Community 30 - "Entity Extraction"
+### Community 29 - "Entity Extraction"
 Cohesion: 0.10
 Nodes (22): ENTITY_EXTRACTION_MAX_CALLS, ExtractedEntity, ExtractedRelationship, extractEntities(), ExtractionCostCapError, ExtractionResult, FETCH_TIMEOUT_MS, fetchWithTimeout() (+14 more)
 
-### Community 31 - "Sync Log Management"
-Cohesion: 0.11
-Nodes (28): Load sync log from disk. Returns dict with ingested_ids and last_sync., Save sync log to disk., loadSyncLog(), saveSyncLog(), chunk_by_headings(), chunk_note(), content_hash(), extract_date() (+20 more)
-
-### Community 32 - "Next.js Configuration"
+### Community 30 - "Dashboard Dependencies"
 Cohesion: 0.07
 Nodes (28): dependencies, @dnd-kit/core, @dnd-kit/sortable, @dnd-kit/utilities, iron-session, next, react, react-dom (+20 more)
 
-### Community 33 - "Tool Schema Validation"
+### Community 31 - "Tool Schema Validation"
 Cohesion: 0.09
 Nodes (23): assertNoPatternOnlyObjects(), assertObjectProperties(), checks, fail(), channelParameters, memoryPayloadParameters, modelIntentParameters, nullableString (+15 more)
 
-### Community 34 - "Thought Management"
+### Community 32 - "Thought Management"
 Cohesion: 0.11
 Nodes (24): app, applySort(), applyThoughtFilters(), captureSchema, corsHeaders, createThought(), DbThought, extractMetadata() (+16 more)
 
-### Community 35 - "Thought Classification"
+### Community 33 - "Edge Classification"
 Cohesion: 0.14
 Nodes (28): callOpenRouter(), assertPricingKnown(), backoffDelayMs(), callAnthropic(), callAnthropicDirectOnce(), callAnthropicOnce(), classifyPair(), estimateCost() (+20 more)
 
-### Community 36 - "Telegram Webhook Setup"
+### Community 34 - "Telegram Webhook Setup"
 Cohesion: 0.07
 Nodes (26): dependencies, ai, @ai-sdk/openai, grammy, @modelcontextprotocol/sdk, @neondatabase/serverless, next, react (+18 more)
 
-### Community 37 - "Conversation Management"
+### Community 35 - "ChatGPT Integration"
 Cohesion: 0.12
-Nodes (27): conversation_hash(), Generate a stable hash ID for a conversation., Return a skip reason string, or None if the conversation should be processed., should_skip(), build_focus_instruction(), check_semantic_duplicate(), http_post_with_retry(), ingest_thought_supabase() (+19 more)
+Nodes (27): build_focus_instruction(), check_semantic_duplicate(), http_post_with_retry(), ingest_thought_supabase(), main(), parse_args(), parse_date(), _parse_extraction_response() (+19 more)
 
-### Community 38 - "Activity Tracking"
-Cohesion: 0.13
-Nodes (26): Generate a 1536-dim embedding via OpenRouter (text-embedding-3-small)., filterActivities(), findMyActivityFiles(), groupByDay(), hashText(), HIGH_VALUE_CATEGORIES, httpPost(), loadSyncLog() (+18 more)
-
-### Community 39 - "OB1 Memory Provider"
+### Community 36 - "OB1 Memory Provider"
 Cohesion: 0.10
 Nodes (15): _as_bool(), _clean_text_for_capture(), _default_config(), _format_recall_context(), _format_relative_time(), _is_trivial_message(), _load_ob1_config(), OB1 (OpenBrain) memory provider for Hermes Agent.  Connects Hermes agents to Nat (+7 more)
 
-### Community 40 - "Entity Extraction Config"
+### Community 37 - "Entity Extraction Configuration"
 Cohesion: 0.12
 Nodes (22): ALLOWED_TYPES, EXTRACTION_PROMPT, PERSONAL_PATTERNS, PreparedPayload, PrepareThoughtOpts, RESTRICTED_PATTERNS, SENSITIVITY_TIERS, SensitivityResult (+14 more)
 
-### Community 41 - "Memory Management"
-Cohesion: 0.12
-Nodes (24): countSemicolonClauses(), countSentences(), DEFAULT_DATA_ROOT, __dirname, env, getMemories(), getPackFiles(), hasEnumerationPatterns() (+16 more)
+### Community 38 - "Stub Provider"
+Cohesion: 0.11
+Nodes (5): Any, _StubProvider, TestPrefetchAndCache, TestSessionEnd, TestSyncTurn
 
-### Community 42 - "Agent Memory UI"
-Cohesion: 0.15
-Nodes (16): STATUSES, MemoryRecordPolicy(), PolicyBadges(), PolicyLike, StatusBadge(), AgentMemoryDetailPage(), agentMemoryDefaults(), agentMemoryFetch() (+8 more)
+### Community 39 - "ChatGPT Parser"
+Cohesion: 0.10
+Nodes (25): conversation_hash(), count_messages(), extract_conversation_metadata(), extract_conversations(), extract_dialogue_text(), _extract_text_from_content(), _load_conversations_from_dir(), prepare_dialogue_for_extraction() (+17 more)
 
-### Community 43 - "Action Management"
-Cohesion: 0.08
-Nodes (21): IMPORTANCE_COLORS, REASON_LABELS, ACTION_COLORS, ACTION_LABELS, AddToBrainProps, MODES, ACTION_COLORS, ACTION_LABELS (+13 more)
-
-### Community 44 - "Supabase Integration"
+### Community 40 - "Supabase Integration"
 Cohesion: 0.08
 Nodes (24): supabase, devDependencies, @supabase/supabase-js, svelte, svelte-check, @sveltejs/adapter-auto, @sveltejs/adapter-vercel, @sveltejs/kit (+16 more)
 
-### Community 45 - "File Conversion"
+### Community 41 - "File Conversion"
 Cohesion: 0.26
 Nodes (25): Namespace, Artifact, build_index_markdown(), clean_preview_line(), ConversionResult, convert_csv_like(), convert_docx(), convert_pdf() (+17 more)
 
-### Community 47 - "Sync Management"
+### Community 42 - "Open Brain Documentation"
+Cohesion: 0.08
+Nodes (25): Primitive Proposal, Pull Request Template, OB1 Agent Instructions, CLAUDE.md — Agent Instructions for Open Brain, Contributor Covenant Code of Conduct, Contributing to OB1, Contributors, 404 Page for Open Brain (+17 more)
+
+### Community 44 - "Sync Management"
 Cohesion: 0.27
 Nodes (23): cancelSync(), checkSyncTabHealthy(), closeSyncTab(), delay(), driveConversation(), ensureSyncTab(), enumerateConversationsViaTab(), getStateModule() (+15 more)
 
-### Community 48 - "ChatGPT Sync"
+### Community 45 - "ChatGPT Sync"
 Cohesion: 0.22
 Nodes (24): authExpiredResult(), backoffDelay(), clearAuthExpired(), extractMessageText(), fetchWithRetry(), finishRun(), flattenMessageTree(), formatForIngest() (+16 more)
 
-### Community 49 - "Browser Extension Manifest"
+### Community 46 - "Browser Extension Manifest"
 Cohesion: 0.08
 Nodes (24): action, default_icon, default_popup, default_title, background, service_worker, content_scripts, 128 (+16 more)
 
-### Community 50 - "Kanban Board"
+### Community 47 - "Kanban Board"
 Cohesion: 0.12
 Nodes (11): KanbanCardProps, KanbanCardModalProps, COLUMN_ACCENT, KanbanColumn(), PriorityDot(), PriorityDotProps, getPriorityLevel(), KANBAN_LABELS (+3 more)
 
-### Community 51 - "Thought Detail Page"
+### Community 48 - "Thought Detail Management"
 Cohesion: 0.13
 Nodes (19): ThoughtDetailPage(), ApiError, apiFetch(), CaptureResult, captureThought(), checkHealth(), deleteThought(), fetchDuplicates() (+11 more)
 
-### Community 52 - "Sidebar Components"
+### Community 49 - "Dashboard Icons"
 Cohesion: 0.09
 Nodes (9): coreNav, EXTENSION_ICONS, IconComponent, nav, SidebarProps, trailingNav, ExtensionIcon, ExtensionNavEntry (+1 more)
 
-### Community 53 - "Readwise Import"
+### Community 50 - "Readwise Import"
 Cohesion: 0.13
 Nodes (23): datetime, already_imported(), book_matches(), build_thought(), embed_batch(), fetch_export_page(), highlight_matches(), list_books() (+15 more)
 
-### Community 54 - "Claude Sync"
+### Community 51 - "Claude Sync"
 Cohesion: 0.22
 Nodes (23): authExpiredResult(), backoffDelay(), clearAuthExpired(), extractMessageText(), fetchWithRetry(), finishRun(), flattenMessages(), formatForIngest() (+15 more)
 
-### Community 55 - "Gmail Audit Pipeline"
+### Community 52 - "Memory Management"
+Cohesion: 0.15
+Nodes (20): countSemicolonClauses(), countSentences(), DEFAULT_DATA_ROOT, __dirname, env, getMemories(), getPackFiles(), hasEnumerationPatterns() (+12 more)
+
+### Community 53 - "Gmail Audit Pipeline"
 Cohesion: 0.09
 Nodes (20): allGmailIds, args, asMd, authoredIds, authorFreq, __dirname, env, gmailMissingAuthor (+12 more)
 
-### Community 56 - "Gemini Debugger"
+### Community 54 - "Gemini Debugger"
 Cohesion: 0.17
 Nodes (21): applyEnabledState(), attachToGeminiTab(), attachToOpenGeminiTabs(), detachFromAllTabs(), detachFromTab(), handleLoadingFinished(), handleRequestWillBeSent(), initGeminiDebugger() (+13 more)
 
-### Community 57 - "Job Hunt Management"
+### Community 55 - "Job Hunt Management"
 Cohesion: 0.09
 Nodes (12): addCompanySchema, addJobContactSchema, addJobPostingSchema, app, getPipelineOverviewSchema, getUpcomingInterviewsSchema, jobContactRoleSchema, linkContactToProfessionalCRMSchema (+4 more)
 
-### Community 58 - "Weekly Digest Metadata"
+### Community 56 - "Weekly Digest Metadata"
 Cohesion: 0.09
 Nodes (22): author, github, category, created, description, difficulty, legacy_aliases, llm_one_of (+14 more)
 
-### Community 59 - "ChatGPT Parser"
-Cohesion: 0.12
-Nodes (21): count_messages(), extract_conversation_metadata(), extract_conversations(), extract_dialogue_text(), _extract_text_from_content(), _load_conversations_from_dir(), prepare_dialogue_for_extraction(), ChatGPT Export Parser — parsing, content-type dispatch, filtering, session split (+13 more)
-
-### Community 60 - "Reflection Management"
+### Community 57 - "Reflection Management"
 Cohesion: 0.10
 Nodes (20): emptyForm, REFLECTION_TYPES, AddToBrainResult, BrowseResponse, DuplicatePair, DuplicatesResponse, IngestionItem, IngestionJob (+12 more)
 
-### Community 61 - "Plugin Configuration Schema"
+### Community 58 - "Plugin Configuration Schema"
 Cohesion: 0.14
 Nodes (21): minLength, workspace_id, anyOf, configSchema, additionalProperties, properties, required, contracts (+13 more)
 
-### Community 62 - "Writeback Request"
+### Community 59 - "Writeback Request"
 Cohesion: 0.10
 Nodes (21): channel, id, kind, thread_id, content_hash, flow_id, idempotency_key, models_used (+13 more)
 
-### Community 63 - "Sync UI Management"
+### Community 60 - "Sync UI Management"
 Cohesion: 0.18
 Nodes (18): addSyncLogEntry(), formatPlatformSummary(), formatSyncTime(), formatTime(), loadActivityLog(), loadStatus(), loadSyncStates(), refresh() (+10 more)
 
-### Community 64 - "Grading System"
+### Community 61 - "Thought Database"
+Cohesion: 0.19
+Nodes (13): extractMetadata(), captureThought(), getSQL(), insertThought(), listThoughts(), searchThoughts(), createOpenBrainMcp(), POST() (+5 more)
+
+### Community 62 - "Score Evaluation"
 Cohesion: 0.16
 Nodes (18): applyScoresFromFile(), BASE_URL, emitQueue(), extractJson(), fetchCandidates(), fetchParents(), gradeWithOpenRouter(), gradeWithStdin() (+10 more)
 
-### Community 65 - "Memory API"
+### Community 63 - "Memory API Management"
 Cohesion: 0.10
 Nodes (9): app, channelSchema, memoryPayloadSchema, recallSchemaVersion, reviewSchema, runtimeSchema, supabase, usageSchema (+1 more)
 
-### Community 66 - "Recall Response Schema"
+### Community 64 - "Recall Response Schema"
 Cohesion: 0.16
 Nodes (20): additionalProperties, $id, items, content, freshness, memories, memory_id, related_artifacts (+12 more)
 
-### Community 67 - "Evidence Properties"
+### Community 65 - "Evidence Properties"
 Cohesion: 0.10
 Nodes (20): properties, can_use_as_evidence, can_use_as_instruction, channel_id, confidence, created_at, created_by, kind (+12 more)
 
-### Community 68 - "OB1 Client"
+### Community 66 - "OB1 Client Management"
 Cohesion: 0.19
 Nodes (3): _OB1Client, Thin sync HTTP client for the OB1 Agent Memory API.      Uses x-brain-key header, TestOB1Client
 
-### Community 69 - "Agent Dashboard"
+### Community 67 - "Agent Dashboard"
 Cohesion: 0.10
 Nodes (19): dependencies, playwright, remotion, @remotion/cli, @remotion/renderer, name, private, scripts (+11 more)
 
-### Community 70 - "Next.js TypeScript Config"
+### Community 68 - "Next.js Configuration"
 Cohesion: 0.10
 Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
 
-### Community 71 - "Pro Dashboard TypeScript Config"
+### Community 69 - "Pro Dashboard Configuration"
 Cohesion: 0.10
 Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
 
-### Community 72 - "Memory Management Framework"
+### Community 70 - "Memory Management Workflows"
 Cohesion: 0.10
 Nodes (20): NBJ OB1 Agent Memory for OpenClaw, OpenClaw Code Review Memory, OpenClaw TaskFlow Work Log, Panning for Gold, Perplexity Conversation Import, Provenance Chains Pipeline, Readwise Import, Repo Learning Coach (+12 more)
 
-### Community 73 - "Telegram TypeScript Config"
+### Community 71 - "Telegram Configuration"
 Cohesion: 0.10
 Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
 
-### Community 74 - "CRM Metadata"
-Cohesion: 0.11
-Nodes (18): author, github, category, contributors, created, description, difficulty, estimated_time (+10 more)
-
-### Community 75 - "App TypeScript Config"
-Cohesion: 0.11
-Nodes (18): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
-
-### Community 76 - "Server TypeScript Config"
-Cohesion: 0.11
-Nodes (18): compilerOptions, allowSyntheticDefaultImports, erasableSyntaxOnly, esModuleInterop, lib, module, moduleDetection, moduleResolution (+10 more)
-
-### Community 77 - "Session Capture"
-Cohesion: 0.18
-Nodes (17): appendLog(), buildImportKey(), ensureRetryDirs(), ENV_PATH, fetchWithTimeout(), formatTranscript(), isRetryableStatus(), loadEnv() (+9 more)
-
-### Community 78 - "Wiki Compilation"
-Cohesion: 0.18
-Nodes (16): DEFAULT_OUT_DIR, defaultArgs(), ensureDir(), ensureScriptsExist(), HERE, loadEnv(), main(), parseArgs() (+8 more)
-
-### Community 79 - "Context Metadata"
-Cohesion: 0.12
-Nodes (17): author, github, category, created, description, difficulty, estimated_time, name (+9 more)
-
-### Community 80 - "Capture API"
-Cohesion: 0.22
-Nodes (11): CaptureBody, SearchBody, corsHeaders, jsonResponse(), db, SERVICE_ROLE_KEY, SUPABASE_URL, config (+3 more)
-
-### Community 81 - "Family Calendar Metadata"
-Cohesion: 0.12
-Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
-
-### Community 82 - "Home Maintenance Metadata"
-Cohesion: 0.12
-Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
-
-### Community 83 - "Household Knowledge Metadata"
-Cohesion: 0.12
-Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
-
-### Community 84 - "Job Hunt Metadata"
-Cohesion: 0.12
-Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
-
-### Community 85 - "Meal Planning Metadata"
-Cohesion: 0.12
-Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
-
-### Community 86 - "Node TypeScript Config"
-Cohesion: 0.11
-Nodes (17): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, lib, module, moduleDetection, moduleResolution, noEmit (+9 more)
-
-### Community 87 - "Audit Management"
-Cohesion: 0.12
-Nodes (10): AuditResult, buildAuditContent(), Category, EXCLUDED_TYPES, Finding, PriorAudit, Severity, storeAuditReport() (+2 more)
-
-### Community 88 - "Recipe Metadata"
-Cohesion: 0.12
-Nodes (16): requires_skills, author, github, category, created, description, difficulty, estimated_time (+8 more)
-
-### Community 89 - "Editorial Policy Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 90 - "Duplicate Deletion"
-Cohesion: 0.17
-Nodes (15): args, buildFingerprint(), checkFingerprintsExist(), deleteIds(), DESTRUCTIVE, __dirname, env, fetchBatch() (+7 more)
-
-### Community 91 - "Promotional Assets"
-Cohesion: 0.42
-Nodes (16): FreeTypeFont, Image, ImageDraw, add_microtype(), banner(), draw_footer(), draw_logo_lockup(), fit_logo() (+8 more)
-
-### Community 92 - "Testing Framework"
+### Community 72 - "Testing Framework"
 Cohesion: 0.17
 Nodes (3): TestOnTurnStart, TestPreCompress, TestProviderLifecycle
 
-### Community 93 - "Lint Sweep Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 94 - "Local Brain Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 95 - "OpenClaw Memory Recipe"
-Cohesion: 0.12
-Nodes (16): requires_skills, author, github, category, created, description, difficulty, estimated_time (+8 more)
-
-### Community 96 - "Code Review Memory Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 97 - "Taskflow Work Log Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 98 - "Provenance Chains Recipe"
-Cohesion: 0.12
-Nodes (16): requires_skills, author, github, category, created, description, difficulty, estimated_time (+8 more)
-
-### Community 99 - "Readwise Import Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 100 - "Recipe Metadata"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 101 - "Research Decision Workflow"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 102 - "Gmail Wiki Backfill"
-Cohesion: 0.20
-Nodes (16): appendLog(), captureWikiThought(), CWD, fetchGmailThoughts(), groupByThread(), isEligible(), loadEnv(), main() (+8 more)
-
-### Community 103 - "Work Operating Model Activation"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 104 - "World Model Diagnostic Activation"
-Cohesion: 0.12
-Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
-
-### Community 105 - "Adaptive Capture Classification"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 106 - "Agent Memory API"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 107 - "Agent Memory Management"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 108 - "Gmail Correspondents Backfill"
-Cohesion: 0.26
-Nodes (13): __dirname, main(), parseArgs(), bestCanonicalName(), linkThoughtToEntity(), loadEnv(), makeSbClient(), normalizeEmail() (+5 more)
-
-### Community 109 - "Atomizer Metadata"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 110 - "Auto Dream Brain Sync"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 111 - "Brain Smoke Test"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 112 - "Smoke Test Package"
-Cohesion: 0.12
-Nodes (15): bin, ob1-brain-smoke-test, description, engines, node, license, main, name (+7 more)
-
-### Community 113 - "ChatGPT Conversation Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 114 - "Competitive Analysis"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 115 - "Content Fingerprint Deduplication"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 116 - "Daily Digest"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 117 - "Deal Memo Drafting"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 118 - "Edge Function Deployment"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 119 - "Edge Function Cost Optimization"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 120 - "Email History Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 121 - "Entity Wiki"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 122 - "Extension Metadata"
-Cohesion: 0.13
-Nodes (15): author, github, category, description, difficulty, estimated_time, name, requires (+7 more)
-
-### Community 123 - "Financial Model Review"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 124 - "Fingerprint Dedup Backfill"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 125 - "Google Activity Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 126 - "Grok Export Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 127 - "Heavy File Ingestion"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 128 - "Infographic Generator"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 129 - "Instagram Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 130 - "OpenClaw Agent Memory Integration"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 131 - "LLM Metadata Extraction"
-Cohesion: 0.23
-Nodes (16): callAnthropic(), callLLM(), callOpenAI(), callOpenRouter(), extractThoughtArray(), json(), scheduleEntityExtraction(), embedText() (+8 more)
-
-### Community 132 - "Integration Template"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 133 - "Journals Blogger Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 134 - "Kubernetes Deployment"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 135 - "Life Engine"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 136 - "Life Engine Video"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 137 - "Live Retrieval"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 138 - "Local Ollama Embeddings"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 139 - "Meeting Synthesis"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 140 - "N-Agentic Harnesses"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 141 - "Local HTTP API"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 142 - "OB Graph"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 143 - "Obsidian Vault Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 144 - "Open Brain Dashboard"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 145 - "Open Brain Dashboard Next"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 146 - "Open Brain Dashboard Pro"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 147 - "Per Agent Identity"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 148 - "Perplexity Conversation Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 149 - "Readwise Books Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 150 - "Readwise Capture"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 151 - "Recency Boosted Thoughts"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 152 - "Claudeception Recipe"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 153 - "Panning for Gold Recipe"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 154 - "Remote MCP"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 155 - "Research Synthesis"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 156 - "Schema Aware Routing"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 157 - "Provenance Chains Schema"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 158 - "Schema Template"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 159 - "Auto Capture Skills"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 160 - "Claudeception Skills"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 161 - "OpenClaw Agent Memory Skills"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 162 - "Panning for Gold Skills"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 163 - "Skills Template"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 164 - "Slack Capture"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 165 - "Seed Nate Continuity Demo"
-Cohesion: 0.23
-Nodes (14): assert(), batches, commonEntities(), dashboardUrl(), endpoint, fail(), listStatus(), main() (+6 more)
-
-### Community 166 - "Source Filtering"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 167 - "Telegram Capture"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 168 - "Text Search TRGM"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 169 - "Thought Audit"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 170 - "Troubleshooting"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 171 - "Typed Edge Classifier"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 172 - "Typed Reasoning Edges"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 173 - "Update Thought MCP"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 174 - "Vercel Neon Telegram"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 175 - "Weekly Signal Diff"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 176 - "Wiki Compiler"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 177 - "Wiki Synthesis"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 178 - "Work Operating Model"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 179 - "Workflow Status"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 180 - "World Model Diagnostic"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 181 - "X Twitter Import"
-Cohesion: 0.13
-Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
-
-### Community 182 - "Capture with Gating"
-Cohesion: 0.21
-Nodes (14): adjustThreshold(), buildUserPrompt(), callLLM(), CaptureType, Classified, completeCapture(), db, getThreshold() (+6 more)
-
-### Community 183 - "Gmail Thought Re-Atomization"
-Cohesion: 0.19
-Nodes (13): args, atomizeOpts, callRpc(), __dirname, env, H, loadTargets(), main() (+5 more)
-
-### Community 184 - "Dashboard Template"
-Cohesion: 0.14
-Nodes (14): author, github, category, created, description, difficulty, estimated_time, name (+6 more)
-
-### Community 185 - "Discord Capture"
-Cohesion: 0.14
-Nodes (14): author, category, created, description, difficulty, estimated_time, name, requires (+6 more)
-
-### Community 186 - "Entity Extraction"
-Cohesion: 0.14
-Nodes (14): author, github, category, created, description, difficulty, estimated_time, name (+6 more)
-
-### Community 187 - "MCP JSON Handling"
-Cohesion: 0.16
-Nodes (13): json(), McpJsonRpcResponse, parseMcpResponse(), POST(), ContactRow(), CrmPage(), CrmPersonRow, CrmTier (+5 more)
-
-### Community 188 - "Customer Memory Management"
-Cohesion: 0.13
-Nodes (15): customers, files, people, repos, topics, memory_payload, artifacts, constraints (+7 more)
-
-### Community 189 - "Extractor Claude"
-Cohesion: 0.28
-Nodes (13): classifyTurn(), collectSearchRoots(), dedupeElements(), extractConversationId(), extractTurnText(), extractVisibleResponse(), filterDeepestMatches(), findDirectMessageCandidates() (+5 more)
-
-### Community 191 - "Backfill Sensitivity"
-Cohesion: 0.17
-Nodes (12): apply, __dirname, dryRun, envPath, envVars, headers, SUPABASE_TIMEOUT_MS, buildContentFingerprint() (+4 more)
-
-### Community 192 - "Backfill Type"
+### Community 73 - "CRM Metadata"
+Cohesion: 0.11
+Nodes (18): author, github, category, contributors, created, description, difficulty, estimated_time (+10 more)
+
+### Community 74 - "App Configuration"
+Cohesion: 0.11
+Nodes (18): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, jsx, lib, module, moduleDetection, moduleResolution (+10 more)
+
+### Community 75 - "Server Configuration"
+Cohesion: 0.11
+Nodes (18): compilerOptions, allowSyntheticDefaultImports, erasableSyntaxOnly, esModuleInterop, lib, module, moduleDetection, moduleResolution (+10 more)
+
+### Community 76 - "Session Capture"
 Cohesion: 0.18
-Nodes (13): args, batchSizeArg, __dirname, DRY_RUN, env, fetchBatch(), headers, main() (+5 more)
+Nodes (17): appendLog(), buildImportKey(), ensureRetryDirs(), ENV_PATH, fetchWithTimeout(), formatTranscript(), isRetryableStatus(), loadEnv() (+9 more)
 
-### Community 193 - "Repo Learning Coach"
-Cohesion: 0.14
-Nodes (14): author, category, created, description, difficulty, estimated_time, name, requires (+6 more)
+### Community 77 - "Wiki Compilation"
+Cohesion: 0.18
+Nodes (16): DEFAULT_OUT_DIR, defaultArgs(), ensureDir(), ensureScriptsExist(), HERE, loadEnv(), main(), parseArgs() (+8 more)
 
-### Community 194 - "Update README Contributions"
-Cohesion: 0.24
-Nodes (13): buildSection(), chooseRepoTarget(), cleanTitle(), descriptionFromTitle(), escapeTable(), github(), main(), [owner, repo] (+5 more)
+### Community 78 - "Context Metadata"
+Cohesion: 0.12
+Nodes (17): author, github, category, created, description, difficulty, estimated_time, name (+9 more)
 
-### Community 195 - "Brain Backup"
-Cohesion: 0.15
-Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
+### Community 79 - "Capture and Search"
+Cohesion: 0.22
+Nodes (11): CaptureBody, SearchBody, corsHeaders, jsonResponse(), db, SERVICE_ROLE_KEY, SUPABASE_URL, config (+3 more)
 
-### Community 196 - "Enhanced Thoughts"
-Cohesion: 0.15
-Nodes (13): author, github, category, created, description, difficulty, estimated_time, name (+5 more)
+### Community 80 - "Family Calendar Metadata"
+Cohesion: 0.12
+Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
 
-### Community 197 - "Entity Extraction Worker"
-Cohesion: 0.15
-Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
+### Community 81 - "Home Maintenance Metadata"
+Cohesion: 0.12
+Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
 
-### Community 198 - "Backfill Fingerprints"
-Cohesion: 0.20
-Nodes (11): buildContentFingerprint(), __dirname, env, fetchBatch(), HEADERS, loadState(), main(), normalizeForFingerprint() (+3 more)
+### Community 82 - "Household Knowledge Metadata"
+Cohesion: 0.12
+Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
 
-### Community 199 - "Setup Script"
-Cohesion: 0.32
-Nodes (11): setup.sh script, check_prereqs(), clone_supabase(), copy_init_scripts(), die(), link_functions(), log(), main() (+3 more)
+### Community 83 - "Job Hunt Metadata"
+Cohesion: 0.12
+Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
 
-### Community 200 - "Hermes OB1 Tests"
+### Community 84 - "Meal Planning Metadata"
+Cohesion: 0.12
+Nodes (17): author, github, category, created, description, difficulty, estimated_time, learning_order (+9 more)
+
+### Community 85 - "Node Configuration"
+Cohesion: 0.11
+Nodes (17): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, lib, module, moduleDetection, moduleResolution, noEmit (+9 more)
+
+### Community 86 - "Audit Management"
+Cohesion: 0.12
+Nodes (10): AuditResult, buildAuditContent(), Category, EXCLUDED_TYPES, Finding, PriorAudit, Severity, storeAuditReport() (+2 more)
+
+### Community 87 - "Recipe Metadata"
+Cohesion: 0.12
+Nodes (16): requires_skills, author, github, category, created, description, difficulty, estimated_time (+8 more)
+
+### Community 88 - "Editorial Policy Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 89 - "Duplicate Deletion"
+Cohesion: 0.17
+Nodes (15): args, buildFingerprint(), checkFingerprintsExist(), deleteIds(), DESTRUCTIVE, __dirname, env, fetchBatch() (+7 more)
+
+### Community 90 - "Promotional Assets"
+Cohesion: 0.42
+Nodes (16): FreeTypeFont, Image, ImageDraw, add_microtype(), banner(), draw_footer(), draw_logo_lockup(), fit_logo() (+8 more)
+
+### Community 91 - "Hermes OB1 Memory Tests"
 Cohesion: 0.15
 Nodes (6): configured(), _mock_urlopen_response(), Tests for the Hermes OB1 memory provider plugin.  Covers pure helpers, lifecycle, Provider with endpoint + key wired up but urlopen still mocked elsewhere., Build a context-manager mock that mimics urllib's urlopen response., TestSystemPromptBlock
 
-### Community 201 - "Screenshot Capture"
+### Community 92 - "Lint Sweep Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 93 - "Local Brain Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 94 - "Recipe Metadata"
+Cohesion: 0.12
+Nodes (16): requires_skills, author, github, category, created, description, difficulty, estimated_time (+8 more)
+
+### Community 95 - "Code Review Memory Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 96 - "Taskflow Work Log Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 97 - "Provenance Chains Metadata"
+Cohesion: 0.12
+Nodes (16): requires_skills, author, github, category, created, description, difficulty, estimated_time (+8 more)
+
+### Community 98 - "Readwise Import Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 99 - "Template Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 100 - "Research Workflow Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 101 - "Gmail Thought Processing"
+Cohesion: 0.20
+Nodes (16): appendLog(), captureWikiThought(), CWD, fetchGmailThoughts(), groupByThread(), isEligible(), loadEnv(), main() (+8 more)
+
+### Community 102 - "Work Model Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 103 - "World Model Metadata"
+Cohesion: 0.12
+Nodes (16): author, github, category, created, description, difficulty, estimated_time, name (+8 more)
+
+### Community 104 - "Adaptive Capture Classification"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 105 - "Agent Memory API"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 106 - "Agent Memory Management"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 107 - "Gmail Correspondent Backfill"
+Cohesion: 0.26
+Nodes (13): __dirname, main(), parseArgs(), bestCanonicalName(), linkThoughtToEntity(), loadEnv(), makeSbClient(), normalizeEmail() (+5 more)
+
+### Community 108 - "Atomizer Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 109 - "Autodream Brain Sync"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 110 - "Brain Smoke Testing"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 111 - "Smoke Test Package"
+Cohesion: 0.12
+Nodes (15): bin, ob1-brain-smoke-test, description, engines, node, license, main, name (+7 more)
+
+### Community 112 - "ChatGPT Conversation Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 113 - "Competitive Analysis Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 114 - "Content Fingerprint Deduplication"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 115 - "Daily Digest Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 116 - "Deal Memo Drafting"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 117 - "Edge Function Deployment"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 118 - "Edge Function Optimization"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 119 - "Email History Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 120 - "Entity Wiki Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 121 - "Extension Template Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, description, difficulty, estimated_time, name, requires (+7 more)
+
+### Community 122 - "Financial Model Review"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 123 - "Fingerprint Deduplication Backfill"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 124 - "Google Activity Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 125 - "Grok Export Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 126 - "Heavy File Ingestion"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 127 - "Infographic Generation"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 128 - "Instagram Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 129 - "OpenClaw Agent Memory"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 130 - "Thought Extraction and Embedding"
+Cohesion: 0.23
+Nodes (16): callAnthropic(), callLLM(), callOpenAI(), callOpenRouter(), extractThoughtArray(), json(), scheduleEntityExtraction(), embedText() (+8 more)
+
+### Community 131 - "Integration Template Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 132 - "Journals Blogger Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 133 - "Kubernetes Deployment"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 134 - "Life Engine Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 135 - "Life Engine Video"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 136 - "Live Retrieval"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 137 - "Local Ollama Embeddings"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 138 - "Meeting Synthesis"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 139 - "N-Agentic Harnesses"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 140 - "Local HTTP Integration"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 141 - "OB Graph Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 142 - "Obsidian Vault Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 143 - "Open Brain Dashboard"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 144 - "Open Brain Dashboard Next"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 145 - "Open Brain Dashboard Pro"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 146 - "Per Agent Identity"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 147 - "Perplexity Conversation Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 148 - "Readwise Books Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 149 - "Readwise Capture"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 150 - "Recency Boosted Thoughts"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 151 - "Recipe Claudeception"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 152 - "Recipe Panning for Gold"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 153 - "Remote MCP Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 154 - "Research Synthesis"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 155 - "Schema Aware Routing"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 156 - "Provenance Chains Schema"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 157 - "Schema Template Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 158 - "Auto Capture Skills"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 159 - "Claudeception Skills"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 160 - "OpenClaw Agent Memory Skills"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 161 - "Panning for Gold Skills"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 162 - "Skills Template Metadata"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 163 - "Slack Capture"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 164 - "Seed Nate Continuity Demo"
+Cohesion: 0.23
+Nodes (14): assert(), batches, commonEntities(), dashboardUrl(), endpoint, fail(), listStatus(), main() (+6 more)
+
+### Community 165 - "Source Filtering"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 166 - "Telegram Capture"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 167 - "Text Search Trigram"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 168 - "Thought Audit"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 169 - "Troubleshooting"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 170 - "Typed Edge Classifier"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 171 - "Typed Reasoning Edges"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 172 - "Update Thought MCP"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 173 - "Vercel Neon Telegram"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 174 - "Weekly Signal Diff"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 175 - "Wiki Compiler"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 176 - "Wiki Synthesis"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 177 - "Work Operating Model"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 178 - "Workflow Status"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 179 - "World Model Diagnostic"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 180 - "X Twitter Import"
+Cohesion: 0.13
+Nodes (15): author, github, category, created, description, difficulty, estimated_time, name (+7 more)
+
+### Community 181 - "Capture with Gating"
+Cohesion: 0.21
+Nodes (14): adjustThreshold(), buildUserPrompt(), callLLM(), CaptureType, Classified, completeCapture(), db, getThreshold() (+6 more)
+
+### Community 182 - "Re-Atomize Gmail Thought"
+Cohesion: 0.19
+Nodes (13): args, atomizeOpts, callRpc(), __dirname, env, H, loadTargets(), main() (+5 more)
+
+### Community 183 - "Dashboard Template Metadata"
+Cohesion: 0.14
+Nodes (14): author, github, category, created, description, difficulty, estimated_time, name (+6 more)
+
+### Community 184 - "Discord Capture"
+Cohesion: 0.14
+Nodes (14): author, category, created, description, difficulty, estimated_time, name, requires (+6 more)
+
+### Community 185 - "Entity Extraction"
+Cohesion: 0.14
+Nodes (14): author, github, category, created, description, difficulty, estimated_time, name (+6 more)
+
+### Community 186 - "MCP JSON Handling"
+Cohesion: 0.16
+Nodes (13): json(), McpJsonRpcResponse, parseMcpResponse(), POST(), ContactRow(), CrmPage(), CrmPersonRow, CrmTier (+5 more)
+
+### Community 187 - "Customer Memory Management"
+Cohesion: 0.13
+Nodes (15): customers, files, people, repos, topics, memory_payload, artifacts, constraints (+7 more)
+
+### Community 188 - "Extractor Claude"
+Cohesion: 0.28
+Nodes (13): classifyTurn(), collectSearchRoots(), dedupeElements(), extractConversationId(), extractTurnText(), extractVisibleResponse(), filterDeepestMatches(), findDirectMessageCandidates() (+5 more)
+
+### Community 190 - "Sensitivity Backfill"
+Cohesion: 0.17
+Nodes (12): apply, __dirname, dryRun, envPath, envVars, headers, SUPABASE_TIMEOUT_MS, buildContentFingerprint() (+4 more)
+
+### Community 191 - "Type Backfill"
+Cohesion: 0.18
+Nodes (13): args, batchSizeArg, __dirname, DRY_RUN, env, fetchBatch(), headers, main() (+5 more)
+
+### Community 192 - "Repo Learning Coach"
+Cohesion: 0.14
+Nodes (14): author, category, created, description, difficulty, estimated_time, name, requires (+6 more)
+
+### Community 193 - "Update Readme Contributions"
+Cohesion: 0.24
+Nodes (13): buildSection(), chooseRepoTarget(), cleanTitle(), descriptionFromTitle(), escapeTable(), github(), main(), [owner, repo] (+5 more)
+
+### Community 194 - "Brain Backup Metadata"
+Cohesion: 0.15
+Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
+
+### Community 195 - "Embedding Generation"
+Cohesion: 0.23
+Nodes (13): Generate a 1536-dim embedding via OpenRouter (text-embedding-3-small)., generateEmbedding(), http_post(), ingest_thought(), main(), parse_args(), Insert a thought into Supabase with the provided embedding., Read thoughts from a .txt or .jsonl file. Returns list of dicts. (+5 more)
+
+### Community 196 - "Open Brain Ingestion API"
+Cohesion: 0.14
+Nodes (10): AddToBrainResult, BrowseResponse, DuplicatePair, DuplicatesResponse, IngestionItem, IngestionJob, IngestionJobDetail, StatsResponse (+2 more)
+
+### Community 197 - "Enhanced Thoughts Metadata"
+Cohesion: 0.15
+Nodes (13): author, github, category, created, description, difficulty, estimated_time, name (+5 more)
+
+### Community 198 - "Entity Extraction Worker"
+Cohesion: 0.15
+Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
+
+### Community 199 - "Fingerprint Backfill"
+Cohesion: 0.20
+Nodes (11): buildContentFingerprint(), __dirname, env, fetchBatch(), HEADERS, loadState(), main(), normalizeForFingerprint() (+3 more)
+
+### Community 200 - "Google Activity Import"
+Cohesion: 0.27
+Nodes (13): filterActivities(), findMyActivityFiles(), groupByDay(), hashText(), HIGH_VALUE_CATEGORIES, httpPost(), loadSyncLog(), main() (+5 more)
+
+### Community 201 - "Supabase Setup Scripts"
+Cohesion: 0.32
+Nodes (11): setup.sh script, check_prereqs(), clone_supabase(), copy_init_scripts(), die(), link_functions(), log(), main() (+3 more)
+
+### Community 202 - "Chrome Screenshot Capture"
 Cohesion: 0.16
 Nodes (8): captured, execFileAsync, outDir, repoRoot, captured, outDir, repoRoot, walkthroughSections
 
-### Community 202 - "Template Metadata"
+### Community 203 - "Metadata Template"
 Cohesion: 0.15
 Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
 
-### Community 203 - "Open Brain Imports"
+### Community 204 - "Open Brain Import Processes"
 Cohesion: 0.14
 Nodes (14): Open Brain Editorial Policy, Email History Import, Entity Wiki Pages, Fingerprint Dedup Backfill, Gmail Smart Pull, Google Activity Import, Journals/Blogger Import, Life Engine — Video Briefings Add-On (+6 more)
 
-### Community 204 - "Development Dependencies"
+### Community 205 - "Development Dependencies"
 Cohesion: 0.14
 Nodes (14): devDependencies, concurrently, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh, globals, tsx (+6 more)
 
-### Community 205 - "RLS Metadata"
+### Community 206 - "RLS Metadata"
 Cohesion: 0.15
 Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
 
-### Community 206 - "Server Middleware"
+### Community 207 - "Server Middleware"
 Cohesion: 0.14
 Nodes (5): app, corsHeaders, supabase, ThoughtMatch, ThoughtRecord
 
-### Community 207 - "Shared MCP Metadata"
+### Community 208 - "Shared Metadata"
 Cohesion: 0.15
 Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
 
-### Community 208 - "Thought Enrichment Metadata"
+### Community 209 - "Thought Enrichment Metadata"
 Cohesion: 0.15
 Nodes (13): author, github, category, description, difficulty, estimated_time, name, requires (+5 more)
 
-### Community 209 - "Twitter Import"
+### Community 210 - "Twitter Data Import"
 Cohesion: 0.23
 Nodes (13): args, contentFingerprint(), dirPath, dryRun, findDataDir(), getEmbedding(), main(), parseTwitterJsFile() (+5 more)
 
-### Community 210 - "Instagram Import"
+### Community 211 - "Instagram Data Import"
 Cohesion: 0.27
 Nodes (12): args, dirPath, dryRun, findActivityDir(), fixMetaEncoding(), getEmbedding(), main(), processComments() (+4 more)
 
-### Community 211 - "Text Atomization"
+### Community 212 - "Text Atomization"
 Cohesion: 0.32
 Nodes (9): atomizeViaAnthropic(), atomizeViaClaudeCli(), atomizeViaOpenRouter(), parseAtomsFromResponse(), redactSnippet(), wrapInput(), buildCleanEnv(), spawnClaudeCli() (+1 more)
 
-### Community 212 - "Lint Sweep Package"
+### Community 213 - "Lint Sweep Package"
 Cohesion: 0.15
 Nodes (12): bin, ob1-lint-sweep, description, engines, node, license, main, name (+4 more)
 
-### Community 213 - "Canonical Landing Metadata"
+### Community 214 - "Canonical Landing Metadata"
 Cohesion: 0.17
 Nodes (12): author, github, category, created, description, difficulty, estimated_time, name (+4 more)
 
-### Community 214 - "Smoke Graph RPCs"
+### Community 215 - "Smoke Graph RPCs"
 Cohesion: 0.27
 Nodes (10): assert(), cleanupScenario(), __dirname, env, headers, rpc(), scenarioCycle(), scenarioMultiPath() (+2 more)
 
-### Community 215 - "Dashboard TypeScript Config"
+### Community 216 - "Open Brain Dashboard Config"
 Cohesion: 0.15
 Nodes (12): compilerOptions, allowJs, checkJs, esModuleInterop, forceConsistentCasingInFileNames, moduleResolution, resolveJsonModule, rewriteRelativeImportExtensions (+4 more)
 
-### Community 216 - "Thought Processing Utilities"
+### Community 217 - "Thought Processing Utilities"
 Cohesion: 0.22
 Nodes (13): applyEvergreenTag(), asInteger(), asNumber(), asOptionalInteger(), computeContentFingerprint(), detectSensitivity(), embedText(), mergeUniqueStrings() (+5 more)
 
-### Community 217 - "Client Memory Management"
-Cohesion: 0.19
-Nodes (4): AgentMemoryConfig, projectIdFrom(), requestInput(), RequestOptions
+### Community 218 - "Authentication Middleware"
+Cohesion: 0.27
+Nodes (7): POST(), extractKey(), requireAuth(), validateAccessKey(), checkRateLimit(), requests, TEST_KEY
 
-### Community 218 - "Open Brain Dashboard"
+### Community 219 - "Brain UI Components"
+Cohesion: 0.17
+Nodes (11): IMPORTANCE_COLORS, REASON_LABELS, ACTION_COLORS, ACTION_LABELS, AddToBrainProps, MODES, ACTION_COLORS, ACTION_LABELS (+3 more)
+
+### Community 220 - "Open Brain Dashboard Resources"
 Cohesion: 0.38
 Nodes (12): Open Brain Dashboard (Next.js), Open Brain Dashboard Pro, Build Your Open Brain, Open Brain: Companion Prompts, Open Brain FAQ, Build Your Open Brain with an AI Coding Tool, MCP Tool Audit & Optimization Guide, OB1 Agent Memory Storage Portability (+4 more)
 
-### Community 219 - "Dashboard API"
+### Community 221 - "Open Brain API"
 Cohesion: 0.26
 Nodes (10): captureThought(), ApiThought, callMcpTool(), getStats(), getThoughts(), McpJsonRpcResponse, McpToolResult, parseListResults() (+2 more)
 
-### Community 220 - "Grok Export Import"
+### Community 222 - "Grok Export Import"
 Cohesion: 0.17
 Nodes (11): dependencies, dotenv, @supabase/supabase-js, description, main, name, scripts, dry-run (+3 more)
 
-### Community 221 - "Instagram Import Package"
+### Community 223 - "Instagram Import Package"
 Cohesion: 0.17
 Nodes (11): dependencies, dotenv, @supabase/supabase-js, description, main, name, scripts, dry-run (+3 more)
 
-### Community 222 - "Gemini State Management"
+### Community 224 - "Gemini Sync State"
 Cohesion: 0.21
 Nodes (6): canTransition(), createInitialState(), recordCompletion(), resetToIdle(), transition(), wasGenuinelyIngested()
 
-### Community 223 - "Kubernetes Deployment"
+### Community 225 - "Kubernetes Deployment"
 Cohesion: 0.17
 Nodes (6): app, corsHeaders, DB_PORT, pool, ThoughtMatch, ThoughtRecord
 
-### Community 224 - "Blogger Import Package"
+### Community 226 - "Journals Blogger Import"
 Cohesion: 0.17
 Nodes (11): dependencies, dotenv, @supabase/supabase-js, description, main, name, scripts, dry-run (+3 more)
 
-### Community 225 - "Report Generation Utilities"
+### Community 227 - "Report Generation Utilities"
 Cohesion: 0.20
 Nodes (8): envVar(), envVarWithLegacy(), expandHome(), main(), parseArgs(), resolveReportPath(), tier2GraphLint(), tier3LlmLint()
 
-### Community 226 - "Guide Generation"
+### Community 228 - "Guide Generation"
 Cohesion: 0.20
 Nodes (9): brandPath, buildHtml(), escapeHtml(), execFileAsync, htmlPath, outputDir, pdfPath, renderSection() (+1 more)
 
-### Community 227 - "Brain Backup"
+### Community 229 - "Brain Backup"
 Cohesion: 0.24
 Nodes (10): envVars, exportTable(), FETCH_TIMEOUT_MS, fetchPage(), HEADERS, humanSize(), main(), SCRIPT_DIR (+2 more)
 
-### Community 228 - "Metadata Backfill"
+### Community 230 - "Metadata Backfill"
 Cohesion: 0.20
 Nodes (9): Args, fetchThoughtsMissingMetadata(), headers, main(), OPENROUTER_API_KEY, parseArgs(), SUPABASE_SERVICE_ROLE_KEY, SUPABASE_URL (+1 more)
 
-### Community 229 - "Twitter Import Package"
+### Community 231 - "X Twitter Import Package"
 Cohesion: 0.17
 Nodes (11): dependencies, dotenv, @supabase/supabase-js, description, main, name, scripts, dry-run (+3 more)
 
-### Community 230 - "Open Brain Workflows"
+### Community 232 - "Open Brain Workflows"
 Cohesion: 0.18
 Nodes (11): OB1 PR Follow-Ups Workflow, OB1 PR Gate Workflow, Release Drafter Workflow, Update README Contributions Workflow, Welcome New Contributors Workflow, Open Brain Concepts, Open Brain Robots.txt, Dashboard Template README (+3 more)
 
-### Community 232 - "Agent Memory API Smoke Test"
+### Community 234 - "Agent Memory API Smoke Test"
 Cohesion: 0.35
 Nodes (10): assert(), fail(), request(), endpoint, main(), recallPayload(), requiredEnv(), summary (+2 more)
 
-### Community 233 - "Blogger Import"
+### Community 235 - "Blogger Import"
 Cohesion: 0.27
 Nodes (10): args, dirPath, dryRun, findAtomFiles(), getEmbedding(), main(), parseAtomFile(), stripHtml() (+2 more)
 
-### Community 234 - "Schema Aware Routing"
+### Community 236 - "Schema Aware Routing"
 Cohesion: 0.25
 Nodes (10): ExtractedMetadata, extractMetadata(), findOrCreatePerson(), getEmbedding(), namesAreSimilar(), PersonMention, PersonResult, processThought() (+2 more)
 
-### Community 235 - "Server Package"
+### Community 237 - "Server Package"
 Cohesion: 0.18
 Nodes (10): devDependencies, hono, @hono/mcp, @hono/node-server, @modelcontextprotocol/sdk, name, private, scripts (+2 more)
 
-### Community 236 - "Dashboard Authentication"
+### Community 238 - "Contribution Management"
+Cohesion: 0.38
+Nodes (10): review-pr, Blank Issue, Bug Report, Extension Proposal, Feature Request, Non-Technical Contribution, Recipe / Contribution Idea, Auto-Label PRs (+2 more)
+
+### Community 239 - "Dashboard Authentication"
 Cohesion: 0.29
 Nodes (7): AuthError, getSession(), requireSession(), requireSessionOrRedirect(), SessionData, sessionOptions, demoAuthBypass()
 
-### Community 237 - "Agent Memory Visuals"
+### Community 240 - "Agent Memory Visuals"
 Cohesion: 0.20
 Nodes (10): OB1 Agent Memory Visual Assets, Agent Memory Loop Diagram, Code Review Workflow Diagram, Continuity Layer Diagram, Data Model ER Diagram, Evaluation Dashboard Diagram, OpenClaw Plugin Skill Distribution Diagram, Recall Lifecycle Diagram (+2 more)
 
-### Community 238 - "Grok Import"
+### Community 241 - "Grok Import"
 Cohesion: 0.29
 Nodes (9): args, dryRun, filePath, getEmbedding(), main(), normalizeConversation(), parseMongoDate(), supabase (+1 more)
 
-### Community 239 - "Configuration Management"
+### Community 242 - "Configuration Management"
 Cohesion: 0.31
 Nodes (6): clone(), getConfig(), getPlatformDefinition(), getSourceType(), mergeSettings(), setConfig()
 
-### Community 240 - "Gemini History Extractor Test"
+### Community 243 - "Gemini History Extractor Test"
 Cohesion: 0.20
 Nodes (5): __dirname, extractor, __filename, helperPath, helperSource
 
-### Community 241 - "Finding Extraction Tests"
+### Community 244 - "Finding Extraction Tests"
 Cohesion: 0.33
 Nodes (3): _extract_findings(), Heuristically extract structured findings from a conversation.      Returns a di, TestExtractFindings
 
-### Community 242 - "Workspace ID Resolution"
+### Community 245 - "Workspace ID Resolution"
 Cohesion: 0.31
 Nodes (4): Return the OB1 workspace_id to use, applying workspaceMode rules.      "shared", _resolve_workspace_id(), Per-agent workspace mode resolution (mirrors OpenClaw plugin's workspaceMode)., TestResolveWorkspaceId
 
-### Community 243 - "Backfill Operations"
+### Community 246 - "Backfill Script"
 Cohesion: 0.33
 Nodes (9): BASE_URL, HEADERS, main(), parseArgs(), parseParentIds(), resolveArtifactPath(), sbGet(), sbPatch() (+1 more)
 
-### Community 244 - "Dashboard Snippets"
+### Community 247 - "Dashboard Metadata"
 Cohesion: 0.20
 Nodes (10): Schema Name, Dashboard Snippets, Dashboard Snippet — CRM Tier List, Per-Agent Identity, Readwise Books Cache, Recency-Boosted match_thoughts RPC, Smart Ingest Pipeline Tables, Text Search Trigram Index (+2 more)
 
-### Community 245 - "Stateless Testing"
+### Community 248 - "Stateless Test"
 Cohesion: 0.20
 Nodes (6): app, authHeaders, corsHeaders, httpServer, INIT, { port }
 
-### Community 246 - "Dashboard Type Definitions"
+### Community 249 - "Dashboard Type Definitions"
 Cohesion: 0.22
 Nodes (6): Thought, THOUGHT_TYPES, ThoughtMetadata, thoughtTypeEnum, Thought, ThoughtMetadata
 
-### Community 247 - "Fingerprint Deduplication"
+### Community 250 - "Fingerprint Deduplication"
 Cohesion: 0.22
 Nodes (8): description, name, scripts, backfill, cleanup, report, type, version
 
-### Community 248 - "Google Activity Import"
+### Community 251 - "Google Activity Import Package"
 Cohesion: 0.22
 Nodes (8): dependencies, description, name, scripts, dry-run, import, type, version
 
-### Community 249 - "Hermes Model Management"
+### Community 252 - "Hermes Model Management"
 Cohesion: 0.33
 Nodes (4): Best-effort lookup of the currently-configured Hermes model + provider.      Her, _read_hermes_active_model(), Regression tests for the bug where a line-scan matched stt.local.model., TestReadHermesActiveModel
 
-### Community 250 - "Sensitivity Patterns"
+### Community 253 - "Sensitivity Patterns"
 Cohesion: 0.22
 Nodes (7): __dirname, jsonPath, patternsJson, PERSONAL_PATTERNS, RESTRICTED_PATTERNS, personal, restricted
 
-### Community 251 - "Video Asset Preparation"
+### Community 254 - "Video Asset Preparation"
 Cohesion: 0.22
 Nodes (8): audioOut, brandOut, diagrams, diagramsOut, promoOut, publicDir, repoRoot, screenshotOut
 
-### Community 252 - "Dashboard Pro Package"
+### Community 255 - "Open Brain Dashboard Pro"
 Cohesion: 0.22
 Nodes (8): name, private, scripts, build, dev, lint, start, version
 
-### Community 253 - "Build Scripts"
+### Community 256 - "Build Scripts"
 Cohesion: 0.22
 Nodes (9): scripts, build, dev, dev:client, dev:server, lint, preview, serve (+1 more)
 
-### Community 254 - "Memory Cleanup Tests"
+### Community 257 - "Test Memory Cleanup"
 Cohesion: 0.28
 Nodes (7): apply, endpoint, fail(), projectIds, request(), requiredEnv(), result
 
-### Community 255 - "Session Management"
+### Community 258 - "Session Management"
 Cohesion: 0.29
 Nodes (5): app, corsHeaders, Session, sessions, server
 
-### Community 256 - "ClawHub Banner Summary"
+### Community 259 - "ClawHub Banner Metadata"
 Cohesion: 0.25
 Nodes (7): generated_at, duration_ms, image_path, status, models, gpt-image-2, prompt
 
-### Community 257 - "Dashboard Pro Authentication"
+### Community 260 - "Open Brain Auth"
 Cohesion: 0.32
 Nodes (6): AuthError, getSession(), requireSession(), requireSessionOrRedirect(), SessionData, sessionOptions
 
-### Community 258 - "Professional CRM Tools"
+### Community 261 - "Professional CRM Tools"
 Cohesion: 0.25
 Nodes (8): Professional CRM, Agent Memory API, Chrome Capture Extension, Consolidation Workers, Delete Thought MCP, Discord Capture, Enhanced MCP Server, Open Brain REST
 
-### Community 259 - "Hero Summary"
+### Community 262 - "Hero Summary Metadata"
 Cohesion: 0.25
 Nodes (7): generated_at, duration_ms, image_path, status, models, gpt-image-2, prompt
 
-### Community 260 - "ChatGPT Extractor"
+### Community 263 - "ChatGPT Extractor"
 Cohesion: 0.50
 Nodes (7): collectAllMessages(), extractConversationId(), extractMessageText(), extractVisibleResponse(), getElementText(), isWithinComposer(), sortByDocumentOrder()
 
-### Community 261 - "Gemini Extractor"
+### Community 264 - "Gemini Extractor"
 Cohesion: 0.50
 Nodes (7): collectMessages(), extractConversationId(), extractMessageText(), extractVisibleResponse(), getElementText(), isWithinComposer(), sortByDocumentOrder()
 
-### Community 262 - "Gemini History Extractor"
+### Community 265 - "Gemini History Extractor"
 Cohesion: 0.46
 Nodes (7): decodeBytes(), extractGeminiHistory(), extractHistoryTurn(), parseAdaptive(), parseFramedResponse(), parseHistoryPayload(), stripLeadingPrefix()
 
-### Community 263 - "Open Brain REST Smoke Test"
+### Community 266 - "Open Brain REST Smoke Test"
 Cohesion: 0.29
 Nodes (5): request(), baseUrl, capture(), createdIds, keep
 
-### Community 264 - "Loop Card Summary"
+### Community 267 - "Loop Card Summary"
 Cohesion: 0.25
 Nodes (7): generated_at, duration_ms, image_path, status, models, gpt-image-2, prompt
 
-### Community 265 - "Development Dependencies"
+### Community 268 - "Development Dependencies"
 Cohesion: 0.25
 Nodes (7): devDependencies, eslint, tailwindcss, @tailwindcss/postcss, @types/node, typescript, @types/react
 
-### Community 266 - "Project Dependencies"
+### Community 269 - "Project Dependencies"
 Cohesion: 0.25
 Nodes (8): dependencies, express, gray-matter, react, react-dom, react-markdown, @supabase/supabase-js, zod
 
-### Community 267 - "Agent Memory Overview"
+### Community 270 - "Agent Memory and Stats"
 Cohesion: 0.25
 Nodes (8): Agent Memory, Brain Stats Daily + Heatmap RPCs, CRM Person Tiers, Enhanced Thoughts Columns and Utility RPCs, Entity Extraction Schema, Provenance Chains, Schemas Overview, Workflow Status Tracking
 
-### Community 268 - "Task Management"
+### Community 271 - "Agentic Harnesses"
 Cohesion: 0.25
 Nodes (8): Auto-Capture, Competitive Analysis, Deal Memo Drafting, Financial Model Review, Heavy File Ingestion, Meeting Synthesis, N Agentic Harnesses, Skills Overview
 
-### Community 269 - "Social Square Summary"
+### Community 272 - "Agentic Frameworks"
+Cohesion: 0.25
+Nodes (8): N Agentic Harnesses, Principles And Solo-Dev Defaults, Harness Shapes And Architecture, Tools, Execution, And Permissions, State, Sessions, And Durability, Context, Memory, And Evaluation, Agents And Extensibility, UX, Observability, And Operations
+
+### Community 273 - "Social Square Summary"
 Cohesion: 0.25
 Nodes (7): generated_at, duration_ms, image_path, status, models, gpt-image-2, prompt
 
-### Community 270 - "Thought Card Styles"
+### Community 274 - "Thought Card Styles"
 Cohesion: 0.29
 Nodes (4): importanceLabels, importanceStyles, typeColors, typeColors
 
-### Community 271 - "Usage Reporting"
+### Community 275 - "Usage Report"
 Cohesion: 0.29
 Nodes (6): ignored_memory_ids, usage_notes, memory_123, memory_456, memory_789, used_memory_ids
 
-### Community 272 - "Family Calendar"
+### Community 276 - "Family Calendar"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 273 - "Home Maintenance"
+### Community 277 - "Home Maintenance"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 274 - "Household Knowledge"
+### Community 278 - "Household Knowledge"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 275 - "ClawHub Publishing Notes"
+### Community 279 - "ClawHub Publishing Notes"
 Cohesion: 0.29
 Nodes (7): ClawHub Publishing Notes, NBJ OB1 Agent Memory for OpenClaw, NBJ OB1 Agent Memory for OpenClaw Skill, NBJ OB1 Agent Memory for OpenClaw 0.1.0, NBJ OB1 Agent Memory for OpenClaw 0.1.1, NBJ OB1 Agent Memory for OpenClaw 0.1.5, NBJ OB1 Agent Memory for OpenClaw 0.1.6
 
-### Community 276 - "Gemini State Test"
+### Community 280 - "Gemini Sync State Test"
 Cohesion: 0.29
 Nodes (5): __dirname, __filename, helperPath, helperSource, stateMod
 
-### Community 277 - "Popup Configuration"
+### Community 281 - "Popup Configuration"
 Cohesion: 0.57
 Nodes (5): ensureHostPermission(), normalizeEndpoint(), saveConfig(), showResult(), testConnection()
 
-### Community 278 - "Consolidation Workers"
+### Community 282 - "Consolidation Workers"
 Cohesion: 0.29
 Nodes (6): compilerOptions, strict, imports, @supabase/supabase-js, tasks, check
 
-### Community 279 - "Delete Thought MCP"
+### Community 283 - "Delete Thought MCP"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 280 - "Enhanced MCP"
+### Community 284 - "Enhanced MCP"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 281 - "Smart Ingest"
+### Community 285 - "Smart Ingest"
 Cohesion: 0.29
 Nodes (6): imports, @supabase/supabase-js, tasks, check, fmt, lint
 
-### Community 282 - "Job Hunt"
+### Community 286 - "Job Hunt"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 283 - "Kubernetes Deployment"
+### Community 287 - "Kubernetes Deployment"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, postgres, zod
 
-### Community 284 - "Meal Planning"
+### Community 288 - "Meal Planning"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 285 - "Voiceover Generation"
+### Community 289 - "Voiceover Generation"
 Cohesion: 0.29
 Nodes (5): audioPath, buffer, metaPath, outputDir, SCRIPT_PATHS
 
-### Community 286 - "OB Graph"
+### Community 290 - "OB Graph"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 287 - "Professional CRM"
+### Community 291 - "Professional CRM"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 288 - "Readwise Capture"
+### Community 292 - "Readwise Capture"
 Cohesion: 0.33
 Nodes (5): fetchBook(), HighlightEvent, ReadwiseBook, resolveBook(), supabase
 
-### Community 289 - "Client Exports Builder"
+### Community 293 - "Client Exports Builder"
 Cohesion: 0.62
 Nodes (6): build_exports(), build_zip_from_dir(), copy_tree(), main(), reset_dir(), Path
 
-### Community 290 - "Server Configuration"
+### Community 294 - "Server Configuration"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 291 - "Wiki Article Processing"
+### Community 295 - "Agent Memory Operations"
+Cohesion: 0.38
+Nodes (4): AgentMemoryConfig, projectIdFrom(), requestInput(), RequestOptions
+
+### Community 296 - "Wiki Article Processing"
 Cohesion: 0.33
 Nodes (4): readArticles(), WIKI_ARTIFACT_DIR, WikiArticleMeta, WikiIndexPage()
 
-### Community 292 - "Work Operating Model"
+### Community 297 - "Work Operating Model"
 Cohesion: 0.29
 Nodes (6): imports, hono, @hono/mcp, @modelcontextprotocol/sdk, @supabase/supabase-js, zod
 
-### Community 294 - "Voiceover Metadata"
+### Community 299 - "Voiceover Metadata"
 Cohesion: 0.33
 Nodes (5): bytes, model_id, source, voice_id, voice_name
 
-### Community 295 - "Dashboard Layout"
+### Community 300 - "Dashboard Layout"
 Cohesion: 0.33
 Nodes (3): geistMono, geistSans, metadata
 
-### Community 296 - "Schema Definition"
+### Community 301 - "Schema Definition"
 Cohesion: 0.33
 Nodes (6): const, const, name, const, name, schemaVersion()
 
-### Community 297 - "Request Configuration"
+### Community 302 - "Request Parameters"
 Cohesion: 0.33
 Nodes (5): model, output_format, prompt, quality, size
 
-### Community 298 - "Agent Memory Documentation"
+### Community 303 - "Agent Memory Documentation"
 Cohesion: 0.33
 Nodes (6): Agent Memory Branding DNA, Agent Memory Staging Deploy Notes, Discord Post Draft — Chunking Columns Discussion, OB1 Agent Dashboard Walkthrough, OB1 Agent Dashboard Walkthrough HTML, Voiceover Script for Dashboard Walkthrough
 
-### Community 299 - "Image Generation"
+### Community 304 - "Image Generation Script"
 Cohesion: 0.47
 Nodes (5): extract_prompts(), generate_image(), main(), Extract prompt blocks from the markdown file., Generate a single infographic image.
 
-### Community 300 - "Content Sensitivity Detection"
+### Community 305 - "Content Sensitivity Detection"
 Cohesion: 0.53
 Nodes (4): containsRestrictedContent(), detectSensitivity(), getPatternsUrl(), loadPatterns()
 
-### Community 301 - "Session Management Dependencies"
+### Community 306 - "Session Management"
 Cohesion: 0.33
 Nodes (6): dependencies, iron-session, next, react, react-dom, server-only
 
-### Community 302 - "Skill Name and Capture"
+### Community 307 - "Agent Memory Tools"
 Cohesion: 0.33
 Nodes (6): Skill Name, Auto-Capture Claude Code Adapter, Auto-Capture, Autodream Brain Sync, Aiception (Formerly Claudeception), Competitive Analysis
 
-### Community 303 - "Financial Document Processing"
+### Community 308 - "Financial Review Processes"
 Cohesion: 0.47
 Nodes (6): Deal Memo Drafting, Financial Model Review, Heavy File Ingestion, Meeting Synthesis, N Agentic Harnesses, Work Operating Model
 
-### Community 304 - "Embedding and Server Setup"
+### Community 309 - "Embedding Update API"
 Cohesion: 0.33
 Nodes (4): app, corsHeaders, server, supabase
 
-### Community 305 - "Agent Memory API Setup"
+### Community 310 - "Agent Memory API"
 Cohesion: 0.40
 Nodes (4): imports, hono, @supabase/supabase-js, zod
 
-### Community 307 - "Data Expiration Settings"
+### Community 312 - "Cache Configuration"
 Cohesion: 0.40
 Nodes (5): maximum, confidence, stale_after_days, ttl_days, minimum
 
-### Community 309 - "Thought Editor Types"
+### Community 314 - "Thought Editor Options"
 Cohesion: 0.40
 Nodes (4): IMPORTANCE_OPTIONS, TYPES, IMPORTANCE_OPTIONS, TYPES
 
-### Community 311 - "Dashboard Layout Components"
+### Community 316 - "Dashboard Layout"
 Cohesion: 0.40
 Nodes (3): geistMono, geistSans, metadata
 
-### Community 312 - "Agent Memory Workflow"
+### Community 317 - "Agent Memory Assets"
 Cohesion: 0.90
 Nodes (5): Taskflow Work Log Handoff, Trust Ladder, Writeback Lifecycle, Agent Memory Promotional Assets, Agent Memory Dashboard Screenshots
 
-### Community 313 - "Family Management Tools"
+### Community 318 - "Family Management Tools"
 Cohesion: 0.40
 Nodes (5): Family Calendar, Home Maintenance Tracker, Household Knowledge Base, Job Hunt Pipeline, Meal Planning
 
-### Community 314 - "API Client Utilities"
+### Community 319 - "API Client Utilities"
 Cohesion: 0.70
 Nodes (4): apiFetch(), healthCheck(), ingestDocument(), parseErrorBody()
 
-### Community 315 - "Thought Deletion API"
+### Community 320 - "Thought Deletion API"
 Cohesion: 0.40
 Nodes (4): app, corsHeaders, server, supabase
 
-### Community 316 - "REST API Setup"
+### Community 321 - "REST API Configuration"
 Cohesion: 0.40
 Nodes (4): imports, hono, @supabase/supabase-js, zod
 
-### Community 317 - "Metadata Management"
+### Community 322 - "Metadata Configuration"
 Cohesion: 0.40
 Nodes (4): description, name, status, type
 
-### Community 318 - "Edge Function Deployment"
+### Community 323 - "MCP Deployment Guide"
 Cohesion: 0.40
 Nodes (5): Deploy an Edge Function, Remote MCP Connection, Shared MCP Server, Primitive Name, Common Troubleshooting
 
-### Community 319 - "Data Processing Tools"
+### Community 324 - "Data Processing Tools"
 Cohesion: 0.40
 Nodes (3): DerivativeRow, Node, TraceRow
 
-### Community 320 - "Package Configuration"
+### Community 325 - "Package Configuration"
 Cohesion: 0.40
 Nodes (4): name, private, type, version
 
-### Community 321 - "Atomize Testing Configuration"
+### Community 326 - "File Ingestion Processes"
+Cohesion: 0.40
+Nodes (5): Open Source Stack Notes, Heavy File Ingestion For Claude Code, Heavy File Ingestion For Claude Desktop, Heavy File Ingestion For Codex, Work Operating Model
+
+### Community 327 - "Atomization Testing"
 Cohesion: 0.50
 Nodes (3): atomizeOpts, __dirname, env
 
-### Community 327 - "Fingerprinting Utilities"
+### Community 333 - "Fingerprinting Utility"
 Cohesion: 0.83
 Nodes (3): compute(), normalize(), sha256()
 
-### Community 328 - "Learning Coach Orientation"
+### Community 334 - "Learning Coach Orientation"
 Cohesion: 0.50
 Nodes (4): Orient the Learning Coach, Separate Content from Runtime, Capture Durable Learning, Repo Learning Coach
 
-### Community 329 - "Learning Coach Development"
+### Community 335 - "Learning Coach Insights"
 Cohesion: 0.67
 Nodes (4): What Repo Learning Coach Builds, The Content Contract, The Open Brain Bridge, Research-to-Decision Workflow Template
 
-### Community 332 - "Playbook Documentation"
+### Community 338 - "Design Playbooks"
 Cohesion: 0.50
 Nodes (4): Design And Build Playbook, Evaluation And Improvement Playbook, Example Requests And Output Patterns, Codex Translation Notes
 
-### Community 342 - "OB1 Branding Assets"
+### Community 348 - "Branding Assets"
 Cohesion: 0.67
 Nodes (3): OB1 Beanie Source Outline, OB1 Logo, OB1 Logo Wide
 
-### Community 344 - "Integration Assets"
+### Community 350 - "Integration Assets"
 Cohesion: 0.67
 Nodes (3): Screenshots, Icons, Integration Name
 
-### Community 345 - "Entity Extraction and Memory"
+### Community 351 - "Agent Memory Overview"
 Cohesion: 0.67
 Nodes (3): Entity Extraction Worker, Hermes Agent Memory (OB1), NBJ OB1 Agent Memory for OpenClaw
 
-### Community 346 - "Kubernetes Deployment"
+### Community 352 - "Kubernetes Deployment"
 Cohesion: 0.67
 Nodes (3): Kubernetes Self-Hosted Deployment, Open Brain REST Gateway, REST API Gateway
 
-### Community 347 - "Capture Integrations"
+### Community 353 - "Capture Integrations"
 Cohesion: 0.67
 Nodes (3): Readwise Capture Integration, Slack Capture Integration, Smart Ingest
 
-### Community 350 - "Capture Classification"
+### Community 356 - "Capture Classification"
 Cohesion: 0.67
 Nodes (3): Classifier Prompt, Adaptive Capture Classification, Recipe Name
 
-### Community 351 - "Atomizer and Capture Protocol"
+### Community 357 - "Atomization Protocol"
 Cohesion: 0.67
 Nodes (3): Atomizer, Auto-Capture Protocol, Brain Smoke Test
 
-### Community 352 - "Brain Health Management"
+### Community 358 - "Brain Health Monitoring"
 Cohesion: 0.67
 Nodes (3): Brain Backup and Export, Brain Health Monitoring, Editorial Policy + Weekly Auditor
 
-### Community 354 - "File Ingestion Resources"
+### Community 360 - "File Ingestion Tools"
 Cohesion: 0.67
 Nodes (3): Resources, Heavy File Ingestion for Claude Desktop, Open Brain Companion
 
 ## Knowledge Gaps
-- **2834 isolated node(s):** `description`, `category`, `github`, `version`, `services` (+2829 more)
+- **2826 isolated node(s):** `description`, `category`, `github`, `version`, `services` (+2821 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **149 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **143 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `writeReport()` connect `Memory Management` to `Thought Ingestion`, `Conversation Management`, `Sync Log Management`?**
+- **Why does `writeReport()` connect `Conversation Import` to `ChatGPT Integration`, `Memory Management`, `Conversation Extraction`?**
   _High betweenness centrality (0.028) - this node is a cross-community bridge._
-- **Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction`?**
+- **Why does `linkThoughtToEntity()` connect `Gmail Correspondent Backfill` to `Entity Extraction`?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
-- **Why does `corsHeaders` connect `Session Management` to `Memory API`, `Entity Extraction`?**
+- **Why does `corsHeaders` connect `Session Management` to `Entity Extraction`, `Memory API Management`?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **Are the 14 inferred relationships involving `OB1MemoryProvider` (e.g. with `_StubProvider` and `TestExtractFindings`) actually correct?**
   _`OB1MemoryProvider` has 14 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `description`, `category`, `github` to the rest of the system?**
-  _2834 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2826 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Schema Properties` be split into smaller, more focused modules?**
   _Cohesion score 0.055964653902798235 - nodes in this community are weakly interconnected._
 - **Should `API Request Handling` be split into smaller, more focused modules?**
