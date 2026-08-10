@@ -482,12 +482,10 @@
     "6": [
       "contracts_writeback_schema",
       "contracts_writeback_schema_additionalproperties",
-      "contracts_writeback_schema_confidence_maximum",
       "contracts_writeback_schema_id",
       "contracts_writeback_schema_properties",
       "contracts_writeback_schema_properties_artifacts",
       "contracts_writeback_schema_properties_channel",
-      "contracts_writeback_schema_properties_confidence",
       "contracts_writeback_schema_properties_constraints",
       "contracts_writeback_schema_properties_content_hash",
       "contracts_writeback_schema_properties_customers",
@@ -517,12 +515,10 @@
       "contracts_writeback_schema_properties_role",
       "contracts_writeback_schema_properties_runtime",
       "contracts_writeback_schema_properties_source_refs",
-      "contracts_writeback_schema_properties_stale_after_days",
       "contracts_writeback_schema_properties_task_id",
       "contracts_writeback_schema_properties_thread_id",
       "contracts_writeback_schema_properties_timestamp",
       "contracts_writeback_schema_properties_topics",
-      "contracts_writeback_schema_properties_ttl_days",
       "contracts_writeback_schema_properties_unresolved_questions",
       "contracts_writeback_schema_properties_uri",
       "contracts_writeback_schema_properties_version",
@@ -533,7 +529,6 @@
       "contracts_writeback_schema_schema",
       "contracts_writeback_schema_timestamp_format",
       "contracts_writeback_schema_title",
-      "contracts_writeback_schema_ttl_days_minimum",
       "contracts_writeback_schema_type",
       "contracts_writeback_schema_workspace_id_minlength"
     ],
@@ -628,7 +623,6 @@
       "contracts_recall_schema_properties_topics",
       "contracts_recall_schema_properties_version",
       "contracts_recall_schema_properties_visibility",
-      "contracts_recall_schema_query_minlength",
       "contracts_recall_schema_required",
       "contracts_recall_schema_schema",
       "contracts_recall_schema_task_type_enum",
@@ -2238,6 +2232,7 @@
       "weekly_digest_metadata_version"
     ],
     "58": [
+      "contracts_recall_schema_query_minlength",
       "examples_recall_request_workspace_id",
       "plugin_openclaw_plugin",
       "plugin_openclaw_plugin_accesskey_anyof",
@@ -6147,6 +6142,13 @@
       "dashboards_open_brain_dashboard_pro_app_ingest_page_tsx_ingest_page",
       "dashboards_open_brain_dashboard_pro_app_ingest_page_tsx_ingest_page_addtobrainpage"
     ],
+    "311": [
+      "contracts_writeback_schema_confidence_maximum",
+      "contracts_writeback_schema_properties_confidence",
+      "contracts_writeback_schema_properties_stale_after_days",
+      "contracts_writeback_schema_properties_ttl_days",
+      "contracts_writeback_schema_ttl_days_minimum"
+    ],
     "312": [
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route",
       "dashboards_open_brain_dashboard_next_app_api_restricted_route_ts_restricted_route_delete",
@@ -7149,9 +7151,9 @@
     "3": 0.05045045045045045,
     "4": 0.05875251509054326,
     "5": 0.06830601092896176,
-    "6": 0.08766233766233766,
+    "6": 0.09803921568627451,
     "7": 0.06648936170212766,
-    "8": 0.0966183574879227,
+    "8": 0.1,
     "9": 0.07822410147991543,
     "10": 0.09191583610188261,
     "11": 0.10188261351052048,
@@ -7201,7 +7203,7 @@
     "55": 0.16600790513833993,
     "56": 0.08695652173913043,
     "57": 0.09090909090909091,
-    "58": 0.1523809523809524,
+    "58": 0.14285714285714285,
     "59": 0.09523809523809523,
     "60": 0.1774891774891775,
     "61": 0.19047619047619047,
@@ -7454,6 +7456,7 @@
     "308": 0.3333333333333333,
     "309": 0.4,
     "310": 0.4,
+    "311": 0.4,
     "312": 0.5,
     "313": 0.4,
     "314": 0.5,
@@ -7771,7 +7774,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "crosses file types (image ↔ doc); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+      "why": "crosses file types (image \u2194 doc); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
       "source": "POST()",
@@ -7785,7 +7788,7 @@
       "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     },
     {
-      "source": "CLAUDE.md — Agent Instructions for Open Brain",
+      "source": "CLAUDE.md \u2014 Agent Instructions for Open Brain",
       "target": "Contributing to OB1",
       "source_files": [
         "CLAUDE.md",
@@ -7793,7 +7796,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `CLAUDE.md — Agent Instructions for Open Brain` unexpectedly reaches hub `Contributing to OB1`"
+      "why": "connects across different repos/directories; peripheral node `CLAUDE.md \u2014 Agent Instructions for Open Brain` unexpectedly reaches hub `Contributing to OB1`"
     },
     {
       "source": "Contributing to OB1",
@@ -7818,41 +7821,8 @@
       "why": "connects across different repos/directories; peripheral node `Contributors` unexpectedly reaches hub `Contributing to OB1`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Conversation Import` to `Sync Log Management`, `ChatGPT Ingestion`, `Atomization Packs`?",
-      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction Worker`?",
-      "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `corsHeaders` connect `Session Management` to `Entity Extraction Worker`, `Agent Memory API`?",
-      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 14 inferred relationships involving `OB1MemoryProvider` (e.g. with `_StubProvider` and `TestExtractFindings`) actually correct?",
-      "why": "`OB1MemoryProvider` has 14 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `description`, `category`, `github` to the rest of the system?",
-      "why": "2858 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Schema Properties` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.055964653902798235 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `API Request Handlers` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06233062330623306 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 4065,
+    "output": 2749
+  }
 }
