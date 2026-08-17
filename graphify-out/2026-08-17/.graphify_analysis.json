@@ -583,6 +583,9 @@
       "src_main"
     ],
     "8": [
+      "chatgpt_conversation_import_import_chatgpt_rationale_258",
+      "chatgpt_conversation_import_import_chatgpt_rationale_534",
+      "email_history_import_pull_gmail_savesynclog",
       "perplexity_conversation_import_import_perplexity",
       "perplexity_conversation_import_import_perplexity_cell_value",
       "perplexity_conversation_import_import_perplexity_extract_conversations",
@@ -601,6 +604,7 @@
       "perplexity_conversation_import_import_perplexity_parse_timestamp_iso",
       "perplexity_conversation_import_import_perplexity_process_conversations",
       "perplexity_conversation_import_import_perplexity_process_memory",
+      "perplexity_conversation_import_import_perplexity_rationale_113",
       "perplexity_conversation_import_import_perplexity_rationale_119",
       "perplexity_conversation_import_import_perplexity_rationale_142",
       "perplexity_conversation_import_import_perplexity_rationale_162",
@@ -1287,7 +1291,6 @@
     "25": [
       "capture_route",
       "capture_route_post",
-      "datetime",
       "lib_ai",
       "lib_ai_extractmetadata",
       "lib_auth_extractkey",
@@ -1311,30 +1314,7 @@
       "mcp_route_options",
       "mcp_route_post",
       "obsidian_vault_import_import_obsidian_rationale_389",
-      "readwise_import_import_readwise",
-      "readwise_import_import_readwise_already_imported",
-      "readwise_import_import_readwise_book_matches",
-      "readwise_import_import_readwise_build_thought",
-      "readwise_import_import_readwise_embed_batch",
-      "readwise_import_import_readwise_fetch_export_page",
-      "readwise_import_import_readwise_highlight_matches",
-      "readwise_import_import_readwise_list_books",
-      "readwise_import_import_readwise_main",
-      "readwise_import_import_readwise_parse_cli_date",
-      "readwise_import_import_readwise_parse_iso",
-      "readwise_import_import_readwise_rationale_110",
-      "readwise_import_import_readwise_rationale_139",
-      "readwise_import_import_readwise_rationale_157",
       "readwise_import_import_readwise_rationale_183",
-      "readwise_import_import_readwise_rationale_205",
-      "readwise_import_import_readwise_rationale_226",
-      "readwise_import_import_readwise_rationale_257",
-      "readwise_import_import_readwise_rationale_272",
-      "readwise_import_import_readwise_rationale_296",
-      "readwise_import_import_readwise_rationale_78",
-      "readwise_import_import_readwise_rationale_95",
-      "readwise_import_import_readwise_summary",
-      "readwise_import_import_readwise_upsert_book",
       "recipes_vercel_neon_telegram_src_lib_auth_ts_lib_auth",
       "telegram_route",
       "telegram_route_createbot",
@@ -1380,6 +1360,10 @@
       "smoke_seed_dashboard_demo_rows"
     ],
     "27": [
+      "chatgpt_conversation_import_chatgpt_parser_conversation_hash",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_121",
+      "chatgpt_conversation_import_chatgpt_parser_rationale_386",
+      "chatgpt_conversation_import_chatgpt_parser_should_skip",
       "chatgpt_conversation_import_import_chatgpt",
       "chatgpt_conversation_import_import_chatgpt_build_focus_instruction",
       "chatgpt_conversation_import_import_chatgpt_check_semantic_duplicate",
@@ -1397,7 +1381,6 @@
       "chatgpt_conversation_import_import_chatgpt_rationale_452",
       "chatgpt_conversation_import_import_chatgpt_rationale_464",
       "chatgpt_conversation_import_import_chatgpt_rationale_496",
-      "chatgpt_conversation_import_import_chatgpt_rationale_534",
       "chatgpt_conversation_import_import_chatgpt_rationale_575",
       "chatgpt_conversation_import_import_chatgpt_rationale_606",
       "chatgpt_conversation_import_import_chatgpt_rationale_698",
@@ -1448,7 +1431,6 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_py_any",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_get_config_schema",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_get_tool_schemas",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_is_available",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_name",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_prefetch",
@@ -1477,14 +1459,13 @@
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_skips_trivial_user_message",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_skips_when_writes_disabled",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_writeback_payload_uses_outputs_category",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_writeback_strips_ob1_context_wrapper",
-      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_returns_seven_schemas"
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testsyncturn_test_writeback_strips_ob1_context_wrapper"
     ],
     "30": [
+      "atomizer_atomize_packs_writereport",
+      "chatgpt_conversation_import_import_chatgpt_rationale_1156",
       "chatgpt_conversation_import_import_chatgpt_rationale_249",
-      "chatgpt_conversation_import_import_chatgpt_rationale_258",
       "email_history_import_pull_gmail_loadsynclog",
-      "email_history_import_pull_gmail_savesynclog",
       "obsidian_vault_import_import_obsidian",
       "obsidian_vault_import_import_obsidian_chunk_by_headings",
       "obsidian_vault_import_import_obsidian_chunk_note",
@@ -1504,11 +1485,12 @@
       "obsidian_vault_import_import_obsidian_rationale_254",
       "obsidian_vault_import_import_obsidian_rationale_298",
       "obsidian_vault_import_import_obsidian_rationale_87",
+      "obsidian_vault_import_import_obsidian_rationale_899",
       "obsidian_vault_import_import_obsidian_scan_for_secrets",
       "obsidian_vault_import_import_obsidian_strip_non_tag_regions",
       "obsidian_vault_import_import_obsidian_word_count",
       "perplexity_conversation_import_import_perplexity_rationale_104",
-      "perplexity_conversation_import_import_perplexity_rationale_113",
+      "perplexity_conversation_import_import_perplexity_rationale_1106",
       "recipes_obsidian_vault_import_import_obsidian_py_path"
     ],
     "31": [
@@ -1581,7 +1563,6 @@
       "scripts_check_tool_schemas_assertobjectproperties",
       "scripts_check_tool_schemas_checks",
       "scripts_check_tool_schemas_fail",
-      "src_client_agentmemoryconfig",
       "src_index_channelparameters",
       "src_index_clientfromapi",
       "src_index_memorypayloadparameters",
@@ -1768,29 +1749,41 @@
       "components_agentmemorybadges_policylike",
       "components_agentmemorybadges_statusbadge",
       "dashboards_open_brain_dashboard_next_app_agent_memory_id_page_tsx_id_page",
-      "examples_writeback_request_provenance",
-      "examples_writeback_request_provenance_confidence",
-      "examples_writeback_request_provenance_default_status",
-      "examples_writeback_request_provenance_requires_review",
       "id_page_agentmemorydetailpage",
       "id_page_row",
+      "lib_agent_memory",
       "lib_agent_memory_agentmemorydefaults",
       "lib_agent_memory_agentmemoryfetch",
+      "lib_agent_memory_deriveagentmemoryurl",
       "lib_agent_memory_fetchagentmemory",
       "lib_agent_memory_fetchrecalltrace",
+      "lib_agent_memory_fetchreviewqueue",
       "lib_agent_memory_headers",
       "lib_agent_memory_reviewagentmemory",
       "lib_types_agentmemoryrecord",
       "lib_types_agentmemoryreviewaction",
       "src_app_statuslabels",
+      "src_client_agentmemoryclient_constructor",
       "traces_page",
       "traces_page_formatscore",
       "traces_page_recalltracepage"
     ],
     "40": [
+      "components_addtobrain_importance_colors",
+      "components_addtobrain_itemcard",
+      "components_addtobrain_reason_labels",
+      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_action_colors",
+      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_action_labels",
+      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_addtobrainprops",
+      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_modes",
       "dashboards_open_brain_dashboard_pro_app_api_ingest_id_route_ts_id_route",
       "dashboards_open_brain_dashboard_pro_app_api_ingest_id_route_ts_id_route_get",
+      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_action_colors",
+      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_action_labels",
+      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_addtobrainprops",
+      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_modes",
       "dashboards_open_brain_dashboard_pro_lib_types_ts_lib_types",
+      "dashboards_open_brain_dashboard_pro_lib_types_ts_lib_types_addtobrainmode",
       "dashboards_open_brain_dashboard_pro_lib_types_ts_lib_types_addtobrainresult",
       "dashboards_open_brain_dashboard_pro_lib_types_ts_lib_types_browseresponse",
       "dashboards_open_brain_dashboard_pro_lib_types_ts_lib_types_duplicatepair",
@@ -1970,6 +1963,9 @@
     "47": [
       "components_kanbanboard",
       "components_kanbanboard_apiupdatekanban",
+      "components_kanbancard",
+      "components_kanbancard_formatage",
+      "components_kanbancard_kanbancardprops",
       "components_kanbancardmodal",
       "components_kanbancardmodal_kanbancardmodalprops",
       "components_kanbancolumn",
@@ -1977,15 +1973,22 @@
       "components_kanbancolumn_column_accent",
       "components_kanbancolumn_kanbancolumn",
       "components_kanbansummary",
+      "components_prioritydot",
+      "components_prioritydot_prioritydot",
+      "components_prioritydot_prioritydotprops",
       "dashboards_open_brain_dashboard_next_app_page_tsx_app_page",
       "dashboards_open_brain_dashboard_next_app_page_tsx_app_page_dashboardpage",
       "kanban_page",
       "kanban_page_kanbanpage",
+      "lib_types_getprioritylevel",
       "lib_types_kanban_labels",
       "lib_types_kanban_types",
-      "lib_types_kanbanstatus"
+      "lib_types_kanbanstatus",
+      "lib_types_priority_levels"
     ],
     "48": [
+      "dashboards_open_brain_dashboard_next_app_thoughts_id_page_tsx_id_page",
+      "dashboards_open_brain_dashboard_next_app_thoughts_id_page_tsx_id_page_thoughtdetailpage",
       "dashboards_open_brain_dashboard_next_lib_api",
       "dashboards_open_brain_dashboard_next_lib_api_apierror",
       "dashboards_open_brain_dashboard_next_lib_api_apierror_constructor",
@@ -1996,6 +1999,8 @@
       "dashboards_open_brain_dashboard_next_lib_api_deletethought",
       "dashboards_open_brain_dashboard_next_lib_api_fetchduplicates",
       "dashboards_open_brain_dashboard_next_lib_api_fetchingestionjobs",
+      "dashboards_open_brain_dashboard_next_lib_api_fetchkanbanthoughts",
+      "dashboards_open_brain_dashboard_next_lib_api_fetchreflections",
       "dashboards_open_brain_dashboard_next_lib_api_fetchstats",
       "dashboards_open_brain_dashboard_next_lib_api_fetchthought",
       "dashboards_open_brain_dashboard_next_lib_api_fetchthoughts",
@@ -2003,7 +2008,9 @@
       "dashboards_open_brain_dashboard_next_lib_api_searchresponse",
       "dashboards_open_brain_dashboard_next_lib_api_searchthoughts",
       "dashboards_open_brain_dashboard_next_lib_api_triggeringest",
-      "dashboards_open_brain_dashboard_next_lib_api_updatethought"
+      "dashboards_open_brain_dashboard_next_lib_api_updatethought",
+      "kanban_route",
+      "kanban_route_get"
     ],
     "49": [
       "dashboards_open_brain_dashboard_next_components_sidebar",
@@ -2032,18 +2039,30 @@
       "dashboards_open_brain_dashboard_next_extensions_config_extensions"
     ],
     "50": [
-      "components_addtobrain_importance_colors",
-      "components_addtobrain_itemcard",
-      "components_addtobrain_reason_labels",
-      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_action_colors",
-      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_action_labels",
-      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_addtobrainprops",
-      "dashboards_open_brain_dashboard_next_components_addtobrain_tsx_components_addtobrain_modes",
-      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_action_colors",
-      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_action_labels",
-      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_addtobrainprops",
-      "dashboards_open_brain_dashboard_pro_components_addtobrain_tsx_components_addtobrain_modes",
-      "dashboards_open_brain_dashboard_pro_lib_types_ts_lib_types_addtobrainmode"
+      "datetime",
+      "readwise_import_import_readwise",
+      "readwise_import_import_readwise_already_imported",
+      "readwise_import_import_readwise_book_matches",
+      "readwise_import_import_readwise_build_thought",
+      "readwise_import_import_readwise_embed_batch",
+      "readwise_import_import_readwise_fetch_export_page",
+      "readwise_import_import_readwise_highlight_matches",
+      "readwise_import_import_readwise_list_books",
+      "readwise_import_import_readwise_main",
+      "readwise_import_import_readwise_parse_cli_date",
+      "readwise_import_import_readwise_parse_iso",
+      "readwise_import_import_readwise_rationale_110",
+      "readwise_import_import_readwise_rationale_139",
+      "readwise_import_import_readwise_rationale_157",
+      "readwise_import_import_readwise_rationale_205",
+      "readwise_import_import_readwise_rationale_226",
+      "readwise_import_import_readwise_rationale_257",
+      "readwise_import_import_readwise_rationale_272",
+      "readwise_import_import_readwise_rationale_296",
+      "readwise_import_import_readwise_rationale_78",
+      "readwise_import_import_readwise_rationale_95",
+      "readwise_import_import_readwise_summary",
+      "readwise_import_import_readwise_upsert_book"
     ],
     "51": [
       "google_activity_import_import_google_activity",
@@ -2145,11 +2164,7 @@
       "atomizer_atomize_packs_readpackfile",
       "atomizer_atomize_packs_resolveproviderconfig",
       "atomizer_atomize_packs_setmemories",
-      "atomizer_atomize_packs_writepackfile",
-      "atomizer_atomize_packs_writereport",
-      "chatgpt_conversation_import_import_chatgpt_rationale_1156",
-      "obsidian_vault_import_import_obsidian_rationale_899",
-      "perplexity_conversation_import_import_perplexity_rationale_1106"
+      "atomizer_atomize_packs_writepackfile"
     ],
     "55": [
       "atomizer_audit_gmail_pipeline",
@@ -2253,7 +2268,6 @@
     ],
     "59": [
       "chatgpt_conversation_import_chatgpt_parser",
-      "chatgpt_conversation_import_chatgpt_parser_conversation_hash",
       "chatgpt_conversation_import_chatgpt_parser_count_messages",
       "chatgpt_conversation_import_chatgpt_parser_extract_conversation_metadata",
       "chatgpt_conversation_import_chatgpt_parser_extract_conversations",
@@ -2262,7 +2276,6 @@
       "chatgpt_conversation_import_chatgpt_parser_load_conversations_from_dir",
       "chatgpt_conversation_import_chatgpt_parser_prepare_dialogue_for_extraction",
       "chatgpt_conversation_import_chatgpt_parser_rationale_1",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_121",
       "chatgpt_conversation_import_chatgpt_parser_rationale_132",
       "chatgpt_conversation_import_chatgpt_parser_rationale_195",
       "chatgpt_conversation_import_chatgpt_parser_rationale_248",
@@ -2271,15 +2284,16 @@
       "chatgpt_conversation_import_chatgpt_parser_rationale_311",
       "chatgpt_conversation_import_chatgpt_parser_rationale_336",
       "chatgpt_conversation_import_chatgpt_parser_rationale_351",
-      "chatgpt_conversation_import_chatgpt_parser_rationale_386",
       "chatgpt_conversation_import_chatgpt_parser_rationale_61",
       "chatgpt_conversation_import_chatgpt_parser_rationale_96",
       "chatgpt_conversation_import_chatgpt_parser_resolve_canonical_path",
-      "chatgpt_conversation_import_chatgpt_parser_should_skip",
       "chatgpt_conversation_import_chatgpt_parser_split_sessions",
       "chatgpt_conversation_import_chatgpt_parser_truncate_session"
     ],
     "60": [
+      "components_reflectioncomposer",
+      "components_reflectioncomposer_emptyform",
+      "components_reflectioncomposer_reflection_types",
       "dashboards_open_brain_dashboard_next_lib_types_ts_lib_types",
       "dashboards_open_brain_dashboard_next_lib_types_ts_lib_types_addtobrainresult",
       "dashboards_open_brain_dashboard_next_lib_types_ts_lib_types_browseresponse",
@@ -2296,7 +2310,9 @@
       "lib_types_agentmemorytraceitem",
       "lib_types_agentmemorytraceresponse",
       "lib_types_kanban_colors",
-      "lib_types_reflection"
+      "lib_types_reflection",
+      "lib_types_reflectionfactor",
+      "lib_types_reflectioninput"
     ],
     "61": [
       "contracts_recall_schema_query_minlength",
@@ -2329,23 +2345,8 @@
       "examples_writeback_request_channel_kind",
       "examples_writeback_request_channel_thread_id",
       "examples_writeback_request_content_hash",
-      "examples_writeback_request_entities_customers",
-      "examples_writeback_request_entities_files",
-      "examples_writeback_request_entities_people",
-      "examples_writeback_request_entities_repos",
-      "examples_writeback_request_entities_topics",
       "examples_writeback_request_flow_id",
       "examples_writeback_request_idempotency_key",
-      "examples_writeback_request_memory_payload",
-      "examples_writeback_request_memory_payload_artifacts",
-      "examples_writeback_request_memory_payload_constraints",
-      "examples_writeback_request_memory_payload_decisions",
-      "examples_writeback_request_memory_payload_entities",
-      "examples_writeback_request_memory_payload_failures",
-      "examples_writeback_request_memory_payload_lessons",
-      "examples_writeback_request_memory_payload_next_steps",
-      "examples_writeback_request_memory_payload_outputs",
-      "examples_writeback_request_memory_payload_unresolved_questions",
       "examples_writeback_request_models_used",
       "examples_writeback_request_project_id",
       "examples_writeback_request_retention",
@@ -2433,53 +2434,49 @@
       "agent_memory_api_index_writebackschemaversion"
     ],
     "66": [
-      "components_kanbancard",
-      "components_kanbancard_formatage",
-      "components_kanbancard_kanbancardprops",
-      "components_prioritydot",
-      "components_prioritydot_prioritydot",
-      "components_prioritydot_prioritydotprops",
-      "lib_types_getprioritylevel",
-      "lib_types_priority_levels"
-    ],
-    "67": [
       "contracts_recall_response_schema",
       "contracts_recall_response_schema_additionalproperties",
       "contracts_recall_response_schema_id",
       "contracts_recall_response_schema_memories_items",
+      "contracts_recall_response_schema_properties_content",
+      "contracts_recall_response_schema_properties_freshness",
+      "contracts_recall_response_schema_properties_memories",
+      "contracts_recall_response_schema_properties_memory_id",
+      "contracts_recall_response_schema_properties_related_artifacts",
+      "contracts_recall_response_schema_properties_scope",
+      "contracts_recall_response_schema_properties_source",
+      "contracts_recall_response_schema_properties_summary",
+      "contracts_recall_response_schema_properties_use_policy",
+      "contracts_recall_response_schema_required",
+      "contracts_recall_response_schema_schema",
+      "contracts_recall_response_schema_title",
+      "contracts_recall_response_schema_type",
+      "examples_writeback_request_provenance",
+      "examples_writeback_request_provenance_confidence",
+      "examples_writeback_request_provenance_default_status",
+      "examples_writeback_request_provenance_requires_review"
+    ],
+    "67": [
       "contracts_recall_response_schema_properties",
       "contracts_recall_response_schema_properties_can_use_as_evidence",
       "contracts_recall_response_schema_properties_can_use_as_instruction",
       "contracts_recall_response_schema_properties_channel_id",
       "contracts_recall_response_schema_properties_confidence",
-      "contracts_recall_response_schema_properties_content",
       "contracts_recall_response_schema_properties_created_at",
       "contracts_recall_response_schema_properties_created_by",
-      "contracts_recall_response_schema_properties_freshness",
       "contracts_recall_response_schema_properties_kind",
       "contracts_recall_response_schema_properties_last_confirmed_at",
-      "contracts_recall_response_schema_properties_memories",
-      "contracts_recall_response_schema_properties_memory_id",
       "contracts_recall_response_schema_properties_model",
       "contracts_recall_response_schema_properties_project_id",
-      "contracts_recall_response_schema_properties_related_artifacts",
       "contracts_recall_response_schema_properties_request_id",
       "contracts_recall_response_schema_properties_requires_user_confirmation",
       "contracts_recall_response_schema_properties_runtime",
-      "contracts_recall_response_schema_properties_scope",
-      "contracts_recall_response_schema_properties_source",
       "contracts_recall_response_schema_properties_stale_after",
       "contracts_recall_response_schema_properties_status",
-      "contracts_recall_response_schema_properties_summary",
       "contracts_recall_response_schema_properties_timestamp",
       "contracts_recall_response_schema_properties_uri",
-      "contracts_recall_response_schema_properties_use_policy",
       "contracts_recall_response_schema_properties_visibility",
-      "contracts_recall_response_schema_request_id_minlength",
-      "contracts_recall_response_schema_required",
-      "contracts_recall_response_schema_schema",
-      "contracts_recall_response_schema_title",
-      "contracts_recall_response_schema_type"
+      "contracts_recall_response_schema_request_id_minlength"
     ],
     "68": [
       "integrations_hermes_agent_memory_plugin_init_ob1client",
@@ -4709,14 +4706,21 @@
       "schemas_crm_person_tiers_dashboard_snippets_page_tier_order"
     ],
     "188": [
-      "components_reflectioncomposer",
-      "components_reflectioncomposer_emptyform",
-      "components_reflectioncomposer_reflection_types",
-      "dashboards_open_brain_dashboard_next_app_thoughts_id_page_tsx_id_page",
-      "dashboards_open_brain_dashboard_next_app_thoughts_id_page_tsx_id_page_thoughtdetailpage",
-      "dashboards_open_brain_dashboard_next_lib_api_fetchreflections",
-      "lib_types_reflectionfactor",
-      "lib_types_reflectioninput"
+      "examples_writeback_request_entities_customers",
+      "examples_writeback_request_entities_files",
+      "examples_writeback_request_entities_people",
+      "examples_writeback_request_entities_repos",
+      "examples_writeback_request_entities_topics",
+      "examples_writeback_request_memory_payload",
+      "examples_writeback_request_memory_payload_artifacts",
+      "examples_writeback_request_memory_payload_constraints",
+      "examples_writeback_request_memory_payload_decisions",
+      "examples_writeback_request_memory_payload_entities",
+      "examples_writeback_request_memory_payload_failures",
+      "examples_writeback_request_memory_payload_lessons",
+      "examples_writeback_request_memory_payload_next_steps",
+      "examples_writeback_request_memory_payload_outputs",
+      "examples_writeback_request_memory_payload_unresolved_questions"
     ],
     "189": [
       "integrations_chrome_capture_extension_content_scripts_extractor_claude",
@@ -4736,11 +4740,13 @@
       "integrations_chrome_capture_extension_content_scripts_extractor_claude_sortbydocumentorder"
     ],
     "190": [
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_get_tool_schemas",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_stubprovider_handle_tool_call",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_recall_requires_query",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_recall_routes_to_client",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_report_usage_uses_last_request_id_when_omitted",
+      "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_returns_seven_schemas",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_review_memory_passes_through",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_review_memory_validates_action",
       "integrations_hermes_agent_memory_plugin_tests_test_ob1_provider_testtools_test_tool_call_when_inactive_returns_error",
@@ -5164,11 +5170,7 @@
       "shared_helpers_sanitizetype"
     ],
     "217": [
-      "lib_agent_memory",
-      "lib_agent_memory_deriveagentmemoryurl",
-      "lib_agent_memory_fetchreviewqueue",
       "src_client",
-      "src_client_agentmemoryclient_constructor",
       "src_client_agentmemoryclient_getrecalltrace",
       "src_client_agentmemoryclient_inspectmemory",
       "src_client_agentmemoryclient_listreviewqueue",
@@ -5177,6 +5179,7 @@
       "src_client_agentmemoryclient_request",
       "src_client_agentmemoryclient_reviewmemory",
       "src_client_agentmemoryclient_writeback",
+      "src_client_agentmemoryconfig",
       "src_client_projectidfrom",
       "src_client_requestinput",
       "src_client_requestoptions"
@@ -7137,11 +7140,6 @@
     ],
     "564": [
       "vercel_neon_telegram_next_config"
-    ],
-    "565": [
-      "dashboards_open_brain_dashboard_next_lib_api_fetchkanbanthoughts",
-      "kanban_route",
-      "kanban_route_get"
     ]
   },
   "cohesion": {
@@ -7153,7 +7151,7 @@
     "5": 0.06830601092896176,
     "6": 0.09803921568627451,
     "7": 0.06648936170212766,
-    "8": 0.08414634146341464,
+    "8": 0.07575757575757576,
     "9": 0.1,
     "10": 0.09191583610188261,
     "11": 0.10188261351052048,
@@ -7170,49 +7168,49 @@
     "22": 0.09206349206349207,
     "23": 0.06190476190476191,
     "24": 0.11596638655462185,
-    "25": 0.06533575317604355,
+    "25": 0.12299465240641712,
     "26": 0.09848484848484848,
-    "27": 0.11822660098522167,
+    "27": 0.10483870967741936,
     "28": 0.11290322580645161,
-    "29": 0.10160427807486631,
-    "30": 0.11330049261083744,
+    "29": 0.11088709677419355,
+    "30": 0.1103448275862069,
     "31": 0.09885057471264368,
     "32": 0.06896551724137931,
-    "33": 0.08735632183908046,
+    "33": 0.09113300492610837,
     "34": 0.10837438423645321,
     "35": 0.1354679802955665,
     "36": 0.06896551724137931,
     "37": 0.10317460317460317,
     "38": 0.1164021164021164,
-    "39": 0.12,
-    "40": 0.14285714285714285,
+    "39": 0.1476923076923077,
+    "40": 0.07692307692307693,
     "41": 0.07692307692307693,
     "42": 0.26461538461538464,
     "43": 0.08,
     "44": 0.26666666666666666,
     "45": 0.22,
     "46": 0.08,
-    "47": 0.175,
-    "48": 0.1830065359477124,
+    "47": 0.12318840579710146,
+    "48": 0.13043478260869565,
     "49": 0.09057971014492754,
-    "50": 0.16666666666666666,
+    "50": 0.13405797101449277,
     "51": 0.15217391304347827,
     "52": 0.2246376811594203,
     "53": 0.08695652173913043,
-    "54": 0.1225071225071225,
+    "54": 0.14624505928853754,
     "55": 0.08695652173913043,
     "56": 0.16600790513833993,
     "57": 0.08695652173913043,
     "58": 0.09090909090909091,
-    "59": 0.09846153846153846,
-    "60": 0.11764705882352941,
+    "59": 0.11688311688311688,
+    "60": 0.09523809523809523,
     "61": 0.14285714285714285,
-    "62": 0.05555555555555555,
+    "62": 0.09523809523809523,
     "63": 0.1774891774891775,
     "64": 0.15584415584415584,
     "65": 0.09523809523809523,
-    "66": 0.32142857142857145,
-    "67": 0.08858858858858859,
+    "66": 0.15714285714285714,
+    "67": 0.1,
     "68": 0.18947368421052632,
     "69": 0.1,
     "70": 0.1,
@@ -7333,9 +7331,9 @@
     "185": 0.14285714285714285,
     "186": 0.14285714285714285,
     "187": 0.1619047619047619,
-    "188": 0.2857142857142857,
+    "188": 0.13333333333333333,
     "189": 0.2761904761904762,
-    "190": 0.28205128205128205,
+    "190": 0.22857142857142856,
     "191": 0.17142857142857143,
     "192": 0.18095238095238095,
     "193": 0.14285714285714285,
@@ -7362,7 +7360,7 @@
     "214": 0.2692307692307692,
     "215": 0.15384615384615385,
     "216": 0.21794871794871795,
-    "217": 0.21666666666666667,
+    "217": 0.19230769230769232,
     "218": 0.3787878787878788,
     "219": 0.25757575757575757,
     "220": 0.16666666666666666,
@@ -7709,8 +7707,7 @@
     "561": 1.0,
     "562": 1.0,
     "563": 1.0,
-    "564": 1.0,
-    "565": 1.0
+    "564": 1.0
   },
   "gods": [
     {
@@ -7724,13 +7721,13 @@
       "degree": 23
     },
     {
-      "id": "lib_ai_generateembedding",
-      "label": "generateEmbedding()",
+      "id": "lib_api_requestjson",
+      "label": "requestJson()",
       "degree": 23
     },
     {
-      "id": "lib_api_requestjson",
-      "label": "requestJson()",
+      "id": "lib_ai_generateembedding",
+      "label": "generateEmbedding()",
       "degree": 23
     },
     {
@@ -7739,13 +7736,13 @@
       "degree": 21
     },
     {
-      "id": "recipes_gmail_smart_pull_scripts_pull_gmail_main",
-      "label": "main()",
+      "id": "integrations_hermes_agent_memory_plugin_init_ob1client",
+      "label": "_OB1Client",
       "degree": 18
     },
     {
-      "id": "integrations_hermes_agent_memory_plugin_init_ob1client",
-      "label": "_OB1Client",
+      "id": "recipes_gmail_smart_pull_scripts_pull_gmail_main",
+      "label": "main()",
       "degree": 18
     },
     {
@@ -7774,7 +7771,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+      "why": "crosses file types (image \u2194 doc); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
       "source": "POST()",
@@ -7788,74 +7785,41 @@
       "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     },
     {
-      "source": "Open Brain Dashboard (Next.js)",
-      "target": "OB1 Agent Memory Storage Portability",
+      "source": "CLAUDE.md \u2014 Agent Instructions for Open Brain",
+      "target": "Contributing to OB1",
       "source_files": [
-        "dashboards/open-brain-dashboard-next/README.md",
-        "docs/agent-memory-portability.md"
+        "CLAUDE.md",
+        "CONTRIBUTING.md"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `OB1 Agent Memory Storage Portability` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
+      "why": "connects across different repos/directories; peripheral node `CLAUDE.md \u2014 Agent Instructions for Open Brain` unexpectedly reaches hub `Contributing to OB1`"
     },
     {
-      "source": "Open Brain Dashboard (Next.js)",
-      "target": "Open Brain Assistant GPT Context",
+      "source": "Contributing to OB1",
+      "target": "Contributor Covenant Code of Conduct",
       "source_files": [
-        "dashboards/open-brain-dashboard-next/README.md",
-        "docs/open-brain-assistant-gpt-context.md"
+        "CONTRIBUTING.md",
+        "CODE_OF_CONDUCT.md"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Open Brain Assistant GPT Context` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
+      "why": "connects across different repos/directories; peripheral node `Contributor Covenant Code of Conduct` unexpectedly reaches hub `Contributing to OB1`"
     },
     {
-      "source": "Open Brain Dashboard (Next.js)",
-      "target": "Safe Agent Memory and Provenance",
+      "source": "Contributing to OB1",
+      "target": "Contributors",
       "source_files": [
-        "dashboards/open-brain-dashboard-next/README.md",
-        "docs/safe-agent-memory-provenance.md"
+        "CONTRIBUTING.md",
+        "CONTRIBUTORS.md"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Safe Agent Memory and Provenance` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
+      "why": "connects across different repos/directories; peripheral node `Contributors` unexpectedly reaches hub `Contributing to OB1`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `corsHeaders` connect `Session Management` to `Memory API`, `Entity Extraction Worker`?",
-      "why": "High betweenness centrality (0.023) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction Worker`?",
-      "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Atomization Packs` to `Conversation Extraction`, `ChatGPT Ingestion`, `Sync Log Management`?",
-      "why": "High betweenness centrality (0.020) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 14 inferred relationships involving `OB1MemoryProvider` (e.g. with `_StubProvider` and `TestExtractFindings`) actually correct?",
-      "why": "`OB1MemoryProvider` has 14 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `minimum`, `$schema`, `RATE_LIMIT_PER_MIN` to the rest of the system?",
-      "why": "2858 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Schema Properties` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.055964653902798235 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `API Request Handlers` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06233062330623306 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 902,
+    "output": 157
+  }
 }
