@@ -7802,7 +7802,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
       "source": "POST()",
@@ -7849,41 +7849,8 @@
       "why": "connects across different repos/directories; peripheral node `Safe Agent Memory and Provenance` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `corsHeaders` connect `Session Management` to `Memory API`, `Entity Extraction Worker`?",
-      "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction Worker`?",
-      "why": "High betweenness centrality (0.021) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Conversation Import` to `Sync Log Management`, `Atomization Packs`, `ChatGPT Ingestion`?",
-      "why": "High betweenness centrality (0.020) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 14 inferred relationships involving `OB1MemoryProvider` (e.g. with `_StubProvider` and `TestExtractFindings`) actually correct?",
-      "why": "`OB1MemoryProvider` has 14 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `minimum`, `$schema`, `RATE_LIMIT_PER_MIN` to the rest of the system?",
-      "why": "2865 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Schema Properties` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.055964653902798235 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `API Request Handlers` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06233062330623306 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 1088,
+    "output": 570
+  }
 }
