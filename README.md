@@ -23,12 +23,15 @@ Never built an Open Brain? Start here:
 
 ## Recent Contributions
 
-The 20 most recent merged PRs. This list is generated from GitHub and refreshes daily. Last updated: 2026-06-06.
+The 20 most recent merged PRs. This list is generated from GitHub and refreshes daily. Last updated: 2026-09-06.
 
 <!-- recent-contributions:start -->
 
 | Contribution | What changed | Creator |
 | ------------ | ------------ | ------- |
+| [Fix YAML parse error in graphify cost capture](.github/workflows/graphify.yml) | Fixes YAML parse error in graphify cost capture. | [@GMcDowellJr](https://github.com/GMcDowellJr) |
+| [Refresh README recent contributions](README.md) | Refresh README recent contributions. | [@github-actions[bot]](https://github.com/github-actions[bot]) |
+| [Persist stat-index.json to main for incremental graphify updates](.github/workflows/graphify.yml) | Persist stat-index.json to main for incremental graphify updates. | [@GMcDowellJr](https://github.com/GMcDowellJr) |
 
 <!-- recent-contributions:end -->
 
