@@ -7781,59 +7781,59 @@
   ],
   "surprises": [
     {
-      "source": "Open Brain Favicon",
+      "source": "Open Brain Concepts",
       "target": "OB1 PR Gate Workflow",
       "source_files": [
-        "dashboards/open-brain-dashboard/src/lib/assets/favicon.svg",
+        "dashboards/ob1-canonical-landing/llms.txt",
         ".github/workflows/ob1-gate-v2.yml"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "crosses file types (doc ↔ image); connects across different repos/directories; peripheral node `Open Brain Favicon` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Open Brain Concepts` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
-      "source": "POST()",
-      "target": "json()",
+      "source": "Open Brain Robots.txt",
+      "target": "OB1 PR Gate Workflow",
       "source_files": [
-        "dashboards/open-brain-dashboard/src/routes/api/mcp/+server.ts",
-        "integrations/entity-extraction-worker/index.ts"
-      ],
-      "confidence": "INFERRED",
-      "relation": "calls",
-      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
-    },
-    {
-      "source": "Open Brain Dashboard (Next.js)",
-      "target": "OB1 Agent Memory Storage Portability",
-      "source_files": [
-        "dashboards/open-brain-dashboard-next/README.md",
-        "docs/agent-memory-portability.md"
+        "dashboards/ob1-canonical-landing/robots.txt",
+        ".github/workflows/ob1-gate-v2.yml"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `OB1 Agent Memory Storage Portability` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Open Brain Robots.txt` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
-      "source": "Open Brain Dashboard (Next.js)",
-      "target": "Open Brain Assistant GPT Context",
+      "source": "Dashboard Template README",
+      "target": "OB1 PR Gate Workflow",
       "source_files": [
-        "dashboards/open-brain-dashboard-next/README.md",
-        "docs/open-brain-assistant-gpt-context.md"
+        "dashboards/_template/README.md",
+        ".github/workflows/ob1-gate-v2.yml"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Open Brain Assistant GPT Context` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Dashboard Template README` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     },
     {
-      "source": "Open Brain Dashboard (Next.js)",
-      "target": "Safe Agent Memory and Provenance",
+      "source": "Dashboard Extensions",
+      "target": "OB1 PR Gate Workflow",
       "source_files": [
-        "dashboards/open-brain-dashboard-next/README.md",
-        "docs/safe-agent-memory-provenance.md"
+        "dashboards/open-brain-dashboard-next/EXTENSIONS.md",
+        ".github/workflows/ob1-gate-v2.yml"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Safe Agent Memory and Provenance` unexpectedly reaches hub `Open Brain Dashboard (Next.js)`"
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Dashboard Extensions` unexpectedly reaches hub `OB1 PR Gate Workflow`"
+    },
+    {
+      "source": "Open Brain Dashboard App",
+      "target": "OB1 PR Gate Workflow",
+      "source_files": [
+        "dashboards/open-brain-dashboard/src/app.html",
+        ".github/workflows/ob1-gate-v2.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories; peripheral node `Open Brain Dashboard App` unexpectedly reaches hub `OB1 PR Gate Workflow`"
     }
   ],
   "questions": [
@@ -7869,7 +7869,7 @@
     },
     {
       "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Conversation Report Generation` to `ChatGPT Ingestion`, `Atomization Packs`, `Embedding Generation`?",
+      "question": "Why does `writeReport()` connect `Conversation Importing` to `ChatGPT Ingestion`, `Atomization Packs`, `Thought Ingestion`?",
       "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
     }
   ]
