@@ -7869,7 +7869,7 @@
     },
     {
       "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Conversation Importing` to `ChatGPT Ingestion`, `Atomization Packs`, `Thought Ingestion`?",
+      "question": "Why does `writeReport()` connect `Conversation Report Generation` to `ChatGPT Ingestion`, `Atomization Packs`, `Thought Ingestion`?",
       "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
     }
   ]
