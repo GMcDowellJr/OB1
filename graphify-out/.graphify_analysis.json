@@ -7839,7 +7839,7 @@
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `corsHeaders` connect `Session Management` to `Memory API`, `Entity Extraction Worker`?",
+      "question": "Why does `corsHeaders` connect `Session Management` to `Memory API`, `Entity Extraction`?",
       "why": "High betweenness centrality (0.024) - this node is a cross-community bridge."
     },
     {
@@ -7859,17 +7859,17 @@
     },
     {
       "type": "bridge_node",
-      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction Worker`?",
+      "question": "Why does `linkThoughtToEntity()` connect `Gmail Correspondents Backfill` to `Entity Extraction`?",
       "why": "High betweenness centrality (0.023) - this node is a cross-community bridge."
     },
     {
       "type": "low_cohesion",
-      "question": "Should `API Request Handlers` be split into smaller, more focused modules?",
+      "question": "Should `API Request Handling` be split into smaller, more focused modules?",
       "why": "Cohesion score 0.06233062330623306 - nodes in this community are weakly interconnected."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `writeReport()` connect `Markdown Report Generation` to `ChatGPT Ingestion`, `Atomization Packs`, `Embedding Generation`?",
+      "question": "Why does `writeReport()` connect `Conversation Reporting` to `ChatGPT Ingestion`, `Memory Atomization`, `Thought Ingestion`?",
       "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
     }
   ]
